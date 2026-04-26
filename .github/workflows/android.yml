@@ -5,26 +5,51 @@ on:
   pull_request:
   workflow_dispatch:
 
+permissions:
+  contents: read
+
+concurrency:
+  group: android-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   BuildRelease:
-    if: github.repository_owner == 'ZalithLauncher' && !startsWith(github.ref, 'refs/pull/') && github.ref_name == 'main'
+    name: Release • ${{ matrix.arch }}
+    if: github.repository_owner == 'ZalithLauncher' && github.event_name != 'pull_request' && github.ref_name == 'main'
     runs-on: ubuntu-22.04
+    timeout-minutes: 60
+
     strategy:
       matrix:
-        arch: [ "all", "arm", "arm64", "x86", "x86_64" ]
+        arch: [all, arm, arm64, x86, x86_64]
       fail-fast: false
 
     env:
       CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
+      MOVTERY_KEYSTORE_PASSWORD: ${{ secrets.MOVTERY_KEYSTORE_PASSWORD }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Gradle cache
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Make gradlew executable
+        run: chmod +x gradlew
 
       - name: Set build type
-        id: set-env
+        shell: bash
         run: |
-          COMMIT_MSG="${{ github.event.head_commit.message }}"
+          COMMIT_MSG="$(git log -1 --pretty=%B)"
           BUILD_TYPE="DEBUG"
 
           if [[ "$COMMIT_MSG" == *"pre-release"* ]]; then
@@ -33,40 +58,36 @@ jobs:
             BUILD_TYPE="RELEASE"
           fi
 
-          echo "ZL_BUILD_TYPE=${BUILD_TYPE}" >> $GITHUB_ENV
-
-      - name: Set up JDK 17
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin'
-          java-version: '17'
+          echo "ZL_BUILD_TYPE=${BUILD_TYPE}" >> "$GITHUB_ENV"
+          echo "Commit message: $COMMIT_MSG"
+          echo "Resolved build type: $BUILD_TYPE"
 
       - name: Build JRE JAR files
         run: |
-          chmod +x gradlew
-          mkdir out
-          ./gradlew jre_lwjgl3glfw:build --no-daemon
+          mkdir -p out
+          ./gradlew jre_lwjgl3glfw:build --no-daemon --stacktrace
 
       - name: Build Release ${{ matrix.arch }}
-        env:
-          MOVTERY_KEYSTORE_PASSWORD: ${{ secrets.MOVTERY_KEYSTORE_PASSWORD }}
         run: |
-          chmod +x gradlew
-          ./gradlew ZalithLauncher:assemblerelease -Darch=${{ matrix.arch }}
+          ./gradlew ZalithLauncher:assembleRelease -Darch=${{ matrix.arch }} --no-daemon --stacktrace
 
-      - name: Upload Release ${{matrix.arch}}
-        continue-on-error: true
+      - name: Upload Release ${{ matrix.arch }}
         uses: actions/upload-artifact@v4
         with:
-          name: ZalithLauncher(Release) ${{ matrix.arch }}
-          path: ZalithLauncher/build/outputs/apk/release/*
+          name: ZalithLauncher-Release-${{ matrix.arch }}
+          path: ZalithLauncher/build/outputs/apk/release/*.apk
+          if-no-files-found: error
+          retention-days: 14
 
   BuildDebug:
-    if: startsWith(github.ref, 'refs/pull/') || github.ref_name != 'main'
+    name: Debug • ${{ matrix.arch }}
+    if: github.event_name == 'pull_request' || github.ref_name != 'main' || github.repository_owner != 'ZalithLauncher'
     runs-on: ubuntu-22.04
+    timeout-minutes: 60
+
     strategy:
       matrix:
-        arch: [ "all", "arm", "arm64", "x86", "x86_64" ]
+        arch: [all, arm, arm64, x86, x86_64]
       fail-fast: false
 
     steps:
@@ -76,22 +97,28 @@ jobs:
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
+          distribution: temurin
           java-version: '17'
+
+      - name: Set up Gradle cache
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Make gradlew executable
+        run: chmod +x gradlew
 
       - name: Build JRE JAR files
         run: |
-          chmod +x gradlew
-          mkdir out
-          ./gradlew jre_lwjgl3glfw:build --no-daemon
+          mkdir -p out
+          ./gradlew jre_lwjgl3glfw:build --no-daemon --stacktrace
 
-      - name: Build Debug ${{matrix.arch}}
+      - name: Build Debug ${{ matrix.arch }}
         run: |
-          chmod +x gradlew
-          ./gradlew ZalithLauncher:assembleDebug -Darch=${{ matrix.arch }}
+          ./gradlew ZalithLauncher:assembleDebug -Darch=${{ matrix.arch }} --no-daemon --stacktrace
 
-      - name: Upload Debug ${{matrix.arch}}
+      - name: Upload Debug ${{ matrix.arch }}
         uses: actions/upload-artifact@v4
         with:
-          name: ZalithLauncher(Debug) ${{ matrix.arch }}
-          path: ZalithLauncher/build/outputs/apk/debug/*
+          name: ZalithLauncher-Debug-${{ matrix.arch }}
+          path: ZalithLauncher/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
+          retention-days: 14
