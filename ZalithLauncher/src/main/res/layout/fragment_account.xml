@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/fragment_menu_main"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@android:color/transparent"
     android:gravity="top"
     android:orientation="vertical">
@@ -15,7 +15,7 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/operation_layout"
-        app:layout_constraintHorizontal_weight="6.5"
+        app:layout_constraintHorizontal_weight="7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -23,11 +23,10 @@
             android:id="@+id/account_type_layout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_12sdp"
-            android:layout_marginStart="@dimen/_12sdp"
-            android:layout_marginEnd="@dimen/_8sdp"
-            android:background="@drawable/background_card"
-            android:padding="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:paddingBottom="@dimen/_4sdp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
@@ -39,22 +38,28 @@
                 android:paddingVertical="@dimen/_4sdp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/add_server"
-                app:tab_deselect_color="@color/black_or_white"
-                app:tab_select_color="@color/black_or_white">
+                app:tab_deselect_color="#99E8EAF6"
+                app:tab_select_color="#FFB74D">
 
                 <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
                     android:id="@+id/add_microsoft_account"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingHorizontal="@dimen/_8sdp">
+                    android:background="@drawable/background_item"
+                    android:backgroundTint="#CC151520"
+                    android:paddingHorizontal="@dimen/_12sdp"
+                    android:paddingVertical="@dimen/_6sdp"
+                    android:layout_marginEnd="@dimen/_8sdp">
 
                     <ImageView
                         android:id="@+id/add_microsoft_image"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="@dimen/_18sdp"
+                        android:layout_height="@dimen/_18sdp"
                         android:layout_centerVertical="true"
                         android:src="@drawable/ic_add"
+                        app:tint="#FFB74D"
                         tools:ignore="ContentDescription" />
 
                     <TextView
@@ -62,8 +67,9 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_toEndOf="@id/add_microsoft_image"
-                        android:paddingHorizontal="@dimen/_8sdp"
-                        android:text="@string/account_microsoft_account"/>
+                        android:paddingStart="@dimen/_6sdp"
+                        android:text="@string/account_microsoft_account"
+                        android:textStyle="bold"/>
 
                 </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
 
@@ -71,14 +77,18 @@
                     android:id="@+id/add_local_account"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingHorizontal="@dimen/_8sdp">
+                    android:background="@drawable/background_item"
+                    android:backgroundTint="#CC151520"
+                    android:paddingHorizontal="@dimen/_12sdp"
+                    android:paddingVertical="@dimen/_6sdp">
 
                     <ImageView
                         android:id="@+id/add_local_image"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="@dimen/_18sdp"
+                        android:layout_height="@dimen/_18sdp"
                         android:layout_centerVertical="true"
                         android:src="@drawable/ic_add"
+                        app:tint="#FFB74D"
                         tools:ignore="ContentDescription" />
 
                     <TextView
@@ -86,8 +96,9 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_toEndOf="@id/add_local_image"
-                        android:paddingHorizontal="@dimen/_8sdp"
-                        android:text="@string/account_local_account"/>
+                        android:paddingStart="@dimen/_6sdp"
+                        android:text="@string/account_local_account"
+                        android:textStyle="bold"/>
 
                 </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
 
@@ -95,14 +106,15 @@
 
             <ImageView
                 android:id="@+id/add_server"
-                android:layout_width="@dimen/_24sdp"
-                android:layout_height="@dimen/_24sdp"
-                android:layout_marginEnd="@dimen/_8sdp"
-                android:scaleType="centerCrop"
-                android:scaleX="0.92"
-                android:scaleY="0.92"
-                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:layout_width="@dimen/_32sdp"
+                android:layout_height="@dimen/_32sdp"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:background="@drawable/background_item"
+                android:backgroundTint="#CC151520"
+                android:scaleType="centerInside"
+                android:padding="@dimen/_6sdp"
                 android:src="@drawable/ic_more"
+                app:tint="#FFB74D"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -114,12 +126,13 @@
             android:id="@+id/accounts_recycler"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginVertical="@dimen/_12sdp"
-            android:layout_marginStart="@dimen/_12sdp"
-            android:layout_marginEnd="@dimen/_8sdp"
-            android:paddingHorizontal="@dimen/_8sdp"
-            android:paddingVertical="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:padding="@dimen/_8sdp"
             android:background="@drawable/background_card"
+            android:backgroundTint="#CC151520"
             app:layout_constraintTop_toBottomOf="@id/account_type_layout"
             app:layout_constraintBottom_toBottomOf="parent"/>
 
@@ -131,15 +144,15 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintHorizontal_weight="2.5"
         app:layout_constraintStart_toEndOf="@id/account_menu"
         app:layout_constraintTop_toTopOf="parent">
 
         <View
             android:id="@+id/shadowView"
-            android:layout_width="@dimen/_4sdp"
+            android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:background="@drawable/shadow_gradient_right"
+            android:background="#33FFB74D"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -148,38 +161,45 @@
             android:id="@+id/operation_main_layout"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:background="@color/menu_overlay"
+            android:background="#D9151520"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/shadowView">
 
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#00000000"
+                app:cardElevation="0dp"
+                app:layout_constraintBottom_toTopOf="@id/return_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+                
+                <include
+                    android:id="@+id/view_account"
+                    layout="@layout/view_account" />
+            </androidx.cardview.widget.CardView>
+
             <com.movtery.zalithlauncher.ui.view.AnimButton
                 android:id="@+id/return_button"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="@dimen/_8sdp"
-                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_16sdp"
+                android:backgroundTint="#FFB74D"
+                android:textColor="#151520"
+                android:textStyle="bold"
+                android:textSize="@dimen/_12ssp"
                 android:text="@string/generic_return"
                 android:textAllCaps="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:ignore="MissingConstraints" />
-
-            <include
-                android:id="@+id/view_account"
-                layout="@layout/view_account"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_constraintBottom_toTopOf="@id/return_button"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintStart_toStartOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
