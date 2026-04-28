@@ -12,11 +12,8 @@ import com.movtery.anim.AnimPlayer
 import com.movtery.anim.animations.Animations
 import com.movtery.zalithlauncher.R
 import com.movtery.zalithlauncher.databinding.FragmentAboutBinding
-import com.movtery.zalithlauncher.ui.dialog.TipDialog
 import com.movtery.zalithlauncher.ui.fragment.about.AboutInfoPageFragment
-import com.movtery.zalithlauncher.ui.fragment.about.AboutSponsorPageFragment
 import com.movtery.zalithlauncher.utils.ZHTools
-import com.movtery.zalithlauncher.utils.path.UrlManager
 import com.movtery.zalithlauncher.utils.stringutils.StringUtils
 
 class AboutFragment : FragmentWithAnim(R.layout.fragment_about) {
@@ -39,21 +36,43 @@ class AboutFragment : FragmentWithAnim(R.layout.fragment_about) {
         initViewPager()
 
         binding.apply {
-            appInfo.text = StringUtils.insertNewline(StringUtils.insertSpace(getString(R.string.about_version_name), ZHTools.getVersionName()),
-                StringUtils.insertSpace(getString(R.string.about_version_code), ZHTools.getVersionCode()),
-                StringUtils.insertSpace(getString(R.string.about_last_update_time), ZHTools.getLastUpdateTime(requireContext())),
-                StringUtils.insertSpace(getString(R.string.about_version_status), ZHTools.getVersionStatus(requireContext())))
-            appInfo.setOnClickListener{ StringUtils.copyText("text", appInfo.text.toString(), requireContext()) }
 
-            returnButton.setOnClickListener { ZHTools.onBackPressed(requireActivity()) }
-            supportDevelopment.setOnClickListener {
-                TipDialog.Builder(requireActivity())
-                    .setTitle(R.string.request_sponsorship_title)
-                    .setMessage(R.string.request_sponsorship_message)
-                    .setConfirm(R.string.about_button_support_development)
-                    .setConfirmClickListener { ZHTools.openLink(requireActivity(), UrlManager.URL_SUPPORT) }
-                    .showDialog()
+            // App version info
+            appInfo.text = StringUtils.insertNewline(
+                StringUtils.insertSpace(
+                    getString(R.string.about_version_name),
+                    ZHTools.getVersionName()
+                ),
+                StringUtils.insertSpace(
+                    getString(R.string.about_version_code),
+                    ZHTools.getVersionCode()
+                ),
+                StringUtils.insertSpace(
+                    getString(R.string.about_last_update_time),
+                    ZHTools.getLastUpdateTime(requireContext())
+                ),
+                StringUtils.insertSpace(
+                    getString(R.string.about_version_status),
+                    ZHTools.getVersionStatus(requireContext())
+                )
+            )
+
+            // Copy on click
+            appInfo.setOnClickListener {
+                StringUtils.copyText(
+                    "text",
+                    appInfo.text.toString(),
+                    requireContext()
+                )
             }
+
+            // Back button
+            returnButton.setOnClickListener {
+                ZHTools.onBackPressed(requireActivity())
+            }
+
+            // ✅ Sponsor button hide
+            supportDevelopment.visibility = View.GONE
         }
     }
 
@@ -62,11 +81,14 @@ class AboutFragment : FragmentWithAnim(R.layout.fragment_about) {
             adapter = ViewPagerAdapter(requireActivity(), this)
             orientation = ViewPager2.ORIENTATION_HORIZONTAL
             offscreenPageLimit = 1
+            // ✅ Swipe disable
+            isUserInputEnabled = false
         }
     }
 
     override fun slideIn(animPlayer: AnimPlayer) {
-        animPlayer.apply(AnimPlayer.Entry(binding.infoViewPager, Animations.BounceInDown))
+        animPlayer
+            .apply(AnimPlayer.Entry(binding.infoViewPager, Animations.BounceInDown))
             .apply(AnimPlayer.Entry(binding.operateLayout, Animations.BounceInLeft))
     }
 
@@ -75,17 +97,16 @@ class AboutFragment : FragmentWithAnim(R.layout.fragment_about) {
         animPlayer.apply(AnimPlayer.Entry(binding.operateLayout, Animations.FadeOutRight))
     }
 
+    // ✅ Sirf 1 page - Sponsor page completely removed
     private class ViewPagerAdapter(
         fragmentActivity: FragmentActivity,
         private val viewPager: ViewPager2
-    ): FragmentStateAdapter(fragmentActivity) {
-        override fun getItemCount(): Int = 2
+    ) : FragmentStateAdapter(fragmentActivity) {
+
+        override fun getItemCount(): Int = 1
+
         override fun createFragment(position: Int): Fragment {
-            return when(position) {
-                0 -> AboutInfoPageFragment(viewPager)
-                else -> AboutSponsorPageFragment()
-            }
+            return AboutInfoPageFragment(viewPager)
         }
     }
 }
-
