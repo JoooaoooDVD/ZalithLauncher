@@ -27,8 +27,11 @@ val getBuildType = {
     buildType
 }
 
-val nameId = "com.movtery.zalithlauncher"
-val generatedZalithDir = file("$buildDir/generated/source/zalith/java")
+// ✅ CRAFT STUDIO BRANDING START
+val nameId = "com.craftstudio.launcher" 
+val generatedCraftStudioDir = file("$buildDir/generated/source/craftstudio/java")
+// ✅ CRAFT STUDIO BRANDING END
+
 val launcherAPPName = project.findProperty("launcher_app_name") as? String ?: error("The \"launcher_app_name\" property is not set in gradle.properties.")
 val launcherName = project.findProperty("launcher_name") as? String ?: error("The \"launcher_name\" property is not set in gradle.properties.")
 val launcherVersionCode = (project.findProperty("launcher_version_code") as? String)?.toIntOrNull() ?: error("The \"launcher_version_code\" property is not set as an integer in gradle.properties.")
@@ -107,7 +110,8 @@ android {
         }
     }
 
-    sourceSets["main"].java.srcDirs(generatedZalithDir)
+    // ✅ Source folder map to Craft Studio
+    sourceSets["main"].java.srcDirs(generatedCraftStudioDir)
 
     androidComponents {
         onVariants { variant ->
@@ -220,7 +224,8 @@ tasks.register("generateInfoDistributor") {
             "APP_NAME" to project.property("launcher_app_name").toString(),
             "BUILD_TYPE" to getBuildType()
         )
-        generateJavaClass(generatedZalithDir, "com.movtery.zalithlauncher", "InfoDistributor", constantMap)
+        // ✅ Linked auto-generation to your Craft Studio package dynamically
+        generateJavaClass(generatedCraftStudioDir, nameId, "InfoDistributor", constantMap)
     }
 }
 
@@ -231,7 +236,6 @@ tasks.named("preBuild") {
 dependencies {
     implementation("javax.annotation:javax.annotation-api:1.3.2")
     implementation("commons-codec:commons-codec:1.17.1")
-    // implementation("com.wu-man:android-bsf-api:3.1.3")
     implementation("androidx.drawerlayout:drawerlayout:1.2.0")
     implementation("androidx.viewpager2:viewpager2:1.1.0-beta01")
     implementation("androidx.annotation:annotation:1.7.0")
@@ -250,19 +254,11 @@ dependencies {
     implementation("com.github.angcyo.DslTablayout:TabLayout:3.6.5")
 
     implementation("com.github.megatronking.stringfog:xor:5.0.0")
-
     implementation("top.fifthlight.touchcontroller:proxy-client-android:0.0.2")
 
-    // implementation("com.intuit.sdp:sdp-android:1.0.5")
-    // implementation("com.intuit.ssp:ssp-android:1.0.5")
-
     implementation("org.tukaani:xz:1.9")
-    // Our version of exp4j can be built from source at
-    // https://github.com/PojavLauncherTeam/exp4j
     implementation("net.sourceforge.htmlcleaner:htmlcleaner:2.6.1")
     implementation("com.bytedance:bytehook:1.0.10")
-
-    // implementation("net.sourceforge.streamsupport:streamsupport-cfuture:1.7.0")
 
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar", "*.aar"))))
 
