@@ -28,10 +28,9 @@
                 <ImageView
                     android:id="@+id/title"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/_40sdp"
-                    android:src="@drawable/app_name_title"
+                    android:layout_height="@dimen/_60sdp" 
+                    android:src="@drawable/cs_logo"
                     android:scaleType="centerInside"
-                    app:tint="#FFB74D"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:ignore="ContentDescription" />
 
@@ -41,7 +40,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_16sdp"
                     android:textColor="#E8EAF6"
-                    android:textSize="@dimen/_11ssp"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold"
+                    android:gravity="center"
                     android:lineSpacingExtra="@dimen/_4sdp"
                     app:layout_constraintTop_toBottomOf="@id/title" />
 
@@ -52,6 +53,7 @@
                     android:layout_marginTop="@dimen/_8sdp"
                     android:textColor="#E8EAF6"
                     android:textSize="@dimen/_11ssp"
+                    android:gravity="center"
                     android:lineSpacingExtra="@dimen/_4sdp"
                     app:layout_constraintTop_toBottomOf="@id/dec1" />
 
@@ -63,6 +65,7 @@
                     android:textColor="#99E8EAF6"
                     android:textSize="@dimen/_10ssp"
                     android:textStyle="italic"
+                    android:gravity="center"
                     app:layout_constraintTop_toBottomOf="@id/dec2" />
 
                 <LinearLayout
@@ -82,6 +85,7 @@
                         android:layout_marginEnd="@dimen/_4sdp"
                         android:backgroundTint="#252538"
                         android:textColor="#FFB74D"
+                        android:textStyle="bold"
                         android:text="GPL v3" />
 
                     <com.movtery.zalithlauncher.ui.view.AnimButton
@@ -92,6 +96,7 @@
                         android:layout_marginHorizontal="@dimen/_4sdp"
                         android:backgroundTint="#252538"
                         android:textColor="#FFB74D"
+                        android:textStyle="bold"
                         android:text="Github" />
 
                     <com.movtery.zalithlauncher.ui.view.AnimButton
@@ -102,6 +107,7 @@
                         android:layout_marginStart="@dimen/_4sdp"
                         android:backgroundTint="#252538"
                         android:textColor="#FFB74D"
+                        android:textStyle="bold"
                         android:text="Discord" />
 
                     <com.movtery.zalithlauncher.ui.view.AnimButton
@@ -110,7 +116,6 @@
                         android:layout_height="0dp"
                         android:visibility="gone" />
                 </LinearLayout>
-
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -153,7 +158,6 @@
                     app:layout_constraintTop_toBottomOf="@id/about_recycler"/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
