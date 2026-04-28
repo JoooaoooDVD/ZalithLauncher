@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginVertical="@dimen/_4sdp"
-    android:background="@drawable/background_item"
+    android:background="@drawable/background_card"
+    android:backgroundTint="#252538"
     android:paddingVertical="@dimen/_12sdp" >
 
     <com.google.android.material.imageview.ShapeableImageView
@@ -18,7 +19,7 @@
         android:padding="@dimen/_2sdp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:strokeColor="@android:color/white"
+        app:strokeColor="#FFB74D" 
         app:strokeWidth="@dimen/_2sdp"
         app:shapeAppearanceOverlay="@style/RoundImageView" />
 
@@ -28,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/_15sdp"
         android:singleLine="true"
-        android:text="About Title"
+        android:textColor="#FFB74D"
         android:textSize="@dimen/_12sdp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +44,8 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginEnd="@dimen/_15sdp"
-        android:text="About Desc"
+        android:textColor="#E8EAF6"
+        android:textSize="@dimen/_10ssp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_view"
         app:layout_constraintStart_toStartOf="@+id/title_view"
@@ -55,7 +57,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/_15sdp"
-        android:text="About Button"
+        android:backgroundTint="#CC151520"
+        android:textColor="#FFB74D"
         android:textSize="@dimen/_10sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
