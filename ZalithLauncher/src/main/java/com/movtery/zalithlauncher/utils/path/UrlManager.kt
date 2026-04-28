@@ -1,6 +1,6 @@
 package com.movtery.zalithlauncher.utils.path
 
-import com.movtery.zalithlauncher.BuildConfig
+import com.craftstudio.launcher.BuildConfig
 import com.movtery.zalithlauncher.InfoDistributor
 import okhttp3.OkHttpClient
 import okhttp3.Request
