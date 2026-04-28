@@ -31,52 +31,49 @@ class EditTextDialog private constructor(
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         this.setCancelable(false)
         this.setContentView(binding.root)
-
         init()
         DraggableDialog.initDialog(this)
     }
 
     private fun init() {
-        binding.apply {
-            title?.let { titleView.text = it }
-            message?.let {
-                messageView.text = it
-                messageView.visibility = View.VISIBLE
-            }
-            editText?.let { textEdit.setText(it) }
-            hintText?.let { textEdit.hint = it } ?: run {
-                if (required) textEdit.setHint(R.string.generic_required)
-            }
-
-            checkHeight()
-
-            confirm?.let { confirmButton.text = it }
-            if (showCheckBox) {
-                checkBox.visibility = View.VISIBLE
-                checkBox.text = this@EditTextDialog.checkBox
-            }
-            if (inputType != -1) textEdit.inputType = inputType
-
-            confirmListener?.let {
-                confirmButton.setOnClickListener { _ ->
-                    if (required) {
-                        val text = textEdit.text.toString()
-                        if (isEmptyOrBlank(text)) {
-                            textEdit.error = emptyError ?: context.getString(R.string.generic_error_field_empty)
-                            return@setOnClickListener
-                        }
-                    }
-                    val dismissDialog = it.onConfirm(textEdit, checkBox.isChecked)
-                    if (dismissDialog) dismiss()
-                }
-            }
-
-            val cancelListener = cancelListener ?: View.OnClickListener { dismiss() }
-            cancelButton.setOnClickListener(cancelListener)
+        title?.let { binding.titleView.text = it }
+        message?.let {
+            binding.messageView.text = it
+            binding.messageView.visibility = View.VISIBLE
         }
+        editText?.let { binding.textEdit.setText(it) }
+        hintText?.let { binding.textEdit.hint = it } ?: run {
+            if (required) binding.textEdit.setHint(R.string.generic_required)
+        }
+
+        checkHeight()
+
+        confirm?.let { binding.confirmButton.text = it }
+        if (showCheckBox) {
+            binding.checkBox.visibility = View.VISIBLE
+            binding.checkBox.text = this.checkBox
+        }
+        if (inputType != -1) binding.textEdit.inputType = inputType
+
+        confirmListener?.let { listener ->
+            binding.confirmButton.setOnClickListener {
+                if (required) {
+                    val text = binding.textEdit.text.toString()
+                    if (isEmptyOrBlank(text)) {
+                        binding.textEdit.error = emptyError
+                            ?: context.getString(R.string.generic_error_field_empty)
+                        return@setOnClickListener
+                    }
+                }
+                val dismissDialog = listener.onConfirm(binding.textEdit, binding.checkBox.isChecked)
+                if (dismissDialog) dismiss()
+            }
+        }
+
+        val cListener = cancelListener ?: View.OnClickListener { dismiss() }
+        binding.cancelButton.setOnClickListener(cListener)
     }
 
     private fun checkHeight() {
@@ -103,162 +100,24 @@ class EditTextDialog private constructor(
         private var confirmListener: ConfirmListener? = null
         private var required = false
 
-        /**
-         * 设置弹窗的标题栏文本
-         */
-        @CheckResult
-        fun setTitle(title: String): Builder {
-            this.title = title
-            return this
-        }
-
-        /**
-         * 设置弹窗的标题栏文本
-         */
-        @CheckResult
-        fun setTitle(title: Int): Builder {
-            return setTitle(context.getString(title))
-        }
-
-        /**
-         * 设置弹窗的信息栏文本
-         */
-        @CheckResult
-        fun setMessage(message: String): Builder {
-            this.message = message
-            return this
-        }
-
-        /**
-         * 设置弹窗的信息栏文本
-         */
-        @CheckResult
-        fun setMessage(message: Int): Builder {
-            return setMessage(context.getString(message))
-        }
-
-        /**
-         * 设置输入框的文本
-         */
-        @CheckResult
-        fun setEditText(editText: String): Builder {
-            this.editText = editText
-            return this
-        }
-
-        /**
-         * 设置输入框的Hint提示
-         */
-        @CheckResult
-        fun setHintText(hintText: Int): Builder {
-            return setHintText(context.getString(hintText))
-        }
-
-        /**
-         * 设置输入框的Hint提示
-         */
-        @CheckResult
-        fun setHintText(hintText: String): Builder {
-            this.hintText = hintText
-            return this
-        }
-
-        /**
-         * 设置确认按钮的文本
-         */
-        @CheckResult
-        fun setConfirmText(text: Int): Builder {
-            return setConfirmText(context.getString(text))
-        }
-
-        /**
-         * 设置确认按钮的文本
-         */
-        @CheckResult
-        fun setConfirmText(text: String): Builder {
-            this.confirm = text
-            return this
-        }
-
-        /**
-         * 需要设置输入框为必填时，自定义其为空时报错提醒的文本
-         */
-        @CheckResult
-        fun setEmptyErrorText(text: Int): Builder {
-            return setEmptyErrorText(context.getString(text))
-        }
-
-        /**
-         * 需要设置输入框为必填时，自定义其为空时报错提醒的文本
-         */
-        @CheckResult
-        fun setEmptyErrorText(text: String): Builder {
-            this.emptyError = text
-            return this
-        }
-
-        /**
-         * 设置是否启用弹窗的选择框
-         */
-        @CheckResult
-        fun setShowCheckBox(show: Boolean): Builder {
-            this.showCheckBox = show
-            return this
-        }
-
-        /**
-         * 设置选择框的文本
-         */
-        @CheckResult
-        fun setCheckBoxText(text: Int): Builder {
-            return setCheckBoxText(context.getString(text))
-        }
-
-        /**
-         * 设置选择框的文本
-         */
-        @CheckResult
-        fun setCheckBoxText(text: String): Builder {
-            this.checkBox = text
-            return this
-        }
-
-        /**
-         * 设置输入框的类型
-         */
-        @CheckResult
-        fun setInputType(inputType: Int): Builder {
-            this.inputType = inputType
-            return this
-        }
-
-        /**
-         * 设置取消按钮的点击事件
-         */
-        @CheckResult
-        fun setCancelListener(cancel: View.OnClickListener): Builder {
-            this.cancelListener = cancel
-            return this
-        }
-
-        /**
-         * 设置确认按钮的点击事件
-         */
-        @CheckResult
-        fun setConfirmListener(confirmListener: ConfirmListener): Builder {
-            this.confirmListener = confirmListener
-            return this
-        }
-
-        /**
-         * 设置为必填，当用户点击确认时，将检查输入框的内容是否为空（包括空格检查）
-         * 如果是，那么拦截点击事件并告知用户
-         */
-        @CheckResult
-        fun setAsRequired(): Builder {
-            this.required = true
-            return this
-        }
+        @CheckResult fun setTitle(title: String): Builder { this.title = title; return this }
+        @CheckResult fun setTitle(title: Int): Builder { return setTitle(context.getString(title)) }
+        @CheckResult fun setMessage(message: String): Builder { this.message = message; return this }
+        @CheckResult fun setMessage(message: Int): Builder { return setMessage(context.getString(message)) }
+        @CheckResult fun setEditText(editText: String): Builder { this.editText = editText; return this }
+        @CheckResult fun setHintText(hintText: Int): Builder { return setHintText(context.getString(hintText)) }
+        @CheckResult fun setHintText(hintText: String): Builder { this.hintText = hintText; return this }
+        @CheckResult fun setConfirmText(text: Int): Builder { return setConfirmText(context.getString(text)) }
+        @CheckResult fun setConfirmText(text: String): Builder { this.confirm = text; return this }
+        @CheckResult fun setEmptyErrorText(text: Int): Builder { return setEmptyErrorText(context.getString(text)) }
+        @CheckResult fun setEmptyErrorText(text: String): Builder { this.emptyError = text; return this }
+        @CheckResult fun setShowCheckBox(show: Boolean): Builder { this.showCheckBox = show; return this }
+        @CheckResult fun setCheckBoxText(text: Int): Builder { return setCheckBoxText(context.getString(text)) }
+        @CheckResult fun setCheckBoxText(text: String): Builder { this.checkBox = text; return this }
+        @CheckResult fun setInputType(inputType: Int): Builder { this.inputType = inputType; return this }
+        @CheckResult fun setCancelListener(cancel: View.OnClickListener): Builder { this.cancelListener = cancel; return this }
+        @CheckResult fun setConfirmListener(confirmListener: ConfirmListener): Builder { this.confirmListener = confirmListener; return this }
+        @CheckResult fun setAsRequired(): Builder { this.required = true; return this }
 
         fun buildDialog(): EditTextDialog {
             return EditTextDialog(
@@ -267,13 +126,9 @@ class EditTextDialog private constructor(
                 showCheckBox, inputType,
                 cancelListener, confirmListener,
                 required
-            ).apply {
-                create()
-            }
+            ).apply { create() }
         }
 
-        fun showDialog() {
-            buildDialog().show()
-        }
+        fun showDialog() { buildDialog().show() }
     }
 }
