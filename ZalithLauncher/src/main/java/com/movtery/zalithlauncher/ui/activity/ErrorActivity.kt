@@ -6,9 +6,13 @@ import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
 import androidx.core.content.ContextCompat
+
+// ✅ FIX: Naye Craft Studio package se R aur databinding ko import kiya!
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.ActivityErrorBinding
+
+// Purane utilities ke imports
 import com.movtery.zalithlauncher.InfoCenter
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.ActivityErrorBinding
 import com.movtery.zalithlauncher.utils.ZHTools
 import net.kdt.pojavlaunch.Tools
 
@@ -37,7 +41,7 @@ class ErrorActivity : BaseActivity() {
             return
         }
         if (extras.getBoolean(BUNDLE_IS_GAME_CRASH, false)) {
-            //如果不是应用崩溃，那么这个页面就不允许截图
+            // Agar game crash hua hai toh screenshot allow mat karo
             window.addFlags(WindowManager.LayoutParams.FLAG_SECURE)
             showGameCrash(extras)
             return
