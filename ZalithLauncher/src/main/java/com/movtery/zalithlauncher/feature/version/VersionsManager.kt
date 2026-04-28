@@ -252,7 +252,8 @@ object VersionsManager {
 
                 val error = validateVersionName(context, string, version.getVersionInfo())
                 error?.let {
-                    editText.error = it
+                    // ✅ 修复：显式转换为 EditText
+                    (editText as android.widget.EditText).error = it
                     return@setConfirmListener false
                 }
 
@@ -323,7 +324,8 @@ object VersionsManager {
 
                 val error = validateVersionName(context, string, version.getVersionInfo())
                 error?.let {
-                    editText.error = it
+                    // ✅ 修复：显式转换为 EditText
+                    (editText as android.widget.EditText).error = it
                     return@setConfirmListener false
                 }
 
