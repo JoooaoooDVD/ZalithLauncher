@@ -176,7 +176,8 @@ class FilesFragment : FragmentWithAnim(R.layout.fragment_files) {
                         val file = File(path)
                         //检查路径是否符合要求：最少为最顶部路径、路径是一个文件夹、这个路径存在
                         if (!path.contains(mLockPath!!) || !file.isDirectory || !file.exists()) {
-                            editBox.error = getString(R.string.file_does_not_exist)
+                            // ✅ 修复：显式转换为 EditText
+                            (editBox as android.widget.EditText).error = getString(R.string.file_does_not_exist)
                             return@setConfirmListener false
                         }
 
@@ -238,10 +239,12 @@ class FilesFragment : FragmentWithAnim(R.layout.fragment_files) {
                                 FileTools.isFilenameInvalid(
                                     it,
                                     { illegalCharacters ->
-                                        editBox.error = getString(R.string.generic_input_invalid_character, illegalCharacters)
+                                        // ✅ 修复：显式转换为 EditText
+                                        (editBox as android.widget.EditText).error = getString(R.string.generic_input_invalid_character, illegalCharacters)
                                     },
                                     { invalidLength ->
-                                        editBox.error = getString(R.string.file_invalid_length, invalidLength, 255)
+                                        // ✅ 修复：显式转换为 EditText
+                                        (editBox as android.widget.EditText).error = getString(R.string.file_invalid_length, invalidLength, 255)
                                     }
                                 )
                             }) return@setConfirmListener false
@@ -252,7 +255,8 @@ class FilesFragment : FragmentWithAnim(R.layout.fragment_files) {
                         val folder = File(fileRecyclerView.fullPath, name)
 
                         if (folder.exists()) {
-                            editBox.error = getString(R.string.file_rename_exitis)
+                            // ✅ 修复：显式转换为 EditText
+                            (editBox as android.widget.EditText).error = getString(R.string.file_rename_exitis)
                             return@setConfirmListener false
                         }
 
@@ -429,4 +433,3 @@ class FilesFragment : FragmentWithAnim(R.layout.fragment_files) {
         }
     }
 }
-
