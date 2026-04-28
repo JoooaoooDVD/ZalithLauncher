@@ -13,7 +13,7 @@ class PlatformUtils {
     companion object {
         fun createCurseForgeApi() = ApiHandler(
             "https://api.curseforge.com/v1",
-            InfoDistributor.CURSEFORGE_API_KEY
+            InfoDistributor.""
         )
 
         /**
