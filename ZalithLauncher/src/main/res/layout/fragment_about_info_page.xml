@@ -29,11 +29,12 @@
                     android:id="@+id/title"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_60sdp" 
-                    android:src="@drawable/app_name_title"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:src="@drawable/craft_studio_title" 
                     android:scaleType="centerInside"
                     app:layout_constraintTop_toTopOf="parent"
-                    tools:ignore="ContentDescription" />
-
+                    tools:ignore="ContentDescription"/>
+                
                 <TextView
                     android:id="@+id/dec1"
                     android:layout_width="match_parent"
@@ -97,9 +98,7 @@
                         android:backgroundTint="#252538"
                         android:textColor="#FFB74D"
                         android:textStyle="bold"
-                        android:text="Github" />
-
-                    <com.movtery.zalithlauncher.ui.view.AnimButton
+                        android:text="Website" /> <com.movtery.zalithlauncher.ui.view.AnimButton
                         android:id="@+id/discord_button"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
