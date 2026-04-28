@@ -13,64 +13,23 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/operate_layout"
-        app:layout_constraintHorizontal_weight="6.5"
+        app:layout_constraintHorizontal_weight="7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginStart="@dimen/_12sdp"
-            android:layout_marginEnd="@dimen/_8sdp"
-            android:layout_marginVertical="@dimen/_12sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:layout_marginVertical="@dimen/_16sdp"
             android:background="@drawable/background_card"
-            android:padding="@dimen/_2sdp"
+            android:backgroundTint="#CC151520"
+            android:padding="@dimen/_4sdp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
-
-            <com.movtery.zalithlauncher.ui.subassembly.filelist.FileRecyclerView
-                android:id="@+id/file_recycler_view"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_marginHorizontal="@dimen/_8sdp"
-                android:layout_marginBottom="@dimen/_8sdp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/title_layout" />
-
-            <androidx.appcompat.widget.LinearLayoutCompat
-                android:id="@+id/nothing_layout"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/background_item"
-                android:padding="@dimen/_8sdp"
-                android:layout_marginHorizontal="@dimen/_8sdp"
-                android:visibility="gone"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" >
-
-                <TextView
-                    android:id="@+id/nothing_text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/file_nothing"
-                    android:layout_marginStart="@dimen/_8sdp" />
-
-                <com.movtery.zalithlauncher.ui.view.AnimTextView
-                    android:id="@+id/go_download_text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/button_background"
-                    android:text="@string/profile_mods_download_mod"
-                    android:layout_marginHorizontal="@dimen/_8sdp"
-                    app:ripple_for_text="true"/>
-
-            </androidx.appcompat.widget.LinearLayoutCompat>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/title_layout"
@@ -84,10 +43,12 @@
                     android:id="@+id/title_view"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/_8sdp"
-                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
                     android:text="@string/version_manager_shortcuts_mods"
-                    android:textColor="@color/primary_text"
+                    android:textColor="#FFB74D"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -95,13 +56,63 @@
                     android:id="@+id/select_all"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/_16sdp"
+                    android:layout_marginEnd="@dimen/_12sdp"
+                    android:buttonTint="#FFB74D"
                     android:visibility="gone"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.movtery.zalithlauncher.ui.subassembly.filelist.FileRecyclerView
+                android:id="@+id/file_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:scrollbarThumbVertical="#FFB74D"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title_layout" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/nothing_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_item"
+                android:backgroundTint="#CC151520"
+                android:padding="@dimen/_12sdp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" >
+
+                <TextView
+                    android:id="@+id/nothing_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/file_nothing"
+                    android:textColor="#E8EAF6"
+                    android:layout_gravity="center_vertical" />
+
+                <com.movtery.zalithlauncher.ui.view.AnimTextView
+                    android:id="@+id/go_download_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_background"
+                    android:backgroundTint="#FFB74D"
+                    android:textColor="#151520"
+                    android:textStyle="bold"
+                    android:text="@string/profile_mods_download_mod"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    android:paddingVertical="@dimen/_4sdp"
+                    android:layout_marginStart="@dimen/_12sdp"
+                    app:ripple_for_text="true"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -113,15 +124,15 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintHorizontal_weight="2.5"
         app:layout_constraintStart_toEndOf="@+id/mods_layout"
         app:layout_constraintTop_toTopOf="parent">
 
         <View
             android:id="@+id/shadowView"
-            android:layout_width="@dimen/_4sdp"
+            android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:background="@drawable/shadow_gradient_right"
+            android:background="#33FFB74D"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@id/operate_layout"
             app:layout_constraintTop_toTopOf="parent" />
@@ -130,7 +141,7 @@
             android:id="@+id/operate_main_layout"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:background="@color/menu_overlay"
+            android:background="#D9151520"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -143,12 +154,13 @@
 
                 <com.movtery.zalithlauncher.ui.view.AnimCheckBox
                     android:id="@+id/multi_select_files"
-                    android:layout_width="0dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/_16sdp"
-                    android:layout_marginBottom="@dimen/_8sdp"
-                    android:paddingStart="@dimen/_8sdp"
+                    android:layout_marginHorizontal="@dimen/_12sdp"
+                    android:layout_marginBottom="@dimen/_12sdp"
                     android:text="@string/file_multi_select_mode"
+                    android:textColor="#E8EAF6"
+                    android:buttonTint="#FFB74D"
                     app:layout_constraintBottom_toTopOf="@id/operate_view"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -160,7 +172,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="@dimen/_8sdp"
-                    android:layout_marginBottom="@dimen/_26sdp"
+                    android:layout_marginBottom="@dimen/_16sdp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"/>
