@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.progresskeeper;
+package com.craftstudio.launcher.progresskeeper;
 
 import java.util.ArrayList;
 import java.util.HashMap;

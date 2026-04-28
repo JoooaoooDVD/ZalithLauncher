@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package com.craftstudio.launcher.customcontrols.mouse;
 
 import android.view.InputDevice;
 import android.view.MotionEvent;
@@ -7,8 +7,8 @@ import android.view.ViewTreeObserver;
 
 import com.craftstudio.launcher.setting.AllStaticSettings;
 
-import net.kdt.pojavlaunch.MinecraftGLSurface;
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.MinecraftGLSurface;
+import com.craftstudio.launcher.Tools;
 
 import org.lwjgl.glfw.CallbackBridge;
 

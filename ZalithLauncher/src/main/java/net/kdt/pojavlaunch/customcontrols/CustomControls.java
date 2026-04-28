@@ -1,10 +1,10 @@
-package net.kdt.pojavlaunch.customcontrols;
+package com.craftstudio.launcher.customcontrols;
 
 import androidx.annotation.Keep;
 
 import com.craftstudio.launcher.ui.subassembly.customcontrols.ControlInfoData;
 
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.Tools;
 
 import java.io.IOException;
 import java.util.ArrayList;

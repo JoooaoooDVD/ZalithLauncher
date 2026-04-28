@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.handleview;
+package com.craftstudio.launcher.customcontrols.handleview;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -14,7 +14,7 @@ import androidx.core.content.res.ResourcesCompat;
 
 import com.craftstudio.launcher.R;
 
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlInterface;
+import com.craftstudio.launcher.customcontrols.buttons.ControlInterface;
 
 public class ControlHandleView extends View {
     public ControlHandleView(Context context) {

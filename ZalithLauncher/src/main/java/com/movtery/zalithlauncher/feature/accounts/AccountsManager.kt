@@ -16,11 +16,11 @@ import com.craftstudio.launcher.setting.AllSettings
 import com.craftstudio.launcher.task.TaskExecutors
 import com.craftstudio.launcher.ui.dialog.TipDialog
 import com.craftstudio.launcher.utils.path.PathManager
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.authenticator.listener.DoneListener
-import net.kdt.pojavlaunch.authenticator.listener.ErrorListener
-import net.kdt.pojavlaunch.authenticator.microsoft.PresentedException
-import net.kdt.pojavlaunch.value.MinecraftAccount
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.authenticator.listener.DoneListener
+import com.craftstudio.launcher.authenticator.listener.ErrorListener
+import com.craftstudio.launcher.authenticator.microsoft.PresentedException
+import com.craftstudio.launcher.value.MinecraftAccount
 import org.greenrobot.eventbus.EventBus
 import java.io.File
 import java.io.IOException

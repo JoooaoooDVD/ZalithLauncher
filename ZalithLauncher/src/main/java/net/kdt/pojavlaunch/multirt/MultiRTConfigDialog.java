@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.multirt;
+package com.craftstudio.launcher.multirt;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

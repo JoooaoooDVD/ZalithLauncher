@@ -15,7 +15,7 @@ import com.craftstudio.launcher.ui.dialog.ProgressDialog;
 import com.craftstudio.launcher.utils.ZHTools;
 import com.craftstudio.launcher.utils.path.UrlManager;
 
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.Tools;
 
 import org.apache.commons.io.FileUtils;
 

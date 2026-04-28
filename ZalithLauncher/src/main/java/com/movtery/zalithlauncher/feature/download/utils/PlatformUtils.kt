@@ -5,7 +5,7 @@ import com.craftstudio.launcher.feature.download.Filters
 import com.craftstudio.launcher.feature.download.enums.Classify
 import com.craftstudio.launcher.utils.stringutils.StringUtils.containsChinese
 import com.craftstudio.launcher.utils.stringutils.StringUtilsKt
-import net.kdt.pojavlaunch.modloaders.modpacks.api.ApiHandler
+import com.craftstudio.launcher.modloaders.modpacks.api.ApiHandler
 import org.jackhuang.hmcl.ui.versions.ModTranslations
 import org.jackhuang.hmcl.util.StringUtils
 

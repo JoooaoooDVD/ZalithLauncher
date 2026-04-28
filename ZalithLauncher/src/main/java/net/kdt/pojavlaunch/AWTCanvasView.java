@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -12,7 +12,7 @@ import android.view.Surface;
 import android.view.TextureView;
 import android.view.ViewGroup;
 
-import net.kdt.pojavlaunch.utils.JREUtils;
+import com.craftstudio.launcher.utils.JREUtils;
 
 import java.util.LinkedList;
 

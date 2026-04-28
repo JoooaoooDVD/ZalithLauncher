@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.value;
+package com.craftstudio.launcher.value;
 
 import androidx.annotation.Keep;
 

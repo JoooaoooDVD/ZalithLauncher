@@ -23,7 +23,7 @@ import com.craftstudio.launcher.feature.download.enums.Classify;
 import com.craftstudio.launcher.feature.log.Logging;
 import com.craftstudio.launcher.utils.stringutils.StringUtilsKt;
 
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.Tools;
 
 import org.jackhuang.hmcl.util.Pair;
 import org.jackhuang.hmcl.util.StringUtils;

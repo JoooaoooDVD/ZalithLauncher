@@ -9,12 +9,12 @@ import android.widget.SeekBar
 import com.craftstudio.launcher.R
 import com.craftstudio.launcher.databinding.ViewControlMenuBinding
 import com.craftstudio.launcher.setting.AllSettings
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.customcontrols.ControlData
-import net.kdt.pojavlaunch.customcontrols.ControlDrawerData
-import net.kdt.pojavlaunch.customcontrols.ControlJoystickData
-import net.kdt.pojavlaunch.customcontrols.ControlLayout
-import net.kdt.pojavlaunch.customcontrols.EditorExitable
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.customcontrols.ControlData
+import com.craftstudio.launcher.customcontrols.ControlDrawerData
+import com.craftstudio.launcher.customcontrols.ControlJoystickData
+import com.craftstudio.launcher.customcontrols.ControlLayout
+import com.craftstudio.launcher.customcontrols.EditorExitable
 
 class ControlMenu(
     private val activity: Activity,

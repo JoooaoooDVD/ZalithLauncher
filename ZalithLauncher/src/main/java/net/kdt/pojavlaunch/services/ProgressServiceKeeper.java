@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.services;
+package com.craftstudio.launcher.services;
 
 import android.content.Context;
 
-import net.kdt.pojavlaunch.progresskeeper.TaskCountListener;
+import com.craftstudio.launcher.progresskeeper.TaskCountListener;
 
 public class ProgressServiceKeeper implements TaskCountListener {
     private final Context context;

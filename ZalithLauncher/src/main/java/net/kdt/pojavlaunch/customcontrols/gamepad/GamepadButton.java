@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package com.craftstudio.launcher.customcontrols.gamepad;
 
 /**
  *  This class corresponds to a button that does exist on the gamepad

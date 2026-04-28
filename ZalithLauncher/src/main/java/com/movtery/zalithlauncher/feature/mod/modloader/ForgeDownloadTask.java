@@ -7,10 +7,10 @@ import com.craftstudio.launcher.R;
 import com.craftstudio.launcher.feature.version.install.InstallTask;
 import com.craftstudio.launcher.utils.path.PathManager;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.modloaders.ForgeUtils;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.modloaders.ForgeUtils;
+import com.craftstudio.launcher.progresskeeper.ProgressKeeper;
+import com.craftstudio.launcher.utils.DownloadUtils;
 
 import java.io.File;
 import java.io.IOException;

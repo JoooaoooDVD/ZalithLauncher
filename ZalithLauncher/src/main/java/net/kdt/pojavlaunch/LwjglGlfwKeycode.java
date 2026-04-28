@@ -28,7 +28,7 @@
  *
  *************************************************************************/
 
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
 @SuppressWarnings("unused")
 public class LwjglGlfwKeycode {

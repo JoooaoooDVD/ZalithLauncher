@@ -15,7 +15,7 @@ import com.craftstudio.launcher.databinding.ViewLoggerBinding;
 import com.craftstudio.launcher.setting.AllSettings;
 import com.craftstudio.launcher.utils.anim.ViewAnimUtils;
 
-import net.kdt.pojavlaunch.Logger;
+import com.craftstudio.launcher.Logger;
 
 /**
  * A class able to display logs to the user.

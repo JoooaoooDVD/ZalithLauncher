@@ -7,8 +7,8 @@ import com.craftstudio.launcher.renderer.renderers.GL4ESRenderer
 import com.craftstudio.launcher.renderer.renderers.PanfrostRenderer
 import com.craftstudio.launcher.renderer.renderers.VirGLRenderer
 import com.craftstudio.launcher.renderer.renderers.VulkanZinkRenderer
-import net.kdt.pojavlaunch.Architecture
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Architecture
+import com.craftstudio.launcher.Tools
 
 /**
  * 启动器所有渲染器总管理者，启动器内置的渲染器与渲染器插件加载的渲染器，都会加载到这里

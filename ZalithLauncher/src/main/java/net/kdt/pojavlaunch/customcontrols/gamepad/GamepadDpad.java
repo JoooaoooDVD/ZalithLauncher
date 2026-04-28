@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package com.craftstudio.launcher.customcontrols.gamepad;
 
 import static android.view.InputDevice.KEYBOARD_TYPE_ALPHABETIC;
 import static android.view.InputDevice.SOURCE_GAMEPAD;

@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package com.craftstudio.launcher.customcontrols.mouse;
 
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
+import static com.craftstudio.launcher.Tools.currentDisplayMetrics;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -17,7 +17,7 @@ import com.craftstudio.launcher.utils.ZHTools;
 import com.craftstudio.launcher.utils.image.Dimension;
 import com.craftstudio.launcher.utils.image.ImageUtils;
 
-import net.kdt.pojavlaunch.GrabListener;
+import com.craftstudio.launcher.GrabListener;
 
 import org.lwjgl.glfw.CallbackBridge;
 

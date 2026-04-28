@@ -1,17 +1,17 @@
-package net.kdt.pojavlaunch.customcontrols;
+package com.craftstudio.launcher.customcontrols;
 
-import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.DOWN;
-import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.FREE;
-import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.LEFT;
-import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.RIGHT;
-import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.UP;
+import static com.craftstudio.launcher.customcontrols.ControlDrawerData.Orientation.DOWN;
+import static com.craftstudio.launcher.customcontrols.ControlDrawerData.Orientation.FREE;
+import static com.craftstudio.launcher.customcontrols.ControlDrawerData.Orientation.LEFT;
+import static com.craftstudio.launcher.customcontrols.ControlDrawerData.Orientation.RIGHT;
+import static com.craftstudio.launcher.customcontrols.ControlDrawerData.Orientation.UP;
 
 import android.content.Context;
 
 import com.craftstudio.launcher.R;
 import com.craftstudio.launcher.context.ContextExecutor;
 
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.Tools;
 
 import java.util.ArrayList;
 

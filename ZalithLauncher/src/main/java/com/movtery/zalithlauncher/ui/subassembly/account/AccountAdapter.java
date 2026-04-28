@@ -14,8 +14,8 @@ import com.craftstudio.launcher.feature.accounts.AccountUtils;
 import com.craftstudio.launcher.feature.log.Logging;
 import com.craftstudio.launcher.utils.skin.SkinLoader;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.value.MinecraftAccount;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.value.MinecraftAccount;
 
 import java.util.List;
 

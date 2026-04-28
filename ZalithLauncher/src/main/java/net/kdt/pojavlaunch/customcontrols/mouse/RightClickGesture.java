@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package com.craftstudio.launcher.customcontrols.mouse;
 
 import android.os.Handler;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
+import com.craftstudio.launcher.LwjglGlfwKeycode;
 
 import org.lwjgl.glfw.CallbackBridge;
 

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.fragments;
+package com.craftstudio.launcher.fragments;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -24,8 +24,8 @@ import com.craftstudio.launcher.databinding.FragmentControllerRemapperBinding;
 import com.craftstudio.launcher.ui.fragment.FragmentWithAnim;
 import com.craftstudio.launcher.utils.ZHTools;
 
-import net.kdt.pojavlaunch.customcontrols.gamepad.Gamepad;
-import net.kdt.pojavlaunch.customcontrols.gamepad.GamepadMapperAdapter;
+import com.craftstudio.launcher.customcontrols.gamepad.Gamepad;
+import com.craftstudio.launcher.customcontrols.gamepad.GamepadMapperAdapter;
 
 import fr.spse.gamepad_remapper.RemapperManager;
 import fr.spse.gamepad_remapper.RemapperView;

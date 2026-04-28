@@ -11,9 +11,9 @@ import com.craftstudio.launcher.feature.mod.modpack.install.ModPackUtils
 import com.craftstudio.launcher.task.TaskExecutors
 import com.craftstudio.launcher.ui.dialog.ProgressDialog
 import com.craftstudio.launcher.utils.file.FileTools
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.utils.FileUtils
-import net.kdt.pojavlaunch.utils.ZipUtils
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.utils.FileUtils
+import com.craftstudio.launcher.utils.ZipUtils
 import org.apache.commons.io.IOUtils
 import java.io.File
 import java.io.IOException

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.authenticator.microsoft;
+package com.craftstudio.launcher.authenticator.microsoft;
 
 import android.content.Context;
 

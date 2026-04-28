@@ -8,7 +8,7 @@ import com.craftstudio.launcher.feature.login.OtherLoginApi
 import com.craftstudio.launcher.task.Task
 import com.craftstudio.launcher.task.TaskExecutors
 import com.craftstudio.launcher.ui.dialog.SelectRoleDialog
-import net.kdt.pojavlaunch.value.MinecraftAccount
+import com.craftstudio.launcher.value.MinecraftAccount
 import java.util.Objects
 
 /**

@@ -16,9 +16,9 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import com.craftstudio.launcher.R;
 import com.craftstudio.launcher.feature.log.Logging;
 
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
-import net.kdt.pojavlaunch.progresskeeper.ProgressListener;
-import net.kdt.pojavlaunch.progresskeeper.TaskCountListener;
+import com.craftstudio.launcher.progresskeeper.ProgressKeeper;
+import com.craftstudio.launcher.progresskeeper.ProgressListener;
+import com.craftstudio.launcher.progresskeeper.TaskCountListener;
 
 import java.util.HashMap;
 import java.util.Map;

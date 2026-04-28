@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.customcontrols.buttons;
+package com.craftstudio.launcher.customcontrols.buttons;
 
-import static net.kdt.pojavlaunch.LwjglGlfwKeycode.GLFW_KEY_UNKNOWN;
+import static com.craftstudio.launcher.LwjglGlfwKeycode.GLFW_KEY_UNKNOWN;
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 import static org.lwjgl.glfw.CallbackBridge.sendMouseButton;
 
@@ -17,11 +17,11 @@ import android.widget.TextView;
 import com.craftstudio.launcher.R;
 import com.craftstudio.launcher.setting.AllSettings;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.MainActivity;
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
-import net.kdt.pojavlaunch.customcontrols.handleview.EditControlPopup;
+import com.craftstudio.launcher.LwjglGlfwKeycode;
+import com.craftstudio.launcher.MainActivity;
+import com.craftstudio.launcher.customcontrols.ControlData;
+import com.craftstudio.launcher.customcontrols.ControlLayout;
+import com.craftstudio.launcher.customcontrols.handleview.EditControlPopup;
 
 import org.lwjgl.glfw.CallbackBridge;
 

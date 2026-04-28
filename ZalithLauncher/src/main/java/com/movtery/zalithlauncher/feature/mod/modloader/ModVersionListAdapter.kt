@@ -11,8 +11,8 @@ import com.craftstudio.launcher.R
 import com.craftstudio.launcher.databinding.ItemFileListViewBinding
 import com.craftstudio.launcher.feature.download.item.VersionItem
 import com.craftstudio.launcher.utils.anim.ViewAnimUtils
-import net.kdt.pojavlaunch.modloaders.FabricVersion
-import net.kdt.pojavlaunch.modloaders.OptiFineUtils.OptiFineVersion
+import com.craftstudio.launcher.modloaders.FabricVersion
+import com.craftstudio.launcher.modloaders.OptiFineUtils.OptiFineVersion
 
 class ModVersionListAdapter(
     private val iconDrawable: Int,

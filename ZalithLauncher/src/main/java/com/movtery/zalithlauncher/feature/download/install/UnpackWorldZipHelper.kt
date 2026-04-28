@@ -1,7 +1,7 @@
 package com.craftstudio.launcher.feature.download.install
 
 import com.craftstudio.launcher.feature.log.Logging
-import net.kdt.pojavlaunch.utils.ZipUtils
+import com.craftstudio.launcher.utils.ZipUtils
 import org.apache.commons.io.FileUtils
 import java.io.File
 import java.io.IOException

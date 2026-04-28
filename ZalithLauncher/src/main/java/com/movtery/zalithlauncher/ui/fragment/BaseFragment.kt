@@ -1,8 +1,8 @@
 package com.craftstudio.launcher.ui.fragment
 
 import androidx.fragment.app.Fragment
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper
-import net.kdt.pojavlaunch.progresskeeper.TaskCountListener
+import com.craftstudio.launcher.progresskeeper.ProgressKeeper
+import com.craftstudio.launcher.progresskeeper.TaskCountListener
 
 abstract class BaseFragment : Fragment, TaskCountListener {
     private var mIsTaskRunning: Boolean = false

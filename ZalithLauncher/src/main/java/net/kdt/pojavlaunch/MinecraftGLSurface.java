@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
-import static net.kdt.pojavlaunch.MainActivity.touchCharInput;
+import static com.craftstudio.launcher.MainActivity.touchCharInput;
 import static org.lwjgl.glfw.CallbackBridge.sendMouseButton;
 import static org.lwjgl.glfw.CallbackBridge.windowHeight;
 import static org.lwjgl.glfw.CallbackBridge.windowWidth;
@@ -28,15 +28,15 @@ import com.craftstudio.launcher.setting.AllSettings;
 import com.craftstudio.launcher.setting.AllStaticSettings;
 import com.craftstudio.launcher.ui.activity.BaseActivity;
 
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
-import net.kdt.pojavlaunch.customcontrols.gamepad.DefaultDataProvider;
-import net.kdt.pojavlaunch.customcontrols.gamepad.Gamepad;
-import net.kdt.pojavlaunch.customcontrols.mouse.AbstractTouchpad;
-import net.kdt.pojavlaunch.customcontrols.mouse.AndroidPointerCapture;
-import net.kdt.pojavlaunch.customcontrols.mouse.InGUIEventProcessor;
-import net.kdt.pojavlaunch.customcontrols.mouse.InGameEventProcessor;
-import net.kdt.pojavlaunch.customcontrols.mouse.TouchEventProcessor;
-import net.kdt.pojavlaunch.utils.JREUtils;
+import com.craftstudio.launcher.customcontrols.ControlLayout;
+import com.craftstudio.launcher.customcontrols.gamepad.DefaultDataProvider;
+import com.craftstudio.launcher.customcontrols.gamepad.Gamepad;
+import com.craftstudio.launcher.customcontrols.mouse.AbstractTouchpad;
+import com.craftstudio.launcher.customcontrols.mouse.AndroidPointerCapture;
+import com.craftstudio.launcher.customcontrols.mouse.InGUIEventProcessor;
+import com.craftstudio.launcher.customcontrols.mouse.InGameEventProcessor;
+import com.craftstudio.launcher.customcontrols.mouse.TouchEventProcessor;
+import com.craftstudio.launcher.utils.JREUtils;
 
 import org.greenrobot.eventbus.EventBus;
 import org.lwjgl.glfw.CallbackBridge;

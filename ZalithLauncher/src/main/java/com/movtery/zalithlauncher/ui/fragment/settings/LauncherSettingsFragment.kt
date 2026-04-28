@@ -19,7 +19,7 @@ import com.craftstudio.launcher.ui.fragment.settings.wrapper.SeekBarSettingsWrap
 import com.craftstudio.launcher.ui.fragment.settings.wrapper.SwitchSettingsWrapper
 import com.craftstudio.launcher.utils.CleanUpCache.Companion.start
 import com.craftstudio.launcher.utils.ZHTools
-import net.kdt.pojavlaunch.LauncherActivity
+import com.craftstudio.launcher.LauncherActivity
 import org.greenrobot.eventbus.EventBus
 
 class LauncherSettingsFragment() : AbstractSettingsFragment(R.layout.settings_fragment_launcher, SettingCategory.LAUNCHER) {

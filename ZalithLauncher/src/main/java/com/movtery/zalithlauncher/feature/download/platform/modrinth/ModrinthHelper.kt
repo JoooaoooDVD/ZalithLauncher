@@ -10,7 +10,7 @@ import com.craftstudio.launcher.feature.download.item.SearchResult
 import com.craftstudio.launcher.feature.download.item.VersionItem
 import com.craftstudio.launcher.feature.download.platform.AbstractPlatformHelper
 import com.craftstudio.launcher.feature.download.platform.PlatformNotSupportedException
-import net.kdt.pojavlaunch.modloaders.modpacks.api.ApiHandler
+import com.craftstudio.launcher.modloaders.modpacks.api.ApiHandler
 import java.io.File
 
 class ModrinthHelper : AbstractPlatformHelper(ApiHandler("https://api.modrinth.com/v2")) {

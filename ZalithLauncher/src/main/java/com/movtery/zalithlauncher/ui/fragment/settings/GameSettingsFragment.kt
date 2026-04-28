@@ -22,10 +22,10 @@ import com.craftstudio.launcher.utils.platform.MemoryUtils.Companion.getFreeDevi
 import com.craftstudio.launcher.utils.platform.MemoryUtils.Companion.getTotalDeviceMemory
 import com.craftstudio.launcher.utils.platform.MemoryUtils.Companion.getUsedDeviceMemory
 import com.craftstudio.launcher.utils.stringutils.StringUtils
-import net.kdt.pojavlaunch.Architecture
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.contracts.OpenDocumentWithExtension
-import net.kdt.pojavlaunch.multirt.MultiRTConfigDialog
+import com.craftstudio.launcher.Architecture
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.contracts.OpenDocumentWithExtension
+import com.craftstudio.launcher.multirt.MultiRTConfigDialog
 import kotlin.math.min
 
 class GameSettingsFragment : AbstractSettingsFragment(R.layout.settings_fragment_game, SettingCategory.GAME) {

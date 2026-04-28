@@ -8,7 +8,7 @@ import com.craftstudio.launcher.setting.AllSettings
 import com.craftstudio.launcher.ui.subassembly.customprofilepath.ProfileItem
 import com.craftstudio.launcher.utils.path.PathManager
 import com.craftstudio.launcher.utils.StoragePermissionsUtils
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import java.io.File
 import java.io.FileWriter
 

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package com.craftstudio.launcher.customcontrols.mouse;
 
 import android.view.MotionEvent;
 

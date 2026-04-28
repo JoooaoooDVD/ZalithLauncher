@@ -15,7 +15,7 @@ import com.craftstudio.launcher.databinding.FragmentVersionBinding
 import com.craftstudio.launcher.ui.subassembly.versionlist.VersionSelectedListener
 import com.craftstudio.launcher.ui.subassembly.versionlist.VersionType
 import com.craftstudio.launcher.utils.ZHTools
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 
 class VersionSelectorFragment : FragmentWithAnim(R.layout.fragment_version) {
     companion object {

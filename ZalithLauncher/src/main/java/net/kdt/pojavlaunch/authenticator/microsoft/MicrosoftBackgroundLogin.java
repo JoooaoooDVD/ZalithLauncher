@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.authenticator.microsoft;
+package com.craftstudio.launcher.authenticator.microsoft;
 
 import android.content.Context;
 import android.util.ArrayMap;
@@ -14,10 +14,10 @@ import com.craftstudio.launcher.task.Task;
 import com.craftstudio.launcher.task.TaskExecutors;
 import com.craftstudio.launcher.utils.path.UrlManager;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.authenticator.listener.DoneListener;
-import net.kdt.pojavlaunch.authenticator.listener.ErrorListener;
-import net.kdt.pojavlaunch.value.MinecraftAccount;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.authenticator.listener.DoneListener;
+import com.craftstudio.launcher.authenticator.listener.ErrorListener;
+import com.craftstudio.launcher.value.MinecraftAccount;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -8,9 +8,9 @@ import com.craftstudio.launcher.feature.update.UpdateUtils
 import com.craftstudio.launcher.renderer.Renderers
 import com.craftstudio.launcher.utils.path.PathManager
 import com.craftstudio.launcher.utils.stringutils.StringUtilsKt
-import net.kdt.pojavlaunch.Architecture
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.utils.ZipUtils
+import com.craftstudio.launcher.Architecture
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.utils.ZipUtils
 import java.io.DataInputStream
 import java.io.File
 import java.io.FileInputStream

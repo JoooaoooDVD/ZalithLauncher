@@ -7,7 +7,7 @@ import com.craftstudio.launcher.utils.http.CallUtils
 import com.craftstudio.launcher.utils.http.CallUtils.CallbackListener
 import com.craftstudio.launcher.utils.path.UrlManager
 import com.craftstudio.launcher.utils.stringutils.StringUtils
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import okhttp3.Call
 import okhttp3.Response
 import org.json.JSONObject

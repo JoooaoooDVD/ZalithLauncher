@@ -6,7 +6,7 @@ import com.google.gson.JsonObject
 import com.google.gson.JsonParser
 import com.craftstudio.launcher.feature.log.Logging
 import com.craftstudio.launcher.feature.version.VersionInfo
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import java.io.File
 
 class VersionInfoUtils {

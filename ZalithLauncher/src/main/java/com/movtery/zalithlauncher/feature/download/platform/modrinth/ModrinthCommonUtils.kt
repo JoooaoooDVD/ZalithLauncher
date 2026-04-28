@@ -18,8 +18,8 @@ import com.craftstudio.launcher.feature.download.utils.VersionTypeUtils
 import com.craftstudio.launcher.feature.log.Logging
 import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.stringutils.StringUtilsKt
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.modloaders.modpacks.api.ApiHandler
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.modloaders.modpacks.api.ApiHandler
 import java.util.StringJoiner
 import java.util.TreeSet
 

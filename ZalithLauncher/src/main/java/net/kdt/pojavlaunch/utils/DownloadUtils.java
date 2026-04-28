@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.utils;
+package com.craftstudio.launcher.utils;
 
 import androidx.annotation.Nullable;
 
@@ -7,7 +7,7 @@ import com.craftstudio.launcher.utils.path.PathManager;
 import com.craftstudio.launcher.utils.ZHTools;
 import com.craftstudio.launcher.utils.path.UrlManager;
 
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.Tools;
 
 import org.apache.commons.io.IOUtils;
 

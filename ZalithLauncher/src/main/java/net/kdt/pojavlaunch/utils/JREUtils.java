@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.utils;
+package com.craftstudio.launcher.utils;
 
 import static com.craftstudio.launcher.utils.path.PathManager.DIR_NATIVE_LIB;
-import static net.kdt.pojavlaunch.Architecture.ARCH_X86;
-import static net.kdt.pojavlaunch.Architecture.is64BitsDevice;
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
+import static com.craftstudio.launcher.Architecture.ARCH_X86;
+import static com.craftstudio.launcher.Architecture.is64BitsDevice;
+import static com.craftstudio.launcher.Tools.currentDisplayMetrics;
 
 import android.content.Context;
 import android.os.Build;
@@ -35,12 +35,12 @@ import com.craftstudio.launcher.utils.path.LibPath;
 import com.craftstudio.launcher.utils.path.PathManager;
 import com.oracle.dalvik.VMLauncher;
 
-import net.kdt.pojavlaunch.Architecture;
-import net.kdt.pojavlaunch.Logger;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.multirt.Runtime;
-import net.kdt.pojavlaunch.plugins.FFmpegPlugin;
+import com.craftstudio.launcher.Architecture;
+import com.craftstudio.launcher.Logger;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.multirt.MultiRTUtils;
+import com.craftstudio.launcher.multirt.Runtime;
+import com.craftstudio.launcher.plugins.FFmpegPlugin;
 
 import org.greenrobot.eventbus.EventBus;
 import org.lwjgl.glfw.CallbackBridge;

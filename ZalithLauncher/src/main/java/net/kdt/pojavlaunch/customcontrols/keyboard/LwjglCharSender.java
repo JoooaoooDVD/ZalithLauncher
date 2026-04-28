@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.customcontrols.keyboard;
+package com.craftstudio.launcher.customcontrols.keyboard;
 
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
+import com.craftstudio.launcher.LwjglGlfwKeycode;
 
 import org.lwjgl.glfw.CallbackBridge;
 

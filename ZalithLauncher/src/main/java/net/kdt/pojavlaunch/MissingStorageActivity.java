@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
 import android.os.Bundle;
 import android.widget.TextView;

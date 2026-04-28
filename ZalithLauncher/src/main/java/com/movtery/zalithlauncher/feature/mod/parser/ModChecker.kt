@@ -8,9 +8,9 @@ import com.craftstudio.launcher.R
 import com.craftstudio.launcher.feature.log.Logging
 import com.craftstudio.launcher.task.TaskExecutors
 import com.craftstudio.launcher.ui.dialog.TipDialog
-import net.kdt.pojavlaunch.Architecture
-import net.kdt.pojavlaunch.Logger
-import net.kdt.pojavlaunch.plugins.FFmpegPlugin
+import com.craftstudio.launcher.Architecture
+import com.craftstudio.launcher.Logger
+import com.craftstudio.launcher.plugins.FFmpegPlugin
 
 class ModChecker {
     class ModCheckResult() : Parcelable {

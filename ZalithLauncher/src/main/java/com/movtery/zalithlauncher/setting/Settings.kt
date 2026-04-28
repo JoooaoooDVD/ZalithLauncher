@@ -8,7 +8,7 @@ import com.craftstudio.launcher.event.single.SettingsChangeEvent
 import com.craftstudio.launcher.feature.log.Logging
 import com.craftstudio.launcher.setting.unit.AbstractSettingUnit
 import com.craftstudio.launcher.utils.path.PathManager
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import org.apache.commons.io.FileUtils
 import org.greenrobot.eventbus.EventBus
 import java.lang.reflect.Type

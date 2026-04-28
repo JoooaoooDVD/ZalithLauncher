@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.multirt;
+package com.craftstudio.launcher.multirt;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -20,8 +20,8 @@ import com.craftstudio.launcher.task.Task;
 import com.craftstudio.launcher.ui.dialog.SelectRuntimeDialog;
 import com.craftstudio.launcher.utils.runtime.RuntimeSelectedListener;
 
-import net.kdt.pojavlaunch.Architecture;
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.Architecture;
+import com.craftstudio.launcher.Tools;
 
 import java.util.List;
 import java.util.Objects;

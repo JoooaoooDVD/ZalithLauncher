@@ -1,6 +1,6 @@
 package com.craftstudio.launcher.ui.dialog;
 
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
+import static com.craftstudio.launcher.Tools.currentDisplayMetrics;
 
 import android.view.View;
 import android.view.Window;

@@ -13,7 +13,7 @@ import com.craftstudio.launcher.utils.file.FileTools
 import com.craftstudio.launcher.utils.path.PathManager
 import kotlinx.coroutines.*
 import kotlinx.coroutines.sync.Semaphore
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import org.apache.commons.io.FileUtils
 import java.io.BufferedReader
 import java.io.File

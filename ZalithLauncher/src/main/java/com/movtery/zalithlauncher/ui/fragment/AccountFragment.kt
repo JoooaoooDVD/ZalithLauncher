@@ -57,9 +57,9 @@ import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.http.NetworkUtils
 import com.craftstudio.launcher.utils.path.PathManager
 import com.craftstudio.launcher.utils.stringutils.StringUtils
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.fragments.MicrosoftLoginFragment
-import net.kdt.pojavlaunch.value.MinecraftAccount
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.fragments.MicrosoftLoginFragment
+import com.craftstudio.launcher.value.MinecraftAccount
 import org.apache.commons.io.FileUtils
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe

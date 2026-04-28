@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.fragments;
+package com.craftstudio.launcher.fragments;
 
 import android.annotation.SuppressLint;
 import android.net.Uri;

@@ -5,8 +5,8 @@ import android.app.Application
 import android.content.Context
 import android.widget.Toast
 import com.craftstudio.launcher.task.TaskExecutors
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.lifecycle.ContextExecutorTask
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.lifecycle.ContextExecutorTask
 import java.lang.ref.WeakReference
 
 class ContextExecutor {

@@ -7,8 +7,8 @@ import com.craftstudio.launcher.feature.log.Logging
 import com.craftstudio.launcher.utils.path.UrlManager
 import com.craftstudio.launcher.utils.path.UrlManager.Companion.createRequestBuilder
 import com.craftstudio.launcher.utils.stringutils.StringUtilsKt
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.value.MinecraftAccount
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.value.MinecraftAccount
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.OkHttpClient
 import okhttp3.RequestBody.Companion.toRequestBody

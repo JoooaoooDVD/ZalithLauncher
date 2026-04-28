@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.tasks;
+package com.craftstudio.launcher.tasks;
 
-import static net.kdt.pojavlaunch.utils.DownloadUtils.downloadString;
+import static com.craftstudio.launcher.utils.DownloadUtils.downloadString;
 
 import androidx.annotation.Nullable;
 
@@ -13,8 +13,8 @@ import com.craftstudio.launcher.utils.path.PathManager;
 import com.craftstudio.launcher.utils.ZHTools;
 import com.craftstudio.launcher.utils.path.UrlManager;
 
-import net.kdt.pojavlaunch.JMinecraftVersionList;
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.JMinecraftVersionList;
+import com.craftstudio.launcher.Tools;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -9,9 +9,9 @@ import com.craftstudio.launcher.feature.mod.modloader.NeoForgeUtils.Companion.ge
 import com.craftstudio.launcher.feature.mod.modloader.NeoForgeUtils.Companion.getNeoForgedForgeInstallerUrl
 import com.craftstudio.launcher.feature.version.install.InstallTask
 import com.craftstudio.launcher.utils.path.PathManager
-import net.kdt.pojavlaunch.Tools.DownloaderFeedback
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper
-import net.kdt.pojavlaunch.utils.DownloadUtils
+import com.craftstudio.launcher.Tools.DownloaderFeedback
+import com.craftstudio.launcher.progresskeeper.ProgressKeeper
+import com.craftstudio.launcher.utils.DownloadUtils
 import java.io.File
 import java.io.IOException
 

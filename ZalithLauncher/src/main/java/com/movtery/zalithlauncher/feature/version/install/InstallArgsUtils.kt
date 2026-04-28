@@ -6,8 +6,8 @@ import com.kdt.mcgui.ProgressLayout
 import com.craftstudio.launcher.R
 import com.craftstudio.launcher.feature.customprofilepath.ProfilePathHome
 import com.craftstudio.launcher.utils.path.LibPath
-import net.kdt.pojavlaunch.JavaGUILauncherActivity
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper
+import com.craftstudio.launcher.JavaGUILauncherActivity
+import com.craftstudio.launcher.progresskeeper.ProgressKeeper
 import java.io.File
 import java.io.IOException
 import java.util.zip.ZipEntry

@@ -9,8 +9,8 @@ import com.craftstudio.launcher.feature.log.Logging
 import com.craftstudio.launcher.feature.version.VersionsManager
 import com.craftstudio.launcher.task.Task
 import com.craftstudio.launcher.utils.path.PathManager
-import net.kdt.pojavlaunch.progresskeeper.DownloaderProgressWrapper
-import net.kdt.pojavlaunch.utils.DownloadUtils
+import com.craftstudio.launcher.progresskeeper.DownloaderProgressWrapper
+import com.craftstudio.launcher.utils.DownloadUtils
 import org.apache.commons.io.FileUtils
 import org.greenrobot.eventbus.EventBus
 import java.io.File

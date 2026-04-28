@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.keyboard;
+package com.craftstudio.launcher.customcontrols.keyboard;
 
 
 import static android.content.Context.INPUT_METHOD_SERVICE;

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package com.craftstudio.launcher.customcontrols.mouse;
 
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 
@@ -6,7 +6,7 @@ import android.os.Handler;
 
 import com.craftstudio.launcher.setting.AllStaticSettings;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
+import com.craftstudio.launcher.LwjglGlfwKeycode;
 
 public class DropGesture implements Runnable{
     private final Handler mHandler;

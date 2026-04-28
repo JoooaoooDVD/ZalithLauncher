@@ -26,7 +26,7 @@ import com.craftstudio.launcher.ui.fragment.DownloadModFragment
 import com.craftstudio.launcher.utils.NumberWithUnits
 import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.stringutils.StringUtils
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import org.greenrobot.eventbus.EventBus
 import org.jackhuang.hmcl.ui.versions.ModTranslations
 import java.util.Collections

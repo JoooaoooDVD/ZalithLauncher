@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.api;
+package com.craftstudio.launcher.modloaders.modpacks.api;
 
 import android.util.ArrayMap;
 
@@ -6,7 +6,7 @@ import com.google.gson.Gson;
 import com.craftstudio.launcher.feature.log.Logging;
 import com.craftstudio.launcher.utils.path.UrlManager;
 
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.Tools;
 
 import java.io.BufferedInputStream;
 import java.io.FileNotFoundException;

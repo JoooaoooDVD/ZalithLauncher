@@ -3,7 +3,7 @@ package com.craftstudio.launcher.feature.version
 import com.google.gson.annotations.SerializedName
 import com.craftstudio.launcher.feature.customprofilepath.ProfilePathHome
 import com.craftstudio.launcher.feature.log.Logging
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import org.apache.commons.io.FileUtils
 import java.io.File
 import java.util.concurrent.ConcurrentHashMap

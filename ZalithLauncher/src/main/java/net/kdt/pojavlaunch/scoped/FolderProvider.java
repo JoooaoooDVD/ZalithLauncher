@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.scoped;
+package com.craftstudio.launcher.scoped;
 
 import android.content.ContentResolver;
 import android.content.res.AssetFileDescriptor;
@@ -22,7 +22,7 @@ import com.craftstudio.launcher.R;
 import com.craftstudio.launcher.feature.log.Logging;
 import com.craftstudio.launcher.utils.path.PathManager;
 
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.Tools;
 
 import org.apache.commons.io.FileUtils;
 

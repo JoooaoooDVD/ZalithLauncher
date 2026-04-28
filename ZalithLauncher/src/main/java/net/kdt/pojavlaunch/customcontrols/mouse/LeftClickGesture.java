@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package com.craftstudio.launcher.customcontrols.mouse;
 
 import static org.lwjgl.glfw.CallbackBridge.sendMouseButton;
 
@@ -6,9 +6,9 @@ import android.os.Handler;
 
 import com.craftstudio.launcher.setting.AllStaticSettings;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.MathUtils;
+import com.craftstudio.launcher.LwjglGlfwKeycode;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.utils.MathUtils;
 
 import org.lwjgl.glfw.CallbackBridge;
 

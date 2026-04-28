@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.multirt;
+package com.craftstudio.launcher.multirt;
 
 import java.util.Objects;
 

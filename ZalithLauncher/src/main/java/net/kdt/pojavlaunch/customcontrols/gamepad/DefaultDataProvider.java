@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package com.craftstudio.launcher.customcontrols.gamepad;
 
-import net.kdt.pojavlaunch.GrabListener;
+import com.craftstudio.launcher.GrabListener;
 
 import org.lwjgl.glfw.CallbackBridge;
 

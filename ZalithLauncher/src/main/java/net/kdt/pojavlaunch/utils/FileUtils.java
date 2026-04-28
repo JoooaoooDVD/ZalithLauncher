@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.utils;
+package com.craftstudio.launcher.utils;
 
 import java.io.File;
 import java.io.IOException;

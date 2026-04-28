@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
 import static android.os.Build.VERSION.SDK_INT;
 import static android.os.Build.VERSION_CODES.P;
@@ -44,14 +44,14 @@ import com.craftstudio.launcher.utils.ZHTools;
 import com.craftstudio.launcher.utils.runtime.SelectRuntimeUtils;
 import com.craftstudio.launcher.utils.stringutils.StringUtils;
 
-import net.kdt.pojavlaunch.fragments.MainMenuFragment;
-import net.kdt.pojavlaunch.lifecycle.ContextExecutorTask;
-import net.kdt.pojavlaunch.memory.MemoryHoleFinder;
-import net.kdt.pojavlaunch.memory.SelfMapsParser;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.utils.FileUtils;
-import net.kdt.pojavlaunch.value.DependentLibrary;
-import net.kdt.pojavlaunch.value.MinecraftLibraryArtifact;
+import com.craftstudio.launcher.fragments.MainMenuFragment;
+import com.craftstudio.launcher.lifecycle.ContextExecutorTask;
+import com.craftstudio.launcher.memory.MemoryHoleFinder;
+import com.craftstudio.launcher.memory.SelfMapsParser;
+import com.craftstudio.launcher.multirt.MultiRTUtils;
+import com.craftstudio.launcher.utils.FileUtils;
+import com.craftstudio.launcher.value.DependentLibrary;
+import com.craftstudio.launcher.value.MinecraftLibraryArtifact;
 
 import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.io.IOUtils;

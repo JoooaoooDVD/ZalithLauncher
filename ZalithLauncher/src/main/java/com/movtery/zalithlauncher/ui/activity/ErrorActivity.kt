@@ -14,7 +14,7 @@ import com.craftstudio.launcher.databinding.ActivityErrorBinding
 // Purane utilities ke imports
 import com.craftstudio.launcher.InfoCenter
 import com.craftstudio.launcher.utils.ZHTools
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 
 class ErrorActivity : BaseActivity() {
     private lateinit var binding: ActivityErrorBinding

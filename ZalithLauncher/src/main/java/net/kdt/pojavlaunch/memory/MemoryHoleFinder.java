@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.memory;
+package com.craftstudio.launcher.memory;
 
-import net.kdt.pojavlaunch.Architecture;
+import com.craftstudio.launcher.Architecture;
 
 public class MemoryHoleFinder implements SelfMapsParser.Callback {
     private long mPreviousEnd = 0;

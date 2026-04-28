@@ -2,7 +2,7 @@ package com.craftstudio.launcher.utils
 
 import android.content.Context
 import com.craftstudio.launcher.utils.path.PathManager
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import java.io.File
 import java.io.IOException
 

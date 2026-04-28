@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.value;
+package com.craftstudio.launcher.value;
 
 import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
@@ -10,7 +10,7 @@ import com.craftstudio.launcher.utils.path.PathManager;
 import com.craftstudio.launcher.utils.skin.SkinFileDownloader;
 import com.craftstudio.launcher.utils.stringutils.StringUtilsKt;
 
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.Tools;
 
 import org.apache.commons.io.FileUtils;
 

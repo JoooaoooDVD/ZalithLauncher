@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package com.craftstudio.launcher.customcontrols.gamepad;
 
 import android.view.InputDevice;
 import android.view.MotionEvent;
 
-import net.kdt.pojavlaunch.utils.MathUtils;
+import com.craftstudio.launcher.utils.MathUtils;
 
 public class GamepadJoystick {
 

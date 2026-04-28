@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch.customcontrols;
+package com.craftstudio.launcher.customcontrols;
 
 import static android.content.Context.INPUT_METHOD_SERVICE;
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
+import static com.craftstudio.launcher.Tools.currentDisplayMetrics;
 import static org.lwjgl.glfw.CallbackBridge.isGrabbing;
 
 import android.annotation.SuppressLint;
@@ -26,16 +26,16 @@ import com.craftstudio.launcher.ui.subassembly.customcontrols.ControlInfoData;
 import com.craftstudio.launcher.utils.path.PathManager;
 import com.craftstudio.launcher.utils.stringutils.StringUtilsKt;
 
-import net.kdt.pojavlaunch.MinecraftGLSurface;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlButton;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlDrawer;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlInterface;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlJoystick;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlSubButton;
-import net.kdt.pojavlaunch.customcontrols.handleview.ActionRow;
-import net.kdt.pojavlaunch.customcontrols.handleview.ControlHandleView;
-import net.kdt.pojavlaunch.customcontrols.handleview.EditControlPopup;
+import com.craftstudio.launcher.MinecraftGLSurface;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.customcontrols.buttons.ControlButton;
+import com.craftstudio.launcher.customcontrols.buttons.ControlDrawer;
+import com.craftstudio.launcher.customcontrols.buttons.ControlInterface;
+import com.craftstudio.launcher.customcontrols.buttons.ControlJoystick;
+import com.craftstudio.launcher.customcontrols.buttons.ControlSubButton;
+import com.craftstudio.launcher.customcontrols.handleview.ActionRow;
+import com.craftstudio.launcher.customcontrols.handleview.ControlHandleView;
+import com.craftstudio.launcher.customcontrols.handleview.EditControlPopup;
 
 import java.io.File;
 import java.io.IOException;

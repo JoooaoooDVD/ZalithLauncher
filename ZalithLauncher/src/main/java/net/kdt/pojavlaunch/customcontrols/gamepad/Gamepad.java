@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package com.craftstudio.launcher.customcontrols.gamepad;
 
 import static android.view.MotionEvent.AXIS_HAT_X;
 import static android.view.MotionEvent.AXIS_HAT_Y;
@@ -8,17 +8,17 @@ import static android.view.MotionEvent.AXIS_RZ;
 import static android.view.MotionEvent.AXIS_X;
 import static android.view.MotionEvent.AXIS_Y;
 import static android.view.MotionEvent.AXIS_Z;
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_EAST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NONE;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_EAST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_WEST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_EAST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_WEST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_WEST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.isJoystickEvent;
+import static com.craftstudio.launcher.Tools.currentDisplayMetrics;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_EAST;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_NONE;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_EAST;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_WEST;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_EAST;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_WEST;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_WEST;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.isJoystickEvent;
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 import static org.lwjgl.glfw.CallbackBridge.sendMouseButton;
 
@@ -40,8 +40,8 @@ import com.craftstudio.launcher.setting.AllSettings;
 import com.craftstudio.launcher.setting.AllStaticSettings;
 import com.craftstudio.launcher.utils.ZHTools;
 
-import net.kdt.pojavlaunch.GrabListener;
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
+import com.craftstudio.launcher.GrabListener;
+import com.craftstudio.launcher.LwjglGlfwKeycode;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

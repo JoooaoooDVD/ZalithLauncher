@@ -1,14 +1,14 @@
-package net.kdt.pojavlaunch.customcontrols.buttons;
+package com.craftstudio.launcher.customcontrols.buttons;
 
 import android.annotation.SuppressLint;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlDrawerData;
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
-import net.kdt.pojavlaunch.customcontrols.handleview.EditControlPopup;
+import com.craftstudio.launcher.customcontrols.ControlData;
+import com.craftstudio.launcher.customcontrols.ControlDrawerData;
+import com.craftstudio.launcher.customcontrols.ControlLayout;
+import com.craftstudio.launcher.customcontrols.handleview.EditControlPopup;
 
 import java.util.ArrayList;
 

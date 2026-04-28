@@ -10,7 +10,7 @@ import com.craftstudio.launcher.feature.log.Logging
 import com.craftstudio.launcher.utils.path.PathManager
 import com.craftstudio.launcher.utils.file.FileTools.Companion.mkdirs
 import com.craftstudio.launcher.utils.image.ImageUtils.Companion.isImage
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import java.io.File
 import java.io.FileReader
 import java.io.FileWriter

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.colorselector;
+package com.craftstudio.launcher.colorselector;
 
 import android.content.Context;
 import android.content.res.ColorStateList;

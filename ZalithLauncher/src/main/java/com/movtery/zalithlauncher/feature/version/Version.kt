@@ -7,7 +7,7 @@ import com.craftstudio.launcher.feature.mod.parser.ModChecker
 import com.craftstudio.launcher.setting.AllSettings
 import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.path.PathManager
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import java.io.File
 
 /**

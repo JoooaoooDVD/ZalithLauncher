@@ -19,9 +19,9 @@ import com.craftstudio.launcher.feature.unpack.UnpackSingleFilesTask
 import com.craftstudio.launcher.task.Task
 import com.craftstudio.launcher.ui.dialog.TipDialog
 import com.craftstudio.launcher.utils.StoragePermissionsUtils
-import net.kdt.pojavlaunch.LauncherActivity
-import net.kdt.pojavlaunch.MissingStorageActivity
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.LauncherActivity
+import com.craftstudio.launcher.MissingStorageActivity
+import com.craftstudio.launcher.Tools
 
 @SuppressLint("CustomSplashScreen")
 class SplashActivity : BaseActivity() {

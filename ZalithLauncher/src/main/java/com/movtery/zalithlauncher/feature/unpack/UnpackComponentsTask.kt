@@ -4,7 +4,7 @@ import android.content.Context
 import android.content.res.AssetManager
 import com.craftstudio.launcher.feature.log.Logging.i
 import com.craftstudio.launcher.utils.path.PathManager
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import org.apache.commons.io.FileUtils
 import java.io.File
 import java.io.FileInputStream

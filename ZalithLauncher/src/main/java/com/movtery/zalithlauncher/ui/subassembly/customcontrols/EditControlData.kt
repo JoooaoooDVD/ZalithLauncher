@@ -2,9 +2,9 @@ package com.craftstudio.launcher.ui.subassembly.customcontrols
 
 import android.content.Context
 import com.craftstudio.launcher.feature.log.Logging
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.customcontrols.CustomControls
-import net.kdt.pojavlaunch.customcontrols.LayoutConverter
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.customcontrols.CustomControls
+import com.craftstudio.launcher.customcontrols.LayoutConverter
 import org.json.JSONObject
 import java.io.File
 

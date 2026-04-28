@@ -4,7 +4,7 @@ import android.content.Context
 import android.content.ContextWrapper
 import com.craftstudio.launcher.setting.Settings
 import com.craftstudio.launcher.utils.path.PathManager
-import net.kdt.pojavlaunch.prefs.LauncherPreferences
+import com.craftstudio.launcher.prefs.LauncherPreferences
 
 class LocaleHelper(context: Context) : ContextWrapper(context) {
     companion object {

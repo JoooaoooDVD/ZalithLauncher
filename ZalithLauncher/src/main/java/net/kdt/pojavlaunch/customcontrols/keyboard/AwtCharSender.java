@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch.customcontrols.keyboard;
+package com.craftstudio.launcher.customcontrols.keyboard;
 
-import net.kdt.pojavlaunch.AWTInputBridge;
-import net.kdt.pojavlaunch.AWTInputEvent;
+import com.craftstudio.launcher.AWTInputBridge;
+import com.craftstudio.launcher.AWTInputEvent;
 
 /** Send chars via the AWT Bridgee */
 public class AwtCharSender implements CharacterSenderStrategy {

@@ -46,7 +46,7 @@ import com.craftstudio.launcher.ui.fragment.FragmentWithAnim;
 import com.craftstudio.launcher.utils.file.FileTools;
 import com.craftstudio.launcher.utils.path.PathManager;
 
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.Tools;
 
 import java.io.File;
 import java.io.FileOutputStream;

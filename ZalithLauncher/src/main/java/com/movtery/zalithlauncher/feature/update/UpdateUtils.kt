@@ -19,8 +19,8 @@ import com.craftstudio.launcher.utils.http.CallUtils.CallbackListener
 import com.craftstudio.launcher.utils.http.NetworkUtils
 import com.craftstudio.launcher.utils.path.UrlManager
 import com.craftstudio.launcher.utils.stringutils.StringUtils
-import net.kdt.pojavlaunch.Architecture
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Architecture
+import com.craftstudio.launcher.Tools
 import okhttp3.Call
 import okhttp3.Response
 import org.apache.commons.io.FileUtils

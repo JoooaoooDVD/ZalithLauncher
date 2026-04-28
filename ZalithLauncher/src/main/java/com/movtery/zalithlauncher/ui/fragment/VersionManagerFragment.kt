@@ -16,7 +16,7 @@ import com.craftstudio.launcher.task.TaskExecutors
 import com.craftstudio.launcher.ui.dialog.TipDialog
 import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.file.FileDeletionHandler
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import java.io.File
 
 class VersionManagerFragment : FragmentWithAnim(R.layout.fragment_version_manager), View.OnClickListener {

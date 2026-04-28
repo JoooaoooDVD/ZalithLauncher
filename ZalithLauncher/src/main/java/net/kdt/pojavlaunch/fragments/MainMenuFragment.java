@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.fragments;
+package com.craftstudio.launcher.fragments;
 
 import static com.craftstudio.launcher.event.single.RefreshVersionsEvent.MODE.END;
 
@@ -35,8 +35,8 @@ import com.craftstudio.launcher.utils.path.PathManager;
 import com.craftstudio.launcher.utils.ZHTools;
 import com.craftstudio.launcher.utils.anim.ViewAnimUtils;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.progresskeeper.ProgressKeeper;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

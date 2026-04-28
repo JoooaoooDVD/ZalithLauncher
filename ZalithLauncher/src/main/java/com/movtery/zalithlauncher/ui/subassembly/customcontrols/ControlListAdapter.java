@@ -22,7 +22,7 @@ import com.craftstudio.launcher.task.TaskExecutors;
 import com.craftstudio.launcher.ui.dialog.ControlInfoDialog;
 import com.craftstudio.launcher.utils.stringutils.StringUtils;
 
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.Tools;
 
 import java.util.ArrayList;
 import java.util.List;

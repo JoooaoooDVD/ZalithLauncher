@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,8 +11,8 @@ import androidx.appcompat.app.AlertDialog;
 
 import com.craftstudio.launcher.R;
 
-import net.kdt.pojavlaunch.lifecycle.ContextExecutorTask;
-import net.kdt.pojavlaunch.utils.NotificationUtils;
+import com.craftstudio.launcher.lifecycle.ContextExecutorTask;
+import com.craftstudio.launcher.utils.NotificationUtils;
 
 import java.io.Serializable;
 

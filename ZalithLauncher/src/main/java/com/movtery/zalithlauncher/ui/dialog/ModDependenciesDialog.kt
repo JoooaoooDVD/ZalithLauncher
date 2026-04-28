@@ -14,7 +14,7 @@ import com.craftstudio.launcher.feature.download.ModDependenciesAdapter
 import com.craftstudio.launcher.feature.download.item.DependenciesInfoItem
 import com.craftstudio.launcher.feature.download.item.InfoItem
 import com.craftstudio.launcher.feature.log.Logging
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 
 class ModDependenciesDialog(
     context: Context,

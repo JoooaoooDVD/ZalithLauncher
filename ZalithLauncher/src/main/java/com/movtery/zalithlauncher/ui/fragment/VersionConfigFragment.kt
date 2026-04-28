@@ -35,9 +35,9 @@ import com.craftstudio.launcher.utils.file.FileTools.Companion.copyFileInBackgro
 import com.skydoves.powerspinner.DefaultSpinnerAdapter
 import com.skydoves.powerspinner.OnSpinnerItemSelectedListener
 import com.skydoves.powerspinner.PowerSpinnerView
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.multirt.MultiRTUtils
-import net.kdt.pojavlaunch.multirt.Runtime
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.multirt.MultiRTUtils
+import com.craftstudio.launcher.multirt.Runtime
 import org.greenrobot.eventbus.EventBus
 import kotlin.enums.EnumEntries
 

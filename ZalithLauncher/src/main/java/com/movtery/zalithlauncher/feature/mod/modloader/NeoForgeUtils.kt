@@ -1,7 +1,7 @@
 package com.craftstudio.launcher.feature.mod.modloader
 
-import net.kdt.pojavlaunch.modloaders.ForgeVersionListHandler
-import net.kdt.pojavlaunch.utils.DownloadUtils
+import com.craftstudio.launcher.modloaders.ForgeVersionListHandler
+import com.craftstudio.launcher.utils.DownloadUtils
 import org.xml.sax.InputSource
 import org.xml.sax.SAXException
 import java.io.IOException

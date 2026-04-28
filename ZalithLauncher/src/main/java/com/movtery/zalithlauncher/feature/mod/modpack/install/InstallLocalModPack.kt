@@ -15,7 +15,7 @@ import com.craftstudio.launcher.feature.version.VersionsManager
 import com.craftstudio.launcher.task.TaskExecutors
 import com.craftstudio.launcher.ui.dialog.TipDialog
 import com.craftstudio.launcher.utils.stringutils.StringUtils
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import org.apache.commons.io.FileUtils
 import java.io.File
 import java.util.zip.ZipFile

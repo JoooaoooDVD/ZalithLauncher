@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
 import dalvik.annotation.optimization.CriticalNative;
 

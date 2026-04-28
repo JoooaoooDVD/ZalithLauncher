@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.tasks;
+package com.craftstudio.launcher.tasks;
 
 import com.craftstudio.launcher.event.sticky.MinecraftVersionValueEvent;
 
-import net.kdt.pojavlaunch.JMinecraftVersionList;
+import com.craftstudio.launcher.JMinecraftVersionList;
 
 import org.greenrobot.eventbus.EventBus;
 

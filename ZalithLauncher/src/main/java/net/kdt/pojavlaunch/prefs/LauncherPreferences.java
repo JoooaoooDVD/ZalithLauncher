@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.prefs;
+package com.craftstudio.launcher.prefs;
 
 import static android.os.Build.VERSION.SDK_INT;
 import static android.os.Build.VERSION_CODES.P;
-import static net.kdt.pojavlaunch.Architecture.is32BitsDevice;
+import static com.craftstudio.launcher.Architecture.is32BitsDevice;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -16,9 +16,9 @@ import com.craftstudio.launcher.setting.AllStaticSettings;
 import com.craftstudio.launcher.setting.Settings;
 import com.craftstudio.launcher.ui.activity.BaseActivity;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.utils.JREUtils;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.multirt.MultiRTUtils;
+import com.craftstudio.launcher.utils.JREUtils;
 
 public class LauncherPreferences {
     public static void loadPreferences() {

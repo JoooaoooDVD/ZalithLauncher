@@ -5,7 +5,7 @@ import android.content.Intent
 import com.craftstudio.launcher.feature.download.enums.ModLoader
 import com.craftstudio.launcher.feature.mod.modloader.NeoForgeDownloadTask
 import com.craftstudio.launcher.feature.version.install.InstallTask
-import net.kdt.pojavlaunch.JavaGUILauncherActivity
+import com.craftstudio.launcher.JavaGUILauncherActivity
 import com.craftstudio.launcher.feature.mod.modloader.FabricLikeUtils
 import com.craftstudio.launcher.feature.mod.modloader.ForgeDownloadTask
 import com.craftstudio.launcher.feature.version.install.InstallArgsUtils

@@ -7,10 +7,10 @@ import com.craftstudio.launcher.feature.download.item.ModLoaderWrapper
 import com.craftstudio.launcher.feature.log.Logging
 import com.craftstudio.launcher.feature.mod.models.MCBBSPackMeta
 import com.craftstudio.launcher.utils.runtime.SelectRuntimeUtils
-import net.kdt.pojavlaunch.JavaGUILauncherActivity
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.modloaders.modpacks.models.CurseManifest
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModrinthIndex
+import com.craftstudio.launcher.JavaGUILauncherActivity
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.modloaders.modpacks.models.CurseManifest
+import com.craftstudio.launcher.modloaders.modpacks.models.ModrinthIndex
 import java.io.File
 import java.util.zip.ZipFile
 

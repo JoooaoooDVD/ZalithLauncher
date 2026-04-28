@@ -7,9 +7,9 @@ import android.view.Choreographer;
 import androidx.annotation.Keep;
 import androidx.annotation.Nullable;
 
-import net.kdt.pojavlaunch.GrabListener;
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.MainActivity;
+import com.craftstudio.launcher.GrabListener;
+import com.craftstudio.launcher.LwjglGlfwKeycode;
+import com.craftstudio.launcher.MainActivity;
 
 import java.util.ArrayList;
 

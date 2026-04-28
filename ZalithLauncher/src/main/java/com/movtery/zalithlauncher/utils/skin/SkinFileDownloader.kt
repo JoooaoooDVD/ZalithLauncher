@@ -4,8 +4,8 @@ import com.google.gson.JsonObject
 import com.craftstudio.launcher.feature.log.Logging
 import com.craftstudio.launcher.utils.path.UrlManager
 import com.craftstudio.launcher.utils.stringutils.StringUtils
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.utils.DownloadUtils
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.utils.DownloadUtils
 import okhttp3.Request
 import java.io.File
 import java.io.FileOutputStream

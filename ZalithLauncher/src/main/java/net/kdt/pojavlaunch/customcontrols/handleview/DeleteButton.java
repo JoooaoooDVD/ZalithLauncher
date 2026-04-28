@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.handleview;
+package com.craftstudio.launcher.customcontrols.handleview;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import com.craftstudio.launcher.R;
 import com.craftstudio.launcher.ui.view.AnimButton;
 
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlInterface;
+import com.craftstudio.launcher.customcontrols.buttons.ControlInterface;
 
 @SuppressLint("AppCompatCustomView")
 public class DeleteButton extends AnimButton implements ActionButtonInterface {

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.buttons;
+package com.craftstudio.launcher.customcontrols.buttons;
 
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
@@ -17,11 +17,11 @@ import androidx.core.math.MathUtils;
 import com.craftstudio.launcher.feature.log.Logging;
 import com.craftstudio.launcher.setting.AllSettings;
 
-import net.kdt.pojavlaunch.GrabListener;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
-import net.kdt.pojavlaunch.customcontrols.handleview.EditControlPopup;
+import com.craftstudio.launcher.GrabListener;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.customcontrols.ControlData;
+import com.craftstudio.launcher.customcontrols.ControlLayout;
+import com.craftstudio.launcher.customcontrols.handleview.EditControlPopup;
 
 import org.lwjgl.glfw.CallbackBridge;
 
@@ -220,7 +220,7 @@ public interface ControlInterface extends View.OnLongClickListener, GrabListener
 
         if (button == this) return false;
         if (button.getControlView().getVisibility() == GONE) return false;
-        return !(net.kdt.pojavlaunch.utils.MathUtils.dist(
+        return !(com.craftstudio.launcher.utils.MathUtils.dist(
                 button.getControlView().getX() + button.getControlView().getWidth() / 2f,
                 button.getControlView().getY() + button.getControlView().getHeight() / 2f,
                 getControlView().getX() + getControlView().getWidth() / 2f,

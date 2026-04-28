@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.tasks;
+package com.craftstudio.launcher.tasks;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -11,17 +11,17 @@ import com.craftstudio.launcher.setting.AllSettings;
 import com.craftstudio.launcher.task.Task;
 import com.craftstudio.launcher.utils.path.PathManager;
 
-import net.kdt.pojavlaunch.JAssetInfo;
-import net.kdt.pojavlaunch.JAssets;
-import net.kdt.pojavlaunch.JMinecraftVersionList;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.mirrors.DownloadMirror;
-import net.kdt.pojavlaunch.mirrors.MirrorTamperedException;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
-import net.kdt.pojavlaunch.utils.FileUtils;
-import net.kdt.pojavlaunch.value.DependentLibrary;
-import net.kdt.pojavlaunch.value.MinecraftClientInfo;
-import net.kdt.pojavlaunch.value.MinecraftLibraryArtifact;
+import com.craftstudio.launcher.JAssetInfo;
+import com.craftstudio.launcher.JAssets;
+import com.craftstudio.launcher.JMinecraftVersionList;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.mirrors.DownloadMirror;
+import com.craftstudio.launcher.mirrors.MirrorTamperedException;
+import com.craftstudio.launcher.utils.DownloadUtils;
+import com.craftstudio.launcher.utils.FileUtils;
+import com.craftstudio.launcher.value.DependentLibrary;
+import com.craftstudio.launcher.value.MinecraftClientInfo;
+import com.craftstudio.launcher.value.MinecraftLibraryArtifact;
 
 import java.io.File;
 import java.io.IOException;

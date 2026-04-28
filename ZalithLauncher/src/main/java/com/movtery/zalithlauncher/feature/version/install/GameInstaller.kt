@@ -7,10 +7,10 @@ import com.craftstudio.launcher.event.value.InstallGameEvent
 import com.craftstudio.launcher.feature.log.Logging
 import com.craftstudio.launcher.feature.version.VersionsManager
 import com.craftstudio.launcher.task.Task
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper
-import net.kdt.pojavlaunch.tasks.AsyncMinecraftDownloader
-import net.kdt.pojavlaunch.tasks.MinecraftDownloader
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.progresskeeper.ProgressKeeper
+import com.craftstudio.launcher.tasks.AsyncMinecraftDownloader
+import com.craftstudio.launcher.tasks.MinecraftDownloader
 import org.apache.commons.io.FileUtils
 import java.io.File
 import java.util.concurrent.atomic.AtomicReference

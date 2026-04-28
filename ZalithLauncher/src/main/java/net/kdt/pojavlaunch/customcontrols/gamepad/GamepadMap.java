@@ -1,10 +1,10 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package com.craftstudio.launcher.customcontrols.gamepad;
 
 import android.content.Context;
 
 import com.craftstudio.launcher.R;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
+import com.craftstudio.launcher.LwjglGlfwKeycode;
 
 public class GamepadMap {
 

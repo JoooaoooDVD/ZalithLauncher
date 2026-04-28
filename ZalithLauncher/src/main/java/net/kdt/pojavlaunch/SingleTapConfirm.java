@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
 import android.view.GestureDetector.SimpleOnGestureListener;
 import android.view.MotionEvent;

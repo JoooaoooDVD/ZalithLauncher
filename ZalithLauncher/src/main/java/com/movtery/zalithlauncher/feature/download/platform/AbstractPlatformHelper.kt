@@ -23,9 +23,9 @@ import com.craftstudio.launcher.task.TaskExecutors
 import com.craftstudio.launcher.ui.dialog.EditTextDialog
 import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.file.FileTools
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.modloaders.modpacks.api.ApiHandler
-import net.kdt.pojavlaunch.utils.DownloadUtils
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.modloaders.modpacks.api.ApiHandler
+import com.craftstudio.launcher.utils.DownloadUtils
 import org.jackhuang.hmcl.ui.versions.ModTranslations
 import java.io.File
 

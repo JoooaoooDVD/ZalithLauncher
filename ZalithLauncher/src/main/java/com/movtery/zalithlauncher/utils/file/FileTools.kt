@@ -11,7 +11,7 @@ import com.craftstudio.launcher.task.Task
 import com.craftstudio.launcher.ui.dialog.EditTextDialog
 import com.craftstudio.launcher.ui.dialog.EditTextDialog.ConfirmListener
 import com.craftstudio.launcher.utils.ZHTools
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import org.apache.commons.io.FileUtils
 import java.io.File
 import java.io.FileInputStream

@@ -15,7 +15,7 @@ import com.craftstudio.launcher.task.TaskExecutors
 import com.craftstudio.launcher.ui.fragment.InstallGameFragment.Companion.BUNDLE_MC_VERSION
 import com.craftstudio.launcher.ui.subassembly.modlist.ModListFragment
 import com.craftstudio.launcher.utils.ZHTools
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import org.greenrobot.eventbus.EventBus
 import java.util.concurrent.Future
 import java.util.function.Consumer

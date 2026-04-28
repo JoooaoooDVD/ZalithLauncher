@@ -9,13 +9,13 @@ import com.craftstudio.launcher.feature.mod.modloader.ModVersionListAdapter
 import com.craftstudio.launcher.task.TaskExecutors
 import com.craftstudio.launcher.ui.subassembly.modlist.ModListFragment
 import com.craftstudio.launcher.utils.ZHTools
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import com.craftstudio.launcher.feature.mod.modloader.OptiFineDownloadTask
 import com.craftstudio.launcher.feature.version.install.Addon
 import com.craftstudio.launcher.ui.fragment.InstallGameFragment.Companion.BUNDLE_MC_VERSION
-import net.kdt.pojavlaunch.modloaders.OptiFineUtils
-import net.kdt.pojavlaunch.modloaders.OptiFineUtils.OptiFineVersion
-import net.kdt.pojavlaunch.modloaders.OptiFineUtils.OptiFineVersions
+import com.craftstudio.launcher.modloaders.OptiFineUtils
+import com.craftstudio.launcher.modloaders.OptiFineUtils.OptiFineVersion
+import com.craftstudio.launcher.modloaders.OptiFineUtils.OptiFineVersions
 import org.greenrobot.eventbus.EventBus
 import java.util.concurrent.Future
 import java.util.function.Consumer

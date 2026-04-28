@@ -21,7 +21,7 @@ import com.craftstudio.launcher.feature.download.utils.ModLoaderUtils
 import com.craftstudio.launcher.feature.download.utils.PlatformUtils
 import com.craftstudio.launcher.feature.download.utils.VersionTypeUtils
 import com.craftstudio.launcher.utils.ZHTools
-import net.kdt.pojavlaunch.modloaders.modpacks.api.ApiHandler
+import com.craftstudio.launcher.modloaders.modpacks.api.ApiHandler
 
 class ModrinthModHelper {
     companion object {

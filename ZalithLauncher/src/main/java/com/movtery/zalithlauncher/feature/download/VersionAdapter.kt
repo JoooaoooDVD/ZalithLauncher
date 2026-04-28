@@ -22,8 +22,8 @@ import com.craftstudio.launcher.utils.NumberWithUnits.Companion.formatNumberWith
 import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.anim.ViewAnimUtils.Companion.setViewAnim
 import com.craftstudio.launcher.utils.stringutils.StringUtils
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.progresskeeper.ProgressKeeper
 import java.util.Locale
 import java.util.StringJoiner
 import java.util.TimeZone

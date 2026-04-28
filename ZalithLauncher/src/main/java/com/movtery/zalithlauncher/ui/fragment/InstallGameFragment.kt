@@ -35,8 +35,8 @@ import com.craftstudio.launcher.ui.fragment.download.addon.DownloadQuiltFragment
 import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.file.FileTools
 import com.craftstudio.launcher.utils.runtime.SelectRuntimeUtils
-import net.kdt.pojavlaunch.JavaGUILauncherActivity
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.JavaGUILauncherActivity
+import com.craftstudio.launcher.Tools
 import org.apache.commons.io.FileUtils
 import org.greenrobot.eventbus.EventBus
 import java.io.File

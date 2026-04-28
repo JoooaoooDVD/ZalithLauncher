@@ -1,12 +1,12 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package com.craftstudio.launcher.customcontrols.gamepad;
 
 import android.util.Log;
 
 import com.google.gson.JsonParseException;
 import com.craftstudio.launcher.utils.path.PathManager;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.FileUtils;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.utils.FileUtils;
 
 import java.io.File;
 import java.io.IOException;

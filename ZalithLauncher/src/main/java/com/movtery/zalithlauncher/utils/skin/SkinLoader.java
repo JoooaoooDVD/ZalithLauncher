@@ -12,7 +12,7 @@ import android.graphics.drawable.Drawable;
 import com.craftstudio.launcher.feature.log.Logging;
 import com.craftstudio.launcher.utils.path.PathManager;
 
-import net.kdt.pojavlaunch.value.MinecraftAccount;
+import com.craftstudio.launcher.value.MinecraftAccount;
 
 import org.jetbrains.annotations.NotNull;
 

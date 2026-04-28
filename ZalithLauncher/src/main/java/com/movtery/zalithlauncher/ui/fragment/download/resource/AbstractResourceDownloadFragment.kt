@@ -39,7 +39,7 @@ import com.craftstudio.launcher.ui.subassembly.versionlist.VersionSelectedListen
 import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.anim.AnimUtils.Companion.setVisibilityAnim
 import com.skydoves.powerspinner.PowerSpinnerView
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import java.util.concurrent.Future

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.services;
+package com.craftstudio.launcher.services;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -20,9 +20,9 @@ import androidx.core.app.NotificationCompat;
 import com.craftstudio.launcher.InfoCenter;
 import com.craftstudio.launcher.R;
 
-import net.kdt.pojavlaunch.MainActivity;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.NotificationUtils;
+import com.craftstudio.launcher.MainActivity;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.utils.NotificationUtils;
 
 public class GameService extends Service {
     private final Messenger mMessenger = new Messenger(new IncomingHandler());

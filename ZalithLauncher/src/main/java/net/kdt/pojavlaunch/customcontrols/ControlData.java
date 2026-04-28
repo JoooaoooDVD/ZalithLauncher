@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch.customcontrols;
+package com.craftstudio.launcher.customcontrols;
 
 import static com.craftstudio.launcher.context.ContextExecutor.getString;
-import static net.kdt.pojavlaunch.LwjglGlfwKeycode.GLFW_KEY_UNKNOWN;
+import static com.craftstudio.launcher.LwjglGlfwKeycode.GLFW_KEY_UNKNOWN;
 
 import android.content.Context;
 import android.util.ArrayMap;
@@ -12,9 +12,9 @@ import com.craftstudio.launcher.R;
 import com.craftstudio.launcher.setting.AllSettings;
 import com.craftstudio.launcher.utils.stringutils.StringUtils;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlInterface;
-import net.kdt.pojavlaunch.utils.JSONUtils;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.customcontrols.buttons.ControlInterface;
+import com.craftstudio.launcher.utils.JSONUtils;
 import net.objecthunter.exp4j.ExpressionBuilder;
 import net.objecthunter.exp4j.function.Function;
 

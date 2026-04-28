@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
 import android.annotation.SuppressLint;
 import android.content.ClipboardManager;
@@ -33,11 +33,11 @@ import com.craftstudio.launcher.utils.image.ImageUtils;
 import com.craftstudio.launcher.utils.path.LibPath;
 import com.craftstudio.launcher.utils.path.PathManager;
 
-import net.kdt.pojavlaunch.customcontrols.keyboard.AwtCharSender;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.multirt.Runtime;
-import net.kdt.pojavlaunch.utils.JREUtils;
-import net.kdt.pojavlaunch.utils.MathUtils;
+import com.craftstudio.launcher.customcontrols.keyboard.AwtCharSender;
+import com.craftstudio.launcher.multirt.MultiRTUtils;
+import com.craftstudio.launcher.multirt.Runtime;
+import com.craftstudio.launcher.utils.JREUtils;
+import com.craftstudio.launcher.utils.MathUtils;
 
 import org.apache.commons.io.IOUtils;
 import org.greenrobot.eventbus.Subscribe;

@@ -6,7 +6,7 @@ import android.os.FileObserver
 import com.craftstudio.launcher.event.single.MCOptionChangeEvent
 import com.craftstudio.launcher.feature.log.Logging
 import com.craftstudio.launcher.feature.version.Version
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import org.greenrobot.eventbus.EventBus
 import org.lwjgl.glfw.CallbackBridge.windowHeight
 import org.lwjgl.glfw.CallbackBridge.windowWidth

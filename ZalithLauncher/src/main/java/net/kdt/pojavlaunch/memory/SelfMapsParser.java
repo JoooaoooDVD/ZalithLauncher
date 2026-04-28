@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.memory;
+package com.craftstudio.launcher.memory;
 
 import java.io.FileInputStream;
 import java.io.IOException;

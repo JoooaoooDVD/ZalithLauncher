@@ -1,7 +1,7 @@
 package com.craftstudio.launcher.feature.version
 
 import com.craftstudio.launcher.feature.log.Logging
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import java.io.File
 import java.io.FileWriter
 

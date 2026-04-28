@@ -20,7 +20,7 @@ import com.craftstudio.launcher.ui.fragment.settings.wrapper.SeekBarSettingsWrap
 import com.craftstudio.launcher.ui.fragment.settings.wrapper.SwitchSettingsWrapper
 import com.craftstudio.launcher.utils.ZHTools
 import fr.spse.gamepad_remapper.Remapper
-import net.kdt.pojavlaunch.fragments.GamepadMapperFragment
+import com.craftstudio.launcher.fragments.GamepadMapperFragment
 
 class ControlSettingsFragment() : AbstractSettingsFragment(R.layout.settings_fragment_control, SettingCategory.CONTROL) {
     private lateinit var binding: SettingsFragmentControlBinding

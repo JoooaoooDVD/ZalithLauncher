@@ -7,7 +7,7 @@ import android.system.Os;
 import com.craftstudio.launcher.InfoDistributor;
 import com.craftstudio.launcher.feature.log.Logging;
 
-import net.kdt.pojavlaunch.Logger;
+import com.craftstudio.launcher.Logger;
 
 import top.fifthlight.touchcontroller.proxy.client.LauncherProxyClient;
 import top.fifthlight.touchcontroller.proxy.client.MessageTransport;

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders;
+package com.craftstudio.launcher.modloaders;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;

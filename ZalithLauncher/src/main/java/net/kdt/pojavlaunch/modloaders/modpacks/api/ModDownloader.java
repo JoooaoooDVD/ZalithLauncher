@@ -1,12 +1,12 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.api;
+package com.craftstudio.launcher.modloaders.modpacks.api;
 
 import androidx.annotation.Nullable;
 
 import com.craftstudio.launcher.feature.log.Logging;
 import com.craftstudio.launcher.setting.AllSettings;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.utils.DownloadUtils;
 
 import java.io.File;
 import java.io.IOException;

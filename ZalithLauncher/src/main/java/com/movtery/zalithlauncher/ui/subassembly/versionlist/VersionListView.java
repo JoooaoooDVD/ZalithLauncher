@@ -16,9 +16,9 @@ import com.craftstudio.launcher.task.TaskExecutors;
 import com.craftstudio.launcher.ui.subassembly.filelist.FileItemBean;
 import com.craftstudio.launcher.ui.subassembly.filelist.FileRecyclerViewCreator;
 
-import net.kdt.pojavlaunch.JMinecraftVersionList;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.FilteredSubList;
+import com.craftstudio.launcher.JMinecraftVersionList;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.utils.FilteredSubList;
 
 import org.greenrobot.eventbus.EventBus;
 

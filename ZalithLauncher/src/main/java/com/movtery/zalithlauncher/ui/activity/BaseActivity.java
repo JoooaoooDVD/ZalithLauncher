@@ -18,8 +18,8 @@ import com.craftstudio.launcher.renderer.Renderers;
 import com.craftstudio.launcher.setting.AllSettings;
 import com.craftstudio.launcher.utils.StoragePermissionsUtils;
 
-import net.kdt.pojavlaunch.MissingStorageActivity;
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.MissingStorageActivity;
+import com.craftstudio.launcher.Tools;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

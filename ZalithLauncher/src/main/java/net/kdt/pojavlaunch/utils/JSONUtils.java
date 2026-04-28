@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.utils;
+package com.craftstudio.launcher.utils;
 
 import java.util.Map;
 

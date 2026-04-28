@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.mirrors;
+package com.craftstudio.launcher.mirrors;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,8 +9,8 @@ import androidx.appcompat.app.AlertDialog;
 import com.craftstudio.launcher.R;
 import com.craftstudio.launcher.setting.AllSettings;
 
-import net.kdt.pojavlaunch.ShowErrorActivity;
-import net.kdt.pojavlaunch.lifecycle.ContextExecutorTask;
+import com.craftstudio.launcher.ShowErrorActivity;
+import com.craftstudio.launcher.lifecycle.ContextExecutorTask;
 
 public class MirrorTamperedException extends Exception implements ContextExecutorTask {
     // Do not change. Android really hates when this value changes for some reason.

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package com.craftstudio.launcher.customcontrols.mouse;
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,7 +13,7 @@ import android.view.WindowManager;
 import com.craftstudio.launcher.setting.AllSettings;
 import com.craftstudio.launcher.setting.AllStaticSettings;
 
-import net.kdt.pojavlaunch.GrabListener;
+import com.craftstudio.launcher.GrabListener;
 
 import org.lwjgl.glfw.CallbackBridge;
 

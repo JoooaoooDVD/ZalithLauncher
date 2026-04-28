@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.authenticator.listener;
+package com.craftstudio.launcher.authenticator.listener;
 
-import net.kdt.pojavlaunch.value.MinecraftAccount;
+import com.craftstudio.launcher.value.MinecraftAccount;
 
 /** Called when the login is done and the account received. guaranteed to be on the UI Thread */
 public interface DoneListener {

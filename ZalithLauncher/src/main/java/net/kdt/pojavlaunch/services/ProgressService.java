@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.services;
+package com.craftstudio.launcher.services;
 
 import android.annotation.SuppressLint;
 import android.app.Notification;
@@ -22,10 +22,10 @@ import com.craftstudio.launcher.feature.log.Logging;
 import com.craftstudio.launcher.task.TaskExecutors;
 import com.craftstudio.launcher.utils.ZHTools;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
-import net.kdt.pojavlaunch.progresskeeper.TaskCountListener;
-import net.kdt.pojavlaunch.utils.NotificationUtils;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.progresskeeper.ProgressKeeper;
+import com.craftstudio.launcher.progresskeeper.TaskCountListener;
+import com.craftstudio.launcher.utils.NotificationUtils;
 
 /**
  * Lazy service which allows the process not to get killed.

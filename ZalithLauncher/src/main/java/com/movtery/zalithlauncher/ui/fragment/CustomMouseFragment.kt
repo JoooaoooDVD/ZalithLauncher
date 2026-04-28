@@ -32,7 +32,7 @@ import com.craftstudio.launcher.utils.file.FileTools
 import com.craftstudio.launcher.utils.file.FileTools.Companion.mkdirs
 import com.craftstudio.launcher.utils.image.ImageUtils.Companion.isImage
 import com.craftstudio.launcher.utils.stringutils.StringUtils
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import java.io.File
 
 class CustomMouseFragment : FragmentWithAnim(R.layout.fragment_custom_mouse) {

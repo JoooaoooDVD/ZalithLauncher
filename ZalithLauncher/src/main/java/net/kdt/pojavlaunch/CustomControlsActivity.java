@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -16,8 +16,8 @@ import com.craftstudio.launcher.ui.activity.BaseActivity;
 import com.craftstudio.launcher.ui.subassembly.menu.ControlMenu;
 import com.craftstudio.launcher.ui.subassembly.view.GameMenuViewWrapper;
 
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
-import net.kdt.pojavlaunch.customcontrols.EditorExitable;
+import com.craftstudio.launcher.customcontrols.ControlLayout;
+import com.craftstudio.launcher.customcontrols.EditorExitable;
 
 import java.io.IOException;
 

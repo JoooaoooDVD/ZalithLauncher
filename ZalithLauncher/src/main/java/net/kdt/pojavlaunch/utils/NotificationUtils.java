@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.utils;
+package com.craftstudio.launcher.utils;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -9,7 +9,7 @@ import androidx.core.app.NotificationCompat;
 
 import com.craftstudio.launcher.R;
 
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.Tools;
 
 public class NotificationUtils {
 

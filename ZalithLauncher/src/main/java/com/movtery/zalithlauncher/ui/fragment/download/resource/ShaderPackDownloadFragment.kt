@@ -15,8 +15,8 @@ import com.craftstudio.launcher.task.Task
 import com.craftstudio.launcher.task.TaskExecutors
 import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.file.FileTools
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.contracts.OpenDocumentWithExtension
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.contracts.OpenDocumentWithExtension
 
 class ShaderPackDownloadFragment(parentFragment: Fragment? = null) : AbstractResourceDownloadFragment(
     parentFragment,

@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.value;
+package com.craftstudio.launcher.value;
 
 import androidx.annotation.Keep;
 
-import net.kdt.pojavlaunch.JMinecraftVersionList.Arguments.ArgValue.ArgRules;
+import com.craftstudio.launcher.JMinecraftVersionList.Arguments.ArgValue.ArgRules;
 
 @Keep
 public class DependentLibrary {

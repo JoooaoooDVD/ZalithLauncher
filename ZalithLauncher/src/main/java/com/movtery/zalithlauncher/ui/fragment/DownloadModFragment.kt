@@ -38,7 +38,7 @@ import com.craftstudio.launcher.ui.view.AnimButton
 import com.craftstudio.launcher.utils.MCVersionRegex.Companion.RELEASE_REGEX
 import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.stringutils.StringUtilsKt
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import org.greenrobot.eventbus.EventBus
 import org.jackhuang.hmcl.ui.versions.ModTranslations
 import org.jackhuang.hmcl.util.versioning.VersionNumber

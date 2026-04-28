@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.modloaders;
+package com.craftstudio.launcher.modloaders;
 
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import com.craftstudio.launcher.utils.DownloadUtils;
 
 import org.htmlcleaner.HtmlCleaner;
 import org.htmlcleaner.TagNode;

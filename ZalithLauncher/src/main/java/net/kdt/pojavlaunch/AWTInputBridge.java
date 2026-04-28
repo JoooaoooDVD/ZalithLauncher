@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
 public class AWTInputBridge {
     public static final int EVENT_TYPE_CHAR = 1000;

@@ -1,12 +1,12 @@
-package net.kdt.pojavlaunch.progresskeeper;
+package com.craftstudio.launcher.progresskeeper;
 
-import static net.kdt.pojavlaunch.Tools.BYTE_TO_MB;
+import static com.craftstudio.launcher.Tools.BYTE_TO_MB;
 
 import com.craftstudio.launcher.utils.ZHTools;
 import com.craftstudio.launcher.utils.file.FileTools;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.tasks.SpeedCalculator;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.tasks.SpeedCalculator;
 
 public class DownloaderProgressWrapper implements Tools.DownloaderFeedback {
     private final SpeedCalculator mSpeedCalculator = new SpeedCalculator(128);

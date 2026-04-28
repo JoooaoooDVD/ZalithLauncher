@@ -23,20 +23,20 @@ import com.craftstudio.launcher.ui.dialog.TipDialog
 import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.http.NetworkUtils
 import com.craftstudio.launcher.utils.stringutils.StringUtils
-import net.kdt.pojavlaunch.Architecture
-import net.kdt.pojavlaunch.JMinecraftVersionList
-import net.kdt.pojavlaunch.Logger
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.authenticator.microsoft.PresentedException
-import net.kdt.pojavlaunch.lifecycle.ContextAwareDoneListener
-import net.kdt.pojavlaunch.multirt.MultiRTUtils
-import net.kdt.pojavlaunch.plugins.FFmpegPlugin
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper
-import net.kdt.pojavlaunch.services.GameService
-import net.kdt.pojavlaunch.tasks.AsyncMinecraftDownloader
-import net.kdt.pojavlaunch.tasks.MinecraftDownloader
-import net.kdt.pojavlaunch.utils.JREUtils
-import net.kdt.pojavlaunch.value.MinecraftAccount
+import com.craftstudio.launcher.Architecture
+import com.craftstudio.launcher.JMinecraftVersionList
+import com.craftstudio.launcher.Logger
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.authenticator.microsoft.PresentedException
+import com.craftstudio.launcher.lifecycle.ContextAwareDoneListener
+import com.craftstudio.launcher.multirt.MultiRTUtils
+import com.craftstudio.launcher.plugins.FFmpegPlugin
+import com.craftstudio.launcher.progresskeeper.ProgressKeeper
+import com.craftstudio.launcher.services.GameService
+import com.craftstudio.launcher.tasks.AsyncMinecraftDownloader
+import com.craftstudio.launcher.tasks.MinecraftDownloader
+import com.craftstudio.launcher.utils.JREUtils
+import com.craftstudio.launcher.value.MinecraftAccount
 import org.greenrobot.eventbus.EventBus
 
 class LaunchGame {

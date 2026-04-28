@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.colorselector;
+package com.craftstudio.launcher.colorselector;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -15,7 +15,7 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.Tools;
 
 public class SVRectangleView extends View {
     private final Paint mColorPaint = new Paint();

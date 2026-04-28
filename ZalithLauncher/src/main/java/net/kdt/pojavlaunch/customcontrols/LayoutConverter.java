@@ -1,12 +1,12 @@
-package net.kdt.pojavlaunch.customcontrols;
+package com.craftstudio.launcher.customcontrols;
 
 import android.content.Context;
 
 import com.google.gson.JsonSyntaxException;
 import com.craftstudio.launcher.R;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.LwjglGlfwKeycode;
+import com.craftstudio.launcher.Tools;
 
 import org.apache.commons.io.IOUtils;
 import org.json.JSONArray;

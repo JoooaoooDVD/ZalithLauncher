@@ -3,9 +3,9 @@ package com.craftstudio.launcher.feature.unpack
 import android.content.Context
 import android.content.res.AssetManager
 import com.craftstudio.launcher.feature.log.Logging
-import net.kdt.pojavlaunch.Architecture
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.multirt.MultiRTUtils
+import com.craftstudio.launcher.Architecture
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.multirt.MultiRTUtils
 
 class UnpackJreTask(val context: Context, val jre: Jre) : AbstractUnpackTask() {
     private lateinit var assetManager: AssetManager

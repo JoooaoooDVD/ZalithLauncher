@@ -9,12 +9,12 @@ import com.craftstudio.launcher.feature.version.Version
 import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.path.LibPath
 import com.craftstudio.launcher.utils.path.PathManager
-import net.kdt.pojavlaunch.AWTCanvasView
-import net.kdt.pojavlaunch.JMinecraftVersionList
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.multirt.Runtime
-import net.kdt.pojavlaunch.utils.JSONUtils
-import net.kdt.pojavlaunch.value.MinecraftAccount
+import com.craftstudio.launcher.AWTCanvasView
+import com.craftstudio.launcher.JMinecraftVersionList
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.multirt.Runtime
+import com.craftstudio.launcher.utils.JSONUtils
+import com.craftstudio.launcher.value.MinecraftAccount
 import org.jackhuang.hmcl.util.versioning.VersionNumber
 import java.io.File
 

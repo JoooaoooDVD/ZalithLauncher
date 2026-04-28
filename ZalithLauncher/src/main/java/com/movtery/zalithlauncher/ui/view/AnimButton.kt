@@ -9,7 +9,7 @@ import androidx.appcompat.widget.AppCompatButton
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
 import com.craftstudio.launcher.R
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 
 open class AnimButton @JvmOverloads constructor(
     context: Context,

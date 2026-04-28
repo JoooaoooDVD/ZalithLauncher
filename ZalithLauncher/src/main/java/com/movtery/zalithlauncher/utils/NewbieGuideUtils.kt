@@ -11,7 +11,7 @@ import com.google.gson.JsonParser
 import com.craftstudio.launcher.R
 import com.craftstudio.launcher.feature.log.Logging.e
 import com.craftstudio.launcher.utils.path.PathManager
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import java.io.FileWriter
 
 class NewbieGuideUtils {

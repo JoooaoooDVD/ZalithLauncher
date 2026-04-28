@@ -5,7 +5,7 @@ import com.movtery.anim.AnimPlayer
 import com.craftstudio.launcher.event.single.SettingsChangeEvent
 import com.craftstudio.launcher.event.value.SettingsPageSwapEvent
 import com.craftstudio.launcher.ui.fragment.FragmentWithAnim
-import net.kdt.pojavlaunch.prefs.LauncherPreferences
+import com.craftstudio.launcher.prefs.LauncherPreferences
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 

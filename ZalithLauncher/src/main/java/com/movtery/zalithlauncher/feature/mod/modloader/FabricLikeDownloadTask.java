@@ -8,10 +8,10 @@ import com.craftstudio.launcher.feature.customprofilepath.ProfilePathHome;
 import com.craftstudio.launcher.feature.version.install.InstallTask;
 import com.craftstudio.launcher.utils.path.PathManager;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
-import net.kdt.pojavlaunch.utils.FileUtils;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.progresskeeper.ProgressKeeper;
+import com.craftstudio.launcher.utils.DownloadUtils;
+import com.craftstudio.launcher.utils.FileUtils;
 
 import java.io.File;
 

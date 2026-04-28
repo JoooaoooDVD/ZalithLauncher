@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package com.craftstudio.launcher.customcontrols.gamepad;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -19,9 +19,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.craftstudio.launcher.R;
 import com.craftstudio.launcher.ui.dialog.KeyboardDialog;
 
-import net.kdt.pojavlaunch.EfficientAndroidLWJGLKeycode;
-import net.kdt.pojavlaunch.GrabListener;
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.EfficientAndroidLWJGLKeycode;
+import com.craftstudio.launcher.GrabListener;
+import com.craftstudio.launcher.Tools;
 
 public class GamepadMapperAdapter extends RecyclerView.Adapter<GamepadMapperAdapter.ViewHolder> implements GamepadDataProvider {
     private static final int BUTTON_COUNT = 20;

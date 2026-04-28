@@ -5,9 +5,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.craftstudio.launcher.R
 import com.craftstudio.launcher.utils.runtime.RuntimeSelectedListener
-import net.kdt.pojavlaunch.multirt.MultiRTUtils
-import net.kdt.pojavlaunch.multirt.RTRecyclerViewAdapter
-import net.kdt.pojavlaunch.multirt.Runtime
+import com.craftstudio.launcher.multirt.MultiRTUtils
+import com.craftstudio.launcher.multirt.RTRecyclerViewAdapter
+import com.craftstudio.launcher.multirt.Runtime
 
 class SelectRuntimeDialog(
     context: Context,

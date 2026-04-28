@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.contracts;
+package com.craftstudio.launcher.contracts;
 
 import android.app.Activity;
 import android.content.Context;

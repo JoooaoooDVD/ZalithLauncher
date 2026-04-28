@@ -1,25 +1,25 @@
-package net.kdt.pojavlaunch.customcontrols.buttons;
+package com.craftstudio.launcher.customcontrols.buttons;
 
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_EAST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NONE;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_EAST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_WEST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_EAST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_WEST;
-import static net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick.DIRECTION_WEST;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_EAST;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_NONE;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_EAST;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_NORTH_WEST;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_EAST;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_SOUTH_WEST;
+import static com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick.DIRECTION_WEST;
 
 import android.annotation.SuppressLint;
 import android.view.View;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlJoystickData;
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
-import net.kdt.pojavlaunch.customcontrols.gamepad.GamepadJoystick;
-import net.kdt.pojavlaunch.customcontrols.handleview.EditControlPopup;
+import com.craftstudio.launcher.LwjglGlfwKeycode;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.customcontrols.ControlData;
+import com.craftstudio.launcher.customcontrols.ControlJoystickData;
+import com.craftstudio.launcher.customcontrols.ControlLayout;
+import com.craftstudio.launcher.customcontrols.gamepad.GamepadJoystick;
+import com.craftstudio.launcher.customcontrols.handleview.EditControlPopup;
 
 import org.lwjgl.glfw.CallbackBridge;
 

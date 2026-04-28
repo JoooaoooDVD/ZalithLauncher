@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.customcontrols.handleview;
+package com.craftstudio.launcher.customcontrols.handleview;
 
 
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
+import static com.craftstudio.launcher.Tools.currentDisplayMetrics;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
@@ -31,13 +31,13 @@ import com.craftstudio.launcher.feature.log.Logging;
 import com.craftstudio.launcher.listener.SimpleTextWatcher;
 import com.craftstudio.launcher.ui.dialog.KeyboardDialog;
 
-import net.kdt.pojavlaunch.EfficientAndroidLWJGLKeycode;
-import net.kdt.pojavlaunch.colorselector.ColorSelector;
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlDrawerData;
-import net.kdt.pojavlaunch.customcontrols.ControlJoystickData;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlDrawer;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlInterface;
+import com.craftstudio.launcher.EfficientAndroidLWJGLKeycode;
+import com.craftstudio.launcher.colorselector.ColorSelector;
+import com.craftstudio.launcher.customcontrols.ControlData;
+import com.craftstudio.launcher.customcontrols.ControlDrawerData;
+import com.craftstudio.launcher.customcontrols.ControlJoystickData;
+import com.craftstudio.launcher.customcontrols.buttons.ControlDrawer;
+import com.craftstudio.launcher.customcontrols.buttons.ControlInterface;
 
 import java.util.List;
 

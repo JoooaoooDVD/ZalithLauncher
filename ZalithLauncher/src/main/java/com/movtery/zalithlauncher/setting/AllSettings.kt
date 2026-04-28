@@ -7,8 +7,8 @@ import com.craftstudio.launcher.setting.unit.IntSettingUnit
 import com.craftstudio.launcher.setting.unit.LongSettingUnit
 import com.craftstudio.launcher.setting.unit.StringSettingUnit
 import com.craftstudio.launcher.utils.path.PathManager
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.prefs.LauncherPreferences
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.prefs.LauncherPreferences
 
 class AllSettings {
     companion object {

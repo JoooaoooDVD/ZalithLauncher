@@ -8,11 +8,11 @@ import com.craftstudio.launcher.feature.download.item.ModLoaderWrapper
 import com.craftstudio.launcher.feature.download.item.VersionItem
 import com.craftstudio.launcher.feature.log.Logging
 import com.craftstudio.launcher.feature.mod.modpack.install.ModPackUtils.Companion.verifyModrinthIndex
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.modloaders.modpacks.api.ModDownloader
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModrinthIndex
-import net.kdt.pojavlaunch.progresskeeper.DownloaderProgressWrapper
-import net.kdt.pojavlaunch.utils.ZipUtils
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.modloaders.modpacks.api.ModDownloader
+import com.craftstudio.launcher.modloaders.modpacks.models.ModrinthIndex
+import com.craftstudio.launcher.progresskeeper.DownloaderProgressWrapper
+import com.craftstudio.launcher.utils.ZipUtils
 import java.io.File
 import java.util.zip.ZipFile
 

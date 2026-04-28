@@ -7,7 +7,7 @@ import androidx.fragment.app.FragmentActivity
 /**
  * 将一个新的Fragment添加到事务管理中，由LauncherActivity接受并处理
  * 保证Fragment添加的时候，父Fragment一定是当前的Fragment
- * @see net.kdt.pojavlaunch.LauncherActivity
+ * @see com.craftstudio.launcher.LauncherActivity
  * @see com.craftstudio.launcher.utils.ZHTools.addFragment
  */
 class AddFragmentEvent(

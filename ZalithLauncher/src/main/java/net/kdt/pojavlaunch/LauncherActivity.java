@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
 import static com.craftstudio.launcher.launch.LaunchGame.preLaunch;
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
+import static com.craftstudio.launcher.Tools.currentDisplayMetrics;
 
 import android.Manifest;
 import android.app.NotificationManager;
@@ -87,16 +87,16 @@ import com.craftstudio.launcher.utils.image.ImageUtils;
 import com.craftstudio.launcher.utils.stringutils.ShiftDirection;
 import com.craftstudio.launcher.utils.stringutils.StringUtils;
 
-import net.kdt.pojavlaunch.authenticator.microsoft.MicrosoftBackgroundLogin;
-import net.kdt.pojavlaunch.contracts.OpenDocumentWithExtension;
-import net.kdt.pojavlaunch.fragments.MainMenuFragment;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
-import net.kdt.pojavlaunch.progresskeeper.TaskCountListener;
-import net.kdt.pojavlaunch.services.ProgressServiceKeeper;
-import net.kdt.pojavlaunch.tasks.AsyncVersionList;
-import net.kdt.pojavlaunch.utils.NotificationUtils;
-import net.kdt.pojavlaunch.value.MinecraftAccount;
+import com.craftstudio.launcher.authenticator.microsoft.MicrosoftBackgroundLogin;
+import com.craftstudio.launcher.contracts.OpenDocumentWithExtension;
+import com.craftstudio.launcher.fragments.MainMenuFragment;
+import com.craftstudio.launcher.prefs.LauncherPreferences;
+import com.craftstudio.launcher.progresskeeper.ProgressKeeper;
+import com.craftstudio.launcher.progresskeeper.TaskCountListener;
+import com.craftstudio.launcher.services.ProgressServiceKeeper;
+import com.craftstudio.launcher.tasks.AsyncVersionList;
+import com.craftstudio.launcher.utils.NotificationUtils;
+import com.craftstudio.launcher.value.MinecraftAccount;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

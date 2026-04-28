@@ -30,8 +30,8 @@ import com.craftstudio.launcher.utils.anim.AnimUtils.Companion.setVisibilityAnim
 import com.craftstudio.launcher.utils.file.FileCopyHandler
 import com.craftstudio.launcher.utils.file.FileTools
 import com.craftstudio.launcher.utils.file.PasteFile
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.contracts.OpenDocumentWithExtension
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.contracts.OpenDocumentWithExtension
 import java.io.File
 import java.util.function.Consumer
 

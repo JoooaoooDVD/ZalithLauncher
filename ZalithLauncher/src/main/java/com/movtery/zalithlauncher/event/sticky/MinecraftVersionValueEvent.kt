@@ -1,5 +1,5 @@
 package com.craftstudio.launcher.event.sticky
 
-import net.kdt.pojavlaunch.JMinecraftVersionList
+import com.craftstudio.launcher.JMinecraftVersionList
 
 data class MinecraftVersionValueEvent(val list: JMinecraftVersionList?)

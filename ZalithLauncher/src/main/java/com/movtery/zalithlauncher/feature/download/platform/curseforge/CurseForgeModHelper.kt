@@ -23,9 +23,9 @@ import com.craftstudio.launcher.feature.download.utils.VersionTypeUtils
 import com.craftstudio.launcher.feature.log.Logging
 import com.craftstudio.launcher.utils.MCVersionRegex.Companion.RELEASE_REGEX
 import com.craftstudio.launcher.utils.ZHTools
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.modloaders.modpacks.api.ApiHandler
-import net.kdt.pojavlaunch.utils.GsonJsonUtils
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.modloaders.modpacks.api.ApiHandler
+import com.craftstudio.launcher.utils.GsonJsonUtils
 import java.util.TreeSet
 
 class CurseForgeModHelper {

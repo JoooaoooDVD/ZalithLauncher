@@ -26,7 +26,7 @@ import com.craftstudio.launcher.ui.dialog.TipDialog
 import com.craftstudio.launcher.ui.fragment.FilesFragment
 import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.file.FileDeletionHandler
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 
 class VersionAdapter(
     private val parentFragment: Fragment,

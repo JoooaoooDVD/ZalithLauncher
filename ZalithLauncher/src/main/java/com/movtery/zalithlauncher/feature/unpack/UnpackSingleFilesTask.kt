@@ -4,7 +4,7 @@ import android.content.Context
 import com.craftstudio.launcher.feature.log.Logging.e
 import com.craftstudio.launcher.utils.CopyDefaultFromAssets.Companion.copyFromAssets
 import com.craftstudio.launcher.utils.path.PathManager
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 
 class UnpackSingleFilesTask(val context: Context) : AbstractUnpackTask() {
     override fun isNeedUnpack(): Boolean = true

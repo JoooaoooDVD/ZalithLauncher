@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.customcontrols.handleview;
+package com.craftstudio.launcher.customcontrols.handleview;
 
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
+import static com.craftstudio.launcher.Tools.currentDisplayMetrics;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -14,7 +14,7 @@ import androidx.core.math.MathUtils;
 
 import com.craftstudio.launcher.R;
 
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlInterface;
+import com.craftstudio.launcher.customcontrols.buttons.ControlInterface;
 
 /**
  * Layout floating around a Control Button, displaying contextual actions

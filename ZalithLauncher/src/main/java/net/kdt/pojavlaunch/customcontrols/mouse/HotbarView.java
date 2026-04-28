@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package com.craftstudio.launcher.customcontrols.mouse;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -23,10 +23,10 @@ import com.craftstudio.launcher.setting.AllStaticSettings;
 import com.craftstudio.launcher.ui.subassembly.hotbar.HotbarType;
 import com.craftstudio.launcher.ui.subassembly.hotbar.HotbarUtils;
 
-import net.kdt.pojavlaunch.GrabListener;
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.MathUtils;
+import com.craftstudio.launcher.GrabListener;
+import com.craftstudio.launcher.LwjglGlfwKeycode;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.utils.MathUtils;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;

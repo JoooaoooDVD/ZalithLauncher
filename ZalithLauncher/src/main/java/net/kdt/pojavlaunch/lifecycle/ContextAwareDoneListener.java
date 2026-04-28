@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.lifecycle;
+package com.craftstudio.launcher.lifecycle;
 
-import static net.kdt.pojavlaunch.MainActivity.INTENT_VERSION;
+import static com.craftstudio.launcher.MainActivity.INTENT_VERSION;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,11 +18,11 @@ import com.craftstudio.launcher.feature.mod.parser.ModParserListener;
 import com.craftstudio.launcher.feature.version.Version;
 import com.craftstudio.launcher.setting.AllSettings;
 
-import net.kdt.pojavlaunch.MainActivity;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
-import net.kdt.pojavlaunch.tasks.AsyncMinecraftDownloader;
-import net.kdt.pojavlaunch.utils.NotificationUtils;
+import com.craftstudio.launcher.MainActivity;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.progresskeeper.ProgressKeeper;
+import com.craftstudio.launcher.tasks.AsyncMinecraftDownloader;
+import com.craftstudio.launcher.utils.NotificationUtils;
 
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.multirt;
+package com.craftstudio.launcher.multirt;
 
 import static org.apache.commons.io.FileUtils.listFiles;
 
@@ -11,8 +11,8 @@ import com.craftstudio.launcher.feature.unpack.Jre;
 import com.craftstudio.launcher.utils.path.PathManager;
 import com.craftstudio.launcher.utils.stringutils.SortStrings;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.MathUtils;
+import com.craftstudio.launcher.Tools;
+import com.craftstudio.launcher.utils.MathUtils;
 
 import org.apache.commons.compress.archivers.tar.TarArchiveEntry;
 import org.apache.commons.compress.archivers.tar.TarArchiveInputStream;
@@ -239,7 +239,7 @@ public class MultiRTUtils {
     }
 
     private static void uncompressTarXZ(final InputStream tarFileInputStream, final File dest) throws IOException {
-        net.kdt.pojavlaunch.utils.FileUtils.ensureDirectory(dest);
+        com.craftstudio.launcher.utils.FileUtils.ensureDirectory(dest);
 
         byte[] buffer = new byte[8192];
         TarArchiveInputStream tarIn = new TarArchiveInputStream(
@@ -254,7 +254,7 @@ public class MultiRTUtils {
             ProgressLayout.setProgress(ProgressLayout.UNPACK_RUNTIME, 100, R.string.generic_unpacking, tarEntryName);
 
             File destPath = new File(dest, tarEntry.getName());
-            net.kdt.pojavlaunch.utils.FileUtils.ensureParentDirectory(destPath);
+            com.craftstudio.launcher.utils.FileUtils.ensureParentDirectory(destPath);
             if (tarEntry.isSymbolicLink()) {
                 try {
                     // android.system.Os
@@ -265,7 +265,7 @@ public class MultiRTUtils {
                 }
 
             } else if (tarEntry.isDirectory()) {
-                net.kdt.pojavlaunch.utils.FileUtils.ensureDirectory(destPath);
+                com.craftstudio.launcher.utils.FileUtils.ensureDirectory(destPath);
             } else if (!destPath.exists() || destPath.length() != tarEntry.getSize()) {
                 FileOutputStream os = new FileOutputStream(destPath);
                 IOUtils.copyLarge(tarIn, os, buffer);

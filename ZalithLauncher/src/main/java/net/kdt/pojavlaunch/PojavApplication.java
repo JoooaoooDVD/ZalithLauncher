@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
 import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
 import static com.craftstudio.launcher.utils.ZHTools.getVersionCode;
@@ -25,7 +25,7 @@ import com.craftstudio.launcher.ui.activity.ErrorActivity;
 import com.craftstudio.launcher.utils.path.PathManager;
 import com.craftstudio.launcher.utils.ZHTools;
 
-import net.kdt.pojavlaunch.utils.FileUtils;
+import com.craftstudio.launcher.utils.FileUtils;
 
 import java.io.File;
 import java.io.PrintStream;

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package com.craftstudio.launcher.customcontrols.mouse;
 
 import static android.view.MotionEvent.ACTION_DOWN;
 import static android.view.MotionEvent.ACTION_POINTER_DOWN;
@@ -7,7 +7,7 @@ import static android.view.MotionEvent.ACTION_UP;
 
 import android.view.MotionEvent;
 
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.Tools;
 
 /**
  * Class aiming at better detecting X-tap events regardless of the POINTERS

@@ -9,11 +9,11 @@ import com.craftstudio.launcher.R
 
 import com.craftstudio.launcher.feature.log.Logging
 import com.craftstudio.launcher.task.Task
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.authenticator.listener.DoneListener
-import net.kdt.pojavlaunch.authenticator.listener.ErrorListener
-import net.kdt.pojavlaunch.authenticator.microsoft.MicrosoftBackgroundLogin
-import net.kdt.pojavlaunch.value.MinecraftAccount
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.authenticator.listener.DoneListener
+import com.craftstudio.launcher.authenticator.listener.ErrorListener
+import com.craftstudio.launcher.authenticator.microsoft.MicrosoftBackgroundLogin
+import com.craftstudio.launcher.value.MinecraftAccount
 import java.net.HttpURLConnection
 import java.net.URL
 import java.util.Locale

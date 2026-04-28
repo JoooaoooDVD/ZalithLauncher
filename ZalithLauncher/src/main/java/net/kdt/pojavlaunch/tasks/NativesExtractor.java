@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.tasks;
+package com.craftstudio.launcher.tasks;
 
 import com.craftstudio.launcher.utils.path.PathManager;
 
-import net.kdt.pojavlaunch.Architecture;
-import net.kdt.pojavlaunch.utils.FileUtils;
+import com.craftstudio.launcher.Architecture;
+import com.craftstudio.launcher.utils.FileUtils;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -9,7 +9,7 @@ import com.craftstudio.launcher.feature.log.Logging
 import com.craftstudio.launcher.feature.version.VersionsManager.getZalithVersionPath
 import com.craftstudio.launcher.setting.AllSettings
 import com.craftstudio.launcher.utils.stringutils.StringUtils.getStringNotNull
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import java.io.File
 import java.io.FileWriter
 

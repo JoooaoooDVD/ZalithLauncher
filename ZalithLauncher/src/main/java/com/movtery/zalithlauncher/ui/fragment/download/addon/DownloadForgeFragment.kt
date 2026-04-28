@@ -9,11 +9,11 @@ import com.craftstudio.launcher.feature.mod.modloader.ModVersionListAdapter
 import com.craftstudio.launcher.task.TaskExecutors
 import com.craftstudio.launcher.ui.subassembly.modlist.ModListFragment
 import com.craftstudio.launcher.utils.ZHTools
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 import com.craftstudio.launcher.feature.mod.modloader.ForgeDownloadTask
 import com.craftstudio.launcher.feature.version.install.Addon
 import com.craftstudio.launcher.ui.fragment.InstallGameFragment.Companion.BUNDLE_MC_VERSION
-import net.kdt.pojavlaunch.modloaders.ForgeUtils
+import com.craftstudio.launcher.modloaders.ForgeUtils
 import org.greenrobot.eventbus.EventBus
 import java.util.concurrent.Future
 import java.util.function.Consumer

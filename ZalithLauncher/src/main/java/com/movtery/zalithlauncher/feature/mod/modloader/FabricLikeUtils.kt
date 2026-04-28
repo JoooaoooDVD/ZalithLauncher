@@ -5,9 +5,9 @@ import com.google.gson.JsonArray
 import com.google.gson.JsonSyntaxException
 import com.craftstudio.launcher.feature.log.Logging.e
 import com.craftstudio.launcher.feature.version.install.Addon
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.modloaders.FabricVersion
-import net.kdt.pojavlaunch.utils.DownloadUtils
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.modloaders.FabricVersion
+import com.craftstudio.launcher.utils.DownloadUtils
 import org.json.JSONArray
 import org.json.JSONException
 import java.io.IOException

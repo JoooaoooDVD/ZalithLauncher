@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
 import static com.craftstudio.launcher.context.ContextExecutor.getString;
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;

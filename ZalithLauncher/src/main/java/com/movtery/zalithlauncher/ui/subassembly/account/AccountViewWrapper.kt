@@ -12,7 +12,7 @@ import com.craftstudio.launcher.ui.fragment.AccountFragment
 import com.craftstudio.launcher.ui.fragment.FragmentWithAnim
 import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.skin.SkinLoader
-import net.kdt.pojavlaunch.Tools
+import com.craftstudio.launcher.Tools
 
 class AccountViewWrapper(private val parentFragment: FragmentWithAnim? = null, val binding: ViewAccountBinding) {
     private val mContext: Context = binding.root.context

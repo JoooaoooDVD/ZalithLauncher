@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
 import androidx.annotation.Keep;
 
-import net.kdt.pojavlaunch.value.DependentLibrary;
-import net.kdt.pojavlaunch.value.MinecraftClientInfo;
+import com.craftstudio.launcher.value.DependentLibrary;
+import com.craftstudio.launcher.value.MinecraftClientInfo;
 
 import java.util.Map;
 

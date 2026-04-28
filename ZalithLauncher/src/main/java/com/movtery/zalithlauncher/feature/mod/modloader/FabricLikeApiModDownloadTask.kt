@@ -5,9 +5,9 @@ import com.craftstudio.launcher.R
 import com.craftstudio.launcher.feature.download.item.VersionItem
 import com.craftstudio.launcher.feature.version.install.InstallTask
 import com.craftstudio.launcher.utils.path.PathManager
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper
-import net.kdt.pojavlaunch.utils.DownloadUtils
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.progresskeeper.ProgressKeeper
+import com.craftstudio.launcher.utils.DownloadUtils
 import java.io.File
 
 class FabricLikeApiModDownloadTask(private val fileName: String, private val versionItem: VersionItem) : InstallTask, Tools.DownloaderFeedback {

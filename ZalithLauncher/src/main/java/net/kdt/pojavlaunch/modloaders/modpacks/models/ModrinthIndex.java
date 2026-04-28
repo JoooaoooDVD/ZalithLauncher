@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.models;
+package com.craftstudio.launcher.modloaders.modpacks.models;
 
 
 import androidx.annotation.NonNull;

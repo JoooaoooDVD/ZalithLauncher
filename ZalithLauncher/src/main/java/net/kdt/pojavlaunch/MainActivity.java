@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch;
+package com.craftstudio.launcher;
 
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
+import static com.craftstudio.launcher.Tools.currentDisplayMetrics;
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 import static org.lwjgl.glfw.CallbackBridge.windowHeight;
 import static org.lwjgl.glfw.CallbackBridge.windowWidth;
@@ -77,15 +77,15 @@ import com.craftstudio.launcher.utils.file.FileTools;
 import com.craftstudio.launcher.utils.stringutils.StringUtils;
 import com.skydoves.powerspinner.OnSpinnerItemSelectedListener;
 
-import net.kdt.pojavlaunch.customcontrols.ControlButtonMenuListener;
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
-import net.kdt.pojavlaunch.customcontrols.CustomControls;
-import net.kdt.pojavlaunch.customcontrols.EditorExitable;
-import net.kdt.pojavlaunch.customcontrols.keyboard.LwjglCharSender;
-import net.kdt.pojavlaunch.customcontrols.keyboard.TouchCharInput;
-import net.kdt.pojavlaunch.customcontrols.mouse.GyroControl;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.services.GameService;
+import com.craftstudio.launcher.customcontrols.ControlButtonMenuListener;
+import com.craftstudio.launcher.customcontrols.ControlLayout;
+import com.craftstudio.launcher.customcontrols.CustomControls;
+import com.craftstudio.launcher.customcontrols.EditorExitable;
+import com.craftstudio.launcher.customcontrols.keyboard.LwjglCharSender;
+import com.craftstudio.launcher.customcontrols.keyboard.TouchCharInput;
+import com.craftstudio.launcher.customcontrols.mouse.GyroControl;
+import com.craftstudio.launcher.prefs.LauncherPreferences;
+import com.craftstudio.launcher.services.GameService;
 
 import org.greenrobot.eventbus.EventBus;
 import org.lwjgl.glfw.CallbackBridge;

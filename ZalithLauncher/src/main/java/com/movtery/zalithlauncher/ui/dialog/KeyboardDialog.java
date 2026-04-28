@@ -14,7 +14,7 @@ import com.craftstudio.launcher.R;
 import com.craftstudio.launcher.databinding.DialogKeyboardBinding;
 import com.craftstudio.launcher.ui.view.AnimButton;
 
-import net.kdt.pojavlaunch.Tools;
+import com.craftstudio.launcher.Tools;
 
 import java.util.ArrayList;
 import java.util.List;

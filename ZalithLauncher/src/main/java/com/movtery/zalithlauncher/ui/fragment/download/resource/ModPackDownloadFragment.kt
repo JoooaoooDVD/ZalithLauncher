@@ -18,8 +18,8 @@ import com.craftstudio.launcher.utils.path.PathManager
 import com.craftstudio.launcher.utils.ZHTools
 import com.craftstudio.launcher.utils.anim.ViewAnimUtils.Companion.setViewAnim
 import com.craftstudio.launcher.utils.file.FileTools
-import net.kdt.pojavlaunch.Tools
-import net.kdt.pojavlaunch.contracts.OpenDocumentWithExtension
+import com.craftstudio.launcher.Tools
+import com.craftstudio.launcher.contracts.OpenDocumentWithExtension
 import org.greenrobot.eventbus.EventBus
 
 class ModPackDownloadFragment(parentFragment: Fragment? = null) : AbstractResourceDownloadFragment(

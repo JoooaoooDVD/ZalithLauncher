@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.lifecycle;
+package com.craftstudio.launcher.lifecycle;
 
 import android.app.Activity;
 import android.content.Context;
