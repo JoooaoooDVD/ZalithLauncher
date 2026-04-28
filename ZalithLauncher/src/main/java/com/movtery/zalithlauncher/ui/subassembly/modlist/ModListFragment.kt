@@ -26,7 +26,6 @@ import com.movtery.zalithlauncher.utils.anim.AnimUtils.Companion.playVisibilityA
 import com.movtery.zalithlauncher.utils.stringutils.StringUtils
 import java.util.concurrent.Future
 
-
 abstract class ModListFragment : FragmentWithAnim(R.layout.fragment_mod_download) {
     private lateinit var binding: FragmentModDownloadBinding
     protected lateinit var recyclerView: RecyclerView
@@ -43,33 +42,32 @@ abstract class ModListFragment : FragmentWithAnim(R.layout.fragment_mod_download
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentModDownloadBinding.inflate(layoutInflater)
+        binding = FragmentModDownloadBinding.inflate(inflater, container, false)
         recyclerView = binding.recyclerView
         releaseCheckBox = binding.releaseVersion
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        
         binding.apply {
             recyclerView.addOnScrollListener(object : RecyclerView.OnScrollListener() {
                 override fun onScrolled(recyclerView1: RecyclerView, dx: Int, dy: Int) {
-                    super.onScrolled(recyclerView1, dx, dy)
-                    val layoutManager = recyclerView1.layoutManager as LinearLayoutManager?
+                    val layoutManager = recyclerView1.layoutManager as? LinearLayoutManager
                     if (layoutManager != null && recyclerView1.adapter != null) {
-                        val lastPosition = layoutManager.findFirstVisibleItemPosition()
-                        val b = lastPosition >= 12
-
+                        val b = layoutManager.findFirstVisibleItemPosition() >= 12
                         AnimUtils.setVisibilityAnim(binding.backToTop, b)
                     }
                 }
             })
+            
             recyclerView.layoutAnimation = LayoutAnimationController(AnimationUtils.loadAnimation(requireContext(), R.anim.fade_downwards))
             recyclerView.layoutManager = LinearLayoutManager(requireContext())
 
             refreshButton.setOnClickListener { refreshTask() }
             releaseVersion.setOnClickListener { initRefresh() }
             returnButton.setOnClickListener { ZHTools.onBackPressed(requireActivity()) }
-
             backToTop.setOnClickListener { recyclerView.smoothScrollToPosition(0) }
         }
 
@@ -89,7 +87,7 @@ abstract class ModListFragment : FragmentWithAnim(R.layout.fragment_mod_download
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
-        this.fragmentActivity = requireActivity()
+        this.fragmentActivity = context as? FragmentActivity
     }
 
     override fun onPause() {
@@ -114,7 +112,6 @@ abstract class ModListFragment : FragmentWithAnim(R.layout.fragment_mod_download
 
     private fun hideParentElement(hide: Boolean) {
         cancelTask()
-
         binding.apply {
             refreshButton.isEnabled = !hide
             releaseVersion.isEnabled = !hide
@@ -141,13 +138,12 @@ abstract class ModListFragment : FragmentWithAnim(R.layout.fragment_mod_download
                     if (releaseCheckBoxVisible) releaseVersion.visibility = View.GONE
                 }
             }
-
             parentElementAnimPlayer.start()
         }
     }
 
     private fun cancelTask() {
-        currentTask?.apply { if (!isDone) cancel(true) }
+        currentTask?.let { if (!it.isDone) it.cancel(true) }
     }
 
     private fun refreshTask() {
@@ -166,13 +162,8 @@ abstract class ModListFragment : FragmentWithAnim(R.layout.fragment_mod_download
         }
     }
 
-    /**
-     * 如果一个Map中没有包含指定Key的List集合，则创建一个新的ArrayList，并将元素添加进去
-     * 如果这个Map中存在这个集合，则直接将元素添加进去
-     */
     protected fun <K, E> addIfAbsent(map: MutableMap<K, MutableList<E>>, key: K, element: E) {
-        map.computeIfAbsent(key) { ArrayList() }
-            .add(element)
+        map.computeIfAbsent(key) { ArrayList() }.add(element)
     }
 
     protected fun setTitleText(nameText: String?) {
@@ -197,8 +188,10 @@ abstract class ModListFragment : FragmentWithAnim(R.layout.fragment_mod_download
         binding.releaseVersion.visibility = View.GONE
     }
 
+    // ✅ FIXED: Using binding.failedToLoad with null safety
     protected fun setFailedToLoad(reasons: String?) {
-        val text = fragmentActivity!!.getString(R.string.mod_failed_to_load_list)
+        val context = fragmentActivity ?: return
+        val text = context.getString(R.string.mod_failed_to_load_list)
         binding.failedToLoad.text = if (reasons == null) text else StringUtils.insertNewline(text, reasons)
         playVisibilityAnim(binding.failedToLoad, true)
     }
@@ -237,9 +230,8 @@ abstract class ModListFragment : FragmentWithAnim(R.layout.fragment_mod_download
     }
 
     fun switchToChild(adapter: RecyclerView.Adapter<*>?, title: String?) {
-        if (currentTask!!.isDone && adapter != null) {
+        if (currentTask?.isDone == true && adapter != null) {
             binding.apply {
-                //保存父级，设置选中的标题文本，切换至子级
                 parentAdapter = recyclerView.adapter
                 selectTitle.text = title
                 hideParentElement(true)
@@ -260,7 +252,9 @@ abstract class ModListFragment : FragmentWithAnim(R.layout.fragment_mod_download
     }
 
     override fun slideOut(animPlayer: AnimPlayer) {
-        animPlayer.apply(AnimPlayer.Entry(binding.modsLayout, Animations.FadeOutUp))
-            .apply(AnimPlayer.Entry(binding.operateLayout, Animations.FadeOutRight))
+        binding.apply {
+            animPlayer.apply(AnimPlayer.Entry(modsLayout, Animations.FadeOutUp))
+                .apply(AnimPlayer.Entry(operateLayout, Animations.FadeOutRight))
+        }
     }
 }
