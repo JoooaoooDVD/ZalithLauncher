@@ -1,7 +1,7 @@
 package com.movtery.zalithlauncher.feature.log
 
 import android.util.Log
-import com.movtery.zalithlauncher.BuildConfig
+import com.craftstudio.launcher.BuildConfig
 import com.movtery.zalithlauncher.InfoDistributor
 import com.movtery.zalithlauncher.utils.path.PathManager.Companion.DIR_LAUNCHER_LOG
 import kotlinx.coroutines.CoroutineScope
