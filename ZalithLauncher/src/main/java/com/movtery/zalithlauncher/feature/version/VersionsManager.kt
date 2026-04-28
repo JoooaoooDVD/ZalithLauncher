@@ -175,7 +175,7 @@ object VersionsManager {
     /**
      * @return 获取 Zalith 启动器版本标识文件夹
      */
-    fun getZalithVersionPath(version: Version) = File(version.getVersionPath(), InfoDistributor.LAUNCHER_NAME)
+    fun getZalithVersionPath(version: Version) = File(version.getVersionPath(), "CraftStudio")
 
     /**
      * @return 通过目录获取 Zalith 启动器版本标识文件夹

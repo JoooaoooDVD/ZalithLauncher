@@ -4,7 +4,7 @@
     <!-- ══════════════════════════════════════════ -->
     <!--          🚀 APP INFO                       -->
     <!-- ══════════════════════════════════════════ -->
-    <string name="app_name">Craft Studio Launcher</string>
+    <string name="app_name">CS Launcher</string>
     <string name="app_name_short">CS Launcher</string>
 
     <!-- ══════════════════════════════════════════ -->
@@ -473,7 +473,7 @@
     <string name="about_sponsors_desc">All sponsors who support CS Launcher development — thank you!</string>
     <string name="about_sponsors_amount">Time and Total Amount</string>
     <string name="about_button_support_development">Support CS Launcher Development</string>
-    <string name="about_MovTery_desc">MovTery — Original Zalith Launcher Author</string>
+    <string name="about_MovTery_desc">MovTery — Original CS Launcher Author</string>
     <string name="about_PojavLauncher_desc">PojavLauncher Team — Core Engine</string>
     <string name="about_mcmod_desc">MC Wiki — Mod and modpack translations</string>
     <string name="about_VeraFirefly_desc">VeraFirefly — Rendering technical support</string>

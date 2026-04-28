@@ -96,7 +96,7 @@ object RendererPluginManager {
             val metaData = info.metaData ?: return
             if (
                 metaData.getBoolean("fclPlugin", false) ||
-                metaData.getBoolean("zalithRendererPlugin", false)
+                metaData.getBoolean("craftStudioRendererPlugin", false)
             ) {
                 val rendererString = metaData.getString("renderer") ?: return
                 val des = metaData.getString("des") ?: return
