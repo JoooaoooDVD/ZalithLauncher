@@ -1,6 +1,5 @@
 package com.craftstudio.launcher.feature.download.utils
 
-import com.craftstudio.launcher.InfoDistributor
 import com.craftstudio.launcher.feature.download.Filters
 import com.craftstudio.launcher.feature.download.enums.Classify
 import com.craftstudio.launcher.utils.stringutils.StringUtils.containsChinese
@@ -13,13 +12,9 @@ class PlatformUtils {
     companion object {
         fun createCurseForgeApi() = ApiHandler(
             "https://api.curseforge.com/v1",
-            InfoDistributor.CURSEFORGE_API_KEY
+            "" // Humne yahan CURSEFORGE_API_KEY ko khali dabba "" kar diya hai
         )
 
-        /**
-         * 修改自源代码：[HMCL Github](https://github.com/HMCL-dev/HMCL/blob/main/HMCL/src/main/java/org/jackhuang/hmcl/game/LocalizedRemoteModRepository.java#L44-#L104)
-         * 原项目版权归原作者所有，遵循GPL v3协议
-         */
         fun searchModLikeWithChinese(
             filters: Filters,
             isMod: Boolean
@@ -39,7 +34,6 @@ class PlatformUtils {
                 if (count >= 3) break
             }
 
-            // TODO 由于搜索逻辑与HMCL大不相同，这里就不做进一步的筛查逻辑了，直接返回本地匹配结果，作为平台的搜索关键词，不过无法保证结果的准确度
             return englishSearchFiltersSet.joinToString(" ")
         }
 
