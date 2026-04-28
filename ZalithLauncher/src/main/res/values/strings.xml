@@ -255,8 +255,8 @@
     <string name="microsoft_login_retry_later">Too many attempts. Please try again later.</string>
     <string name="newdl_starting">Reading metadata…</string>
     <string name="newdl_downloading_metadata">Downloading metadata (%s)</string>
-    <string name="newdl_downloading_game_files">Downloading files… (%d/%d, %.2f MB)</string>
-    <string name="newdl_downloading_game_files_size">Downloading… (%.2f/%.2f MB, %.2f MB/s)</string>
+    <string name="newdl_downloading_game_files" formatted="false">Downloading files… (%d/%d, %.2f MB)</string>
+    <string name="newdl_downloading_game_files_size" formatted="false">Downloading… (%.2f/%.2f MB, %.2f MB/s)</string>
     <string name="newdl_extracting_native_libraries">Extracting native libraries (%d/%d)</string>
     <string name="mod_download_progress">Downloading installer for %s</string>
     <string name="mod_forge_searching">Searching for Forge version</string>
@@ -269,7 +269,7 @@
     <!--          🔍 MOD CHECKER                    -->
     <!-- ══════════════════════════════════════════ -->
     <string name="mod_check_dialog_title">CS Mod Compatibility Report</string>
-    <string name="mod_check_progress_message">Checking mods (%d / %d)</string>
+    <string name="mod_check_progress_message" formatted="false">Checking mods (%d / %d)</string>
     <string name="mod_check_touch_controller">Touch Controller (%s) detected, enabling CS proxy.</string>
     <string name="mod_check_sodium_or_embeddium">Sodium/Embeddium (%s) detected. Applying Android crash fix.</string>
     <string name="mod_check_physics">Physics mod (%s) unpatched — fix required for arm64.</string>
@@ -390,7 +390,7 @@
     <string name="custom_mouse_added">Successfully set virtual mouse:</string>
     <string name="custom_mouse_default">Default Virtual Mouse</string>
     <string name="custom_mouse_title">Custom Virtual Mouse</string>
-    <string name="custom_mouse_dialog">Add mouse images in (CS Settings - %s - %s)</string>
+    <string name="custom_mouse_dialog" formatted="false">Add mouse images in (CS Settings - %s - %s)</string>
     <string name="custom_mouse_desc">Open virtual mouse management to add custom mouse icons</string>
     <string name="custom_mouse_message_default">Default virtual mouse — share, rename, and delete not supported</string>
 
@@ -432,10 +432,10 @@
     <string name="file_multi_select_mode">Enable multi-select mode</string>
     <string name="file_multi_select_mode_title">Multi-select items</string>
     <string name="file_multi_select_mode_message">Currently selected %d items</string>
-    <string name="file_operation_file">Operating file… (%s / %s, %d)</string>
+    <string name="file_operation_file" formatted="false">Operating file… (%s / %s, %d)</string>
     <string name="file_jump_to_path">Jump to path</string>
     <string name="file_nothing">No files found!</string>
-    <string name="file_invalid_length">Name too long! (Current: %d, Max: %d)</string>
+    <string name="file_invalid_length" formatted="false">Name too long! (Current: %d, Max: %d)</string>
 
     <!-- ══════════════════════════════════════════ -->
     <!--          🔎 SEARCH VIEW                    -->
@@ -696,7 +696,7 @@
     <string name="download_search_no_result">No related resources found!</string>
     <string name="download_search_platform_not_supported">Platform does not support this resource type or category filter!</string>
     <string name="download_install_custom_name">Custom File Name</string>
-    <string name="download_install_download_file">Downloading resource (%.2fMB / %.2fMB, speed: %s/s)</string>
+    <string name="download_install_download_file" formatted="false">Downloading resource (%.2fMB / %.2fMB, speed: %s/s)</string>
     <string name="download_install_dependencies">%s has the following dependencies or incompatible mods</string>
     <string name="download_install_dependencies_tip">Download required dependencies. Missing or incompatible mods may cause game to fail!</string>
     <string name="download_install_dependencies_required">Required</string>
@@ -715,10 +715,10 @@
     <string name="select_modpack_local_tip">Please select a modpack file supported by CS Launcher!</string>
     <string name="select_modpack_local_not_supported">This modpack is not supported! CS Launcher supports Modrinth, CurseForge, and MCBBS formats.</string>
     <string name="select_modpack_local_installing_files">Installing game files… (%d / %d)</string>
-    <string name="modpack_download_downloading_metadata">Downloading modpack metadata (%.2fMB / %.2fMB, speed: %s/s)</string>
-    <string name="modpack_download_downloading_mods">Downloading mods (%.2fMB / %.2fMB, speed: %s/s)</string>
-    <string name="modpack_download_downloading_mods_fc">Downloading mods (Downloaded: %d (%s), Total: %d, Speed: %s/s)</string>
-    <string name="modpack_download_applying_overrides">Applying overrides (%d/%d)</string>
+    <string name="modpack_download_downloading_metadata" formatted="false">Downloading modpack metadata (%.2fMB / %.2fMB, speed: %s/s)</string>
+    <string name="modpack_download_downloading_mods" formatted="false">Downloading mods (%.2fMB / %.2fMB, speed: %s/s)</string>
+    <string name="modpack_download_downloading_mods_fc" formatted="false">Downloading mods (Downloaded: %d (%s), Total: %d, Speed: %s/s)</string>
+    <string name="modpack_download_applying_overrides" formatted="false">Applying overrides (%d/%d)</string>
     <string name="modpack_install_download_failed">Failed to download modpack file</string>
     <string name="modpack_prepare_mod_loader_installation">All mods installed. Preparing mod loader installation.</string>
 
@@ -776,8 +776,8 @@
     <!--          📊 MEMORY / SYSTEM                -->
     <!-- ══════════════════════════════════════════ -->
     <string name="autoram_info_msg">Memory set to %d MB</string>
-    <string name="memory_warning_msg">Available memory (%d MB) is lower than allocated (%d MB). Game may crash!</string>
-    <string name="address_memory_warning_msg">Free memory (%d MB) is less than allocated (%d MB). This will cause a crash!</string>
+    <string name="memory_warning_msg" formatted="false">Available memory (%d MB) is lower than allocated (%d MB). Game may crash!</string>
+    <string name="address_memory_warning_msg" formatted="false">Free memory (%d MB) is less than allocated (%d MB). This will cause a crash!</string>
     <string name="force_exit_confirm">Are you sure you want to force close CS Launcher?</string>
     <string name="dialog_select_jar">Select .jar File</string>
     <string name="percent_format" translatable="false">%d%%</string>
