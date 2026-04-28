@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingHorizontal="@dimen/_12sdp"
+    android:background="@android:color/transparent"
     tools:ignore="ContentDescription,HardcodedText">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -14,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_12sdp"
         android:background="@drawable/background_item"
+        android:backgroundTint="#CC151520"
         android:paddingHorizontal="@dimen/_8sdp"
         android:paddingVertical="@dimen/_12sdp"
         app:layout_constraintTop_toTopOf="parent">
@@ -25,6 +27,7 @@
             android:layout_marginStart="@dimen/_4sdp"
             android:src="@drawable/ic_spinner_arrow_right"
             android:rotation="180"
+            app:tint="#FFB74D"
             android:background="?attr/selectableItemBackgroundBorderless"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -34,8 +37,9 @@
             android:id="@+id/name_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_marginStart="@dimen/_8sdp"
             android:text="@string/generic_name"
+            android:textColor="#FFB74D"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@id/back"
@@ -48,13 +52,18 @@
             android:layout_marginStart="@dimen/_16sdp"
             android:layout_marginEnd="@dimen/_16sdp"
             android:background="@drawable/background_edit_box"
-            android:paddingHorizontal="@dimen/_8sdp"
+            android:backgroundTint="#252538"
+            android:paddingHorizontal="@dimen/_12sdp"
+            android:paddingVertical="@dimen/_6sdp"
+            android:textColor="#FFB74D"
+            android:textColorHint="#80E8EAF6"
             android:autofillHints="name"
             android:hint="@string/generic_required"
             android:inputType="text"
             app:layout_constraintEnd_toStartOf="@id/install"
             app:layout_constraintStart_toEndOf="@id/name_title"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
 
         <ImageView
             android:id="@+id/install"
@@ -62,6 +71,7 @@
             android:layout_height="@dimen/_28sdp"
             android:layout_marginEnd="@dimen/_8sdp"
             android:src="@drawable/ic_download"
+            app:tint="#FFB74D"
             android:background="?attr/selectableItemBackgroundBorderless"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -73,7 +83,8 @@
         android:id="@+id/addons_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_8sdp">
+        android:layout_marginTop="@dimen/_8sdp"
+        android:scrollbars="none">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -93,6 +104,7 @@
                     android:layout_marginEnd="@dimen/_4sdp"
                     android:layout_weight="1"
                     android:background="@drawable/background_item"
+                    android:backgroundTint="#CC151520"
                     android:paddingHorizontal="@dimen/_8sdp"
                     android:paddingVertical="@dimen/_12sdp"
                     app:ripple_for_constraint="true">
@@ -124,6 +136,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="OptiFine"
+                            android:textColor="#E8EAF6"
                             android:textStyle="bold" />
 
                         <TextView
@@ -136,9 +149,9 @@
                             android:marqueeRepeatLimit="marquee_forever"
                             android:scrollHorizontally="true"
                             android:singleLine="true"
+                            android:textColor="#FFB74D"
                             android:textStyle="bold"
                             android:visibility="gone" />
-
                     </LinearLayout>
 
                     <TextView
@@ -147,6 +160,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/_8sdp"
                         android:text="@string/version_install_not_install"
+                        android:textColor="#99E8EAF6"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toStartOf="@id/optifine_delete"
@@ -160,10 +174,10 @@
                         android:clickable="false"
                         android:scaleType="centerInside"
                         android:src="@drawable/ic_spinner_arrow_right"
+                        app:tint="#FFB74D"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
                 </com.movtery.zalithlauncher.ui.layout.AnimConstraintLayout>
 
                 <com.movtery.zalithlauncher.ui.layout.AnimConstraintLayout
@@ -173,6 +187,7 @@
                     android:layout_marginStart="@dimen/_4sdp"
                     android:layout_weight="1"
                     android:background="@drawable/background_item"
+                    android:backgroundTint="#CC151520"
                     android:paddingHorizontal="@dimen/_8sdp"
                     android:paddingVertical="@dimen/_12sdp"
                     app:ripple_for_constraint="true">
@@ -202,6 +217,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Forge"
+                            android:textColor="#E8EAF6"
                             android:textStyle="bold" />
 
                         <TextView
@@ -214,9 +230,9 @@
                             android:marqueeRepeatLimit="marquee_forever"
                             android:scrollHorizontally="true"
                             android:singleLine="true"
+                            android:textColor="#FFB74D"
                             android:textStyle="bold"
                             android:visibility="gone" />
-
                     </LinearLayout>
 
                     <TextView
@@ -225,6 +241,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/_8sdp"
                         android:text="@string/version_install_not_install"
+                        android:textColor="#99E8EAF6"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toStartOf="@id/forge_delete"
@@ -238,10 +255,10 @@
                         android:clickable="false"
                         android:scaleType="centerInside"
                         android:src="@drawable/ic_spinner_arrow_right"
+                        app:tint="#FFB74D"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
                 </com.movtery.zalithlauncher.ui.layout.AnimConstraintLayout>
 
             </LinearLayout>
@@ -252,6 +269,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_8sdp"
                 android:background="@drawable/background_item"
+                android:backgroundTint="#CC151520"
                 android:paddingHorizontal="@dimen/_8sdp"
                 android:paddingVertical="@dimen/_12sdp"
                 app:ripple_for_constraint="true">
@@ -283,6 +301,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="NeoForge"
+                        android:textColor="#E8EAF6"
                         android:textStyle="bold" />
 
                     <TextView
@@ -295,9 +314,9 @@
                         android:marqueeRepeatLimit="marquee_forever"
                         android:scrollHorizontally="true"
                         android:singleLine="true"
+                        android:textColor="#FFB74D"
                         android:textStyle="bold"
                         android:visibility="gone" />
-
                 </LinearLayout>
 
                 <TextView
@@ -306,6 +325,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/_8sdp"
                     android:text="@string/version_install_not_install"
+                    android:textColor="#99E8EAF6"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/neoforge_delete"
@@ -319,10 +339,10 @@
                     android:clickable="false"
                     android:scaleType="centerInside"
                     android:src="@drawable/ic_spinner_arrow_right"
+                    app:tint="#FFB74D"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
-
             </com.movtery.zalithlauncher.ui.layout.AnimConstraintLayout>
 
             <LinearLayout
@@ -339,6 +359,7 @@
                     android:layout_marginEnd="@dimen/_4sdp"
                     android:layout_weight="1"
                     android:background="@drawable/background_item"
+                    android:backgroundTint="#CC151520"
                     android:paddingHorizontal="@dimen/_8sdp"
                     android:paddingVertical="@dimen/_12sdp"
                     app:ripple_for_constraint="true">
@@ -368,6 +389,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Fabric"
+                            android:textColor="#E8EAF6"
                             android:textStyle="bold" />
 
                         <TextView
@@ -380,9 +402,9 @@
                             android:marqueeRepeatLimit="marquee_forever"
                             android:scrollHorizontally="true"
                             android:singleLine="true"
+                            android:textColor="#FFB74D"
                             android:textStyle="bold"
                             android:visibility="gone" />
-
                     </LinearLayout>
 
                     <TextView
@@ -391,6 +413,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/_8sdp"
                         android:text="@string/version_install_not_install"
+                        android:textColor="#99E8EAF6"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toStartOf="@id/fabric_delete"
@@ -404,10 +427,10 @@
                         android:clickable="false"
                         android:scaleType="centerInside"
                         android:src="@drawable/ic_spinner_arrow_right"
+                        app:tint="#FFB74D"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
                 </com.movtery.zalithlauncher.ui.layout.AnimConstraintLayout>
 
                 <com.movtery.zalithlauncher.ui.layout.AnimConstraintLayout
@@ -417,6 +440,7 @@
                     android:layout_marginStart="@dimen/_4sdp"
                     android:layout_weight="1"
                     android:background="@drawable/background_item"
+                    android:backgroundTint="#CC151520"
                     android:paddingHorizontal="@dimen/_8sdp"
                     android:paddingVertical="@dimen/_12sdp"
                     app:ripple_for_constraint="true">
@@ -446,6 +470,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Fabric API"
+                            android:textColor="#E8EAF6"
                             android:textStyle="bold" />
 
                         <TextView
@@ -458,9 +483,9 @@
                             android:marqueeRepeatLimit="marquee_forever"
                             android:scrollHorizontally="true"
                             android:singleLine="true"
+                            android:textColor="#FFB74D"
                             android:textStyle="bold"
                             android:visibility="gone" />
-
                     </LinearLayout>
 
                     <TextView
@@ -469,6 +494,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/_8sdp"
                         android:text="@string/version_install_not_install"
+                        android:textColor="#99E8EAF6"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toStartOf="@id/fabric_api_delete"
@@ -482,10 +508,10 @@
                         android:clickable="false"
                         android:scaleType="centerInside"
                         android:src="@drawable/ic_spinner_arrow_right"
+                        app:tint="#FFB74D"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
                 </com.movtery.zalithlauncher.ui.layout.AnimConstraintLayout>
 
             </LinearLayout>
@@ -504,6 +530,7 @@
                     android:layout_marginEnd="@dimen/_4sdp"
                     android:layout_weight="1"
                     android:background="@drawable/background_item"
+                    android:backgroundTint="#CC151520"
                     android:paddingHorizontal="@dimen/_8sdp"
                     android:paddingVertical="@dimen/_12sdp"
                     app:ripple_for_constraint="true">
@@ -533,6 +560,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Quilt"
+                            android:textColor="#E8EAF6"
                             android:textStyle="bold" />
 
                         <TextView
@@ -545,9 +573,9 @@
                             android:marqueeRepeatLimit="marquee_forever"
                             android:scrollHorizontally="true"
                             android:singleLine="true"
+                            android:textColor="#FFB74D"
                             android:textStyle="bold"
                             android:visibility="gone" />
-
                     </LinearLayout>
 
                     <TextView
@@ -556,6 +584,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/_8sdp"
                         android:text="@string/version_install_not_install"
+                        android:textColor="#99E8EAF6"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toStartOf="@id/quilt_delete"
@@ -569,10 +598,10 @@
                         android:clickable="false"
                         android:scaleType="centerInside"
                         android:src="@drawable/ic_spinner_arrow_right"
+                        app:tint="#FFB74D"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
                 </com.movtery.zalithlauncher.ui.layout.AnimConstraintLayout>
 
                 <com.movtery.zalithlauncher.ui.layout.AnimConstraintLayout
@@ -582,6 +611,7 @@
                     android:layout_marginStart="@dimen/_4sdp"
                     android:layout_weight="1"
                     android:background="@drawable/background_item"
+                    android:backgroundTint="#CC151520"
                     android:paddingHorizontal="@dimen/_8sdp"
                     android:paddingVertical="@dimen/_12sdp"
                     app:ripple_for_constraint="true">
@@ -611,6 +641,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="QSL"
+                            android:textColor="#E8EAF6"
                             android:textStyle="bold" />
 
                         <TextView
@@ -623,9 +654,9 @@
                             android:marqueeRepeatLimit="marquee_forever"
                             android:scrollHorizontally="true"
                             android:singleLine="true"
+                            android:textColor="#FFB74D"
                             android:textStyle="bold"
                             android:visibility="gone" />
-
                     </LinearLayout>
 
                     <TextView
@@ -634,6 +665,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/_8sdp"
                         android:text="@string/version_install_not_install"
+                        android:textColor="#99E8EAF6"
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toStartOf="@id/quilt_api_delete"
@@ -647,10 +679,10 @@
                         android:clickable="false"
                         android:scaleType="centerInside"
                         android:src="@drawable/ic_spinner_arrow_right"
+                        app:tint="#FFB74D"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
-
                 </com.movtery.zalithlauncher.ui.layout.AnimConstraintLayout>
 
             </LinearLayout>
