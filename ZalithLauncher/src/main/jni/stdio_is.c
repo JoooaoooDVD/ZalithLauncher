@@ -77,7 +77,7 @@ Java_com_craftstudio_launcher_Logger_begin(JNIEnv *env, __attribute((unused)) jc
 
     if (logger_onEventLogged == NULL)
     {
-        jclass eventLogListener = (*env)->FindClass(env, "net/kdt/pojavlaunch/Logger$eventLogListener");
+        jclass eventLogListener = (*env)->FindClass(env, "com/craftstudio/launcher/Logger$eventLogListener");
         logger_onEventLogged = (*env)->GetMethodID(env, eventLogListener, "onEventLogged", "(Ljava/lang/String;)V");
     }
 
@@ -174,6 +174,6 @@ Java_com_craftstudio_launcher_utils_JREUtils_setupExitMethod(JNIEnv *env, jclass
                                                         jobject context) {
     exitTrap_ctx = (*env)->NewGlobalRef(env,context);
     (*env)->GetJavaVM(env,&exitTrap_jvm);
-    exitTrap_exitClass = (*env)->NewGlobalRef(env,(*env)->FindClass(env,"com/movtery/zalithlauncher/ui/activity/ErrorActivity"));
+    exitTrap_exitClass = (*env)->NewGlobalRef(env,(*env)->FindClass(env,"com/craftstudio/launcher/ui/activity/ErrorActivity"));
     exitTrap_staticMethod = (*env)->GetStaticMethodID(env,exitTrap_exitClass,"showExitMessage","(Landroid/content/Context;IZ)V");
 }
