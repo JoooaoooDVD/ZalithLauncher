@@ -2,7 +2,11 @@ package com.movtery.zalithlauncher.feature.accounts
 
 import android.content.Context
 import com.kdt.mcgui.ProgressLayout
-import com.movtery.zalithlauncher.R
+
+// ✅ FIX: Purana import hata kar tera naya Craft Studio R class lagana hai.
+// (Maine yahan example ke liye com.craftstudio.launcher.R likha hai, ise apne package se match kar lena)
+import com.craftstudio.launcher.R 
+
 import com.movtery.zalithlauncher.feature.log.Logging
 import com.movtery.zalithlauncher.task.Task
 import net.kdt.pojavlaunch.Tools
@@ -77,10 +81,6 @@ class AccountUtils {
             }
         }
 
-        /**
-         * 修改自源代码：[HMCL Core: AuthlibInjectorServer.java](https://github.com/HMCL-dev/HMCL/blob/main/HMCLCore/src/main/java/org/jackhuang/hmcl/auth/authlibinjector/AuthlibInjectorServer.java#L60-#L76)
-         * <br>原项目版权归原作者所有，遵循GPL v3协议
-         */
         fun tryGetFullServerUrl(baseUrl: String): String {
             fun String.addSlashIfMissing(): String {
                 if (!endsWith("/")) return "$this/"
@@ -108,10 +108,6 @@ class AccountUtils {
             return baseUrl
         }
 
-        /**
-         * 修改自源代码：[HMCL Core: AuthlibInjectorServer.java](https://github.com/HMCL-dev/HMCL/blob/main/HMCLCore/src/main/java/org/jackhuang/hmcl/auth/authlibinjector/AuthlibInjectorServer.java#L90-#L96)
-         * <br>原项目版权归原作者所有，遵循GPL v3协议
-         */
         private fun addHttpsIfMissing(baseUrl: String): String {
             return if (!baseUrl.startsWith("http://", true) && !baseUrl.startsWith("https://")) {
                 "https://$baseUrl".lowercase(Locale.ROOT)
