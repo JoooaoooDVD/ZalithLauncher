@@ -15,18 +15,19 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/operate_layout"
-        app:layout_constraintHorizontal_weight="6.5"
+        app:layout_constraintHorizontal_weight="7"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginVertical="@dimen/_12sdp"
-            android:layout_marginStart="@dimen/_12sdp"
-            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_marginVertical="@dimen/_16sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
             android:background="@drawable/background_card"
-            android:padding="@dimen/_2sdp"
+            android:backgroundTint="#CC151520"
+            android:padding="@dimen/_4sdp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -37,8 +38,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:paddingHorizontal="@dimen/_8sdp"
-                android:paddingVertical="@dimen/_4sdp"
-                android:scrollbarThumbVertical="@color/background_menu_element"
+                android:paddingVertical="@dimen/_8sdp"
+                android:scrollbarThumbVertical="#FFB74D"
                 android:scrollbars="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="parent"
@@ -61,6 +62,7 @@
                     style="?android:attr/progressBarStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:indeterminateTint="#FFB74D"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -69,11 +71,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/generic_loading"
-                    android:textSize="@dimen/_14ssp"
+                    android:textColor="#FFB74D"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/loading_progress" />
-
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView
@@ -82,9 +85,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/_12sdp"
                 android:background="@drawable/background_item"
+                android:backgroundTint="#80151520"
                 android:gravity="center_vertical"
                 android:padding="@dimen/_12sdp"
-                android:textColor="#FF1E1E"
+                android:textColor="#FF5252"
                 android:textStyle="bold"
                 android:visibility="gone"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -98,17 +102,18 @@
                 android:layout_height="@dimen/_40sdp"
                 android:layout_marginEnd="@dimen/_18sdp"
                 android:layout_marginBottom="@dimen/_16sdp"
-                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:background="@drawable/background_item"
+                android:backgroundTint="#252538"
                 android:rotation="-90"
                 android:scaleType="centerInside"
                 android:src="@drawable/ic_spinner_arrow_right"
+                app:tint="#FFB74D"
                 android:visibility="gone"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 tools:ignore="ContentDescription" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -117,15 +122,15 @@
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintHorizontal_weight="2.5"
         app:layout_constraintStart_toEndOf="@+id/mods_layout"
         app:layout_constraintTop_toTopOf="parent">
 
         <View
             android:id="@+id/shadowView"
-            android:layout_width="@dimen/_4sdp"
+            android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:background="@drawable/shadow_gradient_right"
+            android:background="#33FFB74D"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@id/operate_layout"
             app:layout_constraintTop_toTopOf="parent" />
@@ -134,7 +139,7 @@
             android:id="@+id/operate_main_layout"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:background="@color/menu_overlay"
+            android:background="#D9151520"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/shadowView"
@@ -143,40 +148,49 @@
             <androidx.core.widget.NestedScrollView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:scrollbars="none"
                 app:layout_constraintBottom_toTopOf="@+id/release_version"
                 app:layout_constraintTop_toTopOf="parent">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="@dimen/_16sdp">
 
-                    <com.google.android.material.imageview.ShapeableImageView
-                        android:id="@+id/icon"
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/icon_card"
                         android:layout_width="@dimen/_70sdp"
                         android:layout_height="@dimen/_70sdp"
-                        android:layout_marginTop="@dimen/_45sdp"
+                        android:layout_marginTop="@dimen/_40sdp"
+                        app:cardBackgroundColor="#252538"
+                        app:cardCornerRadius="@dimen/_12sdp"
+                        app:cardElevation="0dp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        app:shapeAppearanceOverlay="@style/RoundedCornersImageView"
-                        app:strokeColor="@android:color/transparent"
-                        tools:ignore="ContentDescription"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        app:layout_constraintTop_toTopOf="parent">
+                        
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/icon"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            tools:ignore="ContentDescription"
+                            tools:srcCompat="@tools:sample/avatars" />
+                    </androidx.cardview.widget.CardView>
 
                     <TextView
                         android:id="@+id/select_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="@dimen/_8sdp"
-                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
                         android:visibility="gone"
-                        android:paddingHorizontal="@dimen/_8sdp"
                         android:singleLine="true"
                         android:text="Select Title"
+                        android:textColor="#FFB74D"
                         android:textSize="@dimen/_14ssp"
                         android:textStyle="bold"
                         android:gravity="center_horizontal"
-                        app:layout_constraintTop_toBottomOf="@+id/icon"
+                        app:layout_constraintTop_toBottomOf="@+id/icon_card"
                         tools:ignore="HardcodedText" />
 
                     <TextView
@@ -184,7 +198,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="@dimen/_8sdp"
-                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:textColor="#E8EAF6"
                         android:textSize="@dimen/_12ssp"
                         android:textStyle="bold"
                         android:textIsSelectable="true"
@@ -196,33 +211,31 @@
                         android:id="@+id/description"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_4sdp"
-                        android:paddingHorizontal="@dimen/_8sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:paddingHorizontal="@dimen/_12sdp"
                         android:visibility="gone"
+                        android:textColor="#99E8EAF6"
                         android:textIsSelectable="true"
                         android:gravity="center_horizontal"
                         app:layout_constraintTop_toBottomOf="@+id/title"/>
 
                     <LinearLayout
                         android:id="@+id/more_layout"
-                        android:layout_width="0dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/_4sdp"
+                        android:layout_marginTop="@dimen/_8sdp"
                         android:layout_marginHorizontal="@dimen/_12sdp"
                         android:orientation="vertical"
                         app:layout_constraintTop_toBottomOf="@id/description"
-                        app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"/>
-
                 </androidx.constraintlayout.widget.ConstraintLayout>
-
             </androidx.core.widget.NestedScrollView>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_24sdp"
-                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_12sdp"
                 android:orientation="horizontal"
                 android:gravity="end"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -232,10 +245,11 @@
                     android:id="@+id/mcmod_link"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:layout_marginEnd="@dimen/_12sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
                     android:background="?android:attr/selectableItemBackground"
                     android:gravity="center_vertical"
                     android:text="MC 百科"
+                    android:textColor="#FFB74D"
                     android:textStyle="bold"
                     android:visibility="gone"
                     tools:ignore="HardcodedText" />
@@ -248,44 +262,53 @@
                     android:background="?android:attr/selectableItemBackgroundBorderless"
                     android:contentDescription="@string/about_access_link"
                     android:scaleType="centerInside"
+                    app:tint="#FFB74D"
                     android:src="@drawable/ic_launch_link"
                     android:visibility="gone" />
-
             </LinearLayout>
 
-            <com.movtery.zalithlauncher.ui.view.AnimButton
-                android:id="@+id/return_button"
-                android:layout_width="0dp"
+            <com.movtery.zalithlauncher.ui.view.AnimCheckBox
+                android:id="@+id/release_version"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="@dimen/_8sdp"
-                android:layout_marginBottom="@dimen/_8sdp"
-                android:text="@string/generic_return"
-                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:checked="true"
+                android:singleLine="true"
+                android:textColor="#E8EAF6"
+                android:buttonTint="#FFB74D"
+                android:text="@string/profile_mods_download_mod_release_version"
+                app:layout_constraintBottom_toTopOf="@+id/refresh_button"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <com.movtery.zalithlauncher.ui.view.AnimButton
                 android:id="@+id/refresh_button"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="@dimen/_8sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:backgroundTint="#252538"
+                android:textColor="#FFB74D"
+                android:textStyle="bold"
                 android:text="@string/generic_refresh"
                 app:layout_constraintBottom_toTopOf="@+id/return_button"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintHorizontal_chainStyle="spread_inside"
                 app:layout_constraintStart_toStartOf="parent" />
 
-            <com.movtery.zalithlauncher.ui.view.AnimCheckBox
-                android:id="@+id/release_version"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="@dimen/_8sdp"
-                android:checked="true"
-                android:singleLine="true"
-                android:text="@string/profile_mods_download_mod_release_version"
-                app:layout_constraintBottom_toTopOf="@+id/refresh_button"
+            <com.movtery.zalithlauncher.ui.view.AnimButton
+                android:id="@+id/return_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_16sdp"
+                android:backgroundTint="#FFB74D"
+                android:textColor="#151520"
+                android:textStyle="bold"
+                android:textSize="@dimen/_12ssp"
+                android:text="@string/generic_return"
+                android:textAllCaps="true"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
