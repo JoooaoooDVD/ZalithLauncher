@@ -79,7 +79,8 @@ abstract class AbstractPlatformHelper(val api: ApiHandler) {
                             }
 
                             if (VersionsManager.isVersionExists(customName, true)) {
-                                editText.error = context.getString(R.string.version_install_exists)
+                                // ✅ FIX: Cast to EditText to resolve the 'error' property
+                                (editText as android.widget.EditText).error = context.getString(R.string.version_install_exists)
                                 return@setConfirmListener false
                             }
 
@@ -181,7 +182,8 @@ abstract class AbstractPlatformHelper(val api: ApiHandler) {
                 val installFile = File(targetPath, "${string}.${file.extension}")
 
                 if (installFile.exists()) {
-                    editText.error = context.getString(R.string.file_rename_exitis)
+                    // ✅ FIX: Cast to EditText to resolve the 'error' property
+                    (editText as android.widget.EditText).error = context.getString(R.string.file_rename_exitis)
                     return@setConfirmListener false
                 }
 
