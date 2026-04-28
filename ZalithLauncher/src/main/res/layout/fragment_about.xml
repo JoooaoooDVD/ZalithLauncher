@@ -3,14 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/transparent"
-    android:orientation="vertical">
+    android:background="@android:color/transparent">
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/info_view_pager"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_marginEnd="@dimen/_minus4sdp"
         app:layout_constraintEnd_toStartOf="@id/guideline"
         app:layout_constraintStart_toStartOf="parent"/>
 
@@ -19,9 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.69" />
-
-    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintGuide_percent="0.75" /> <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/operate_layout"
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -32,66 +28,55 @@
             android:id="@+id/shadowView"
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:background="#33FFB74D"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@id/operate_layout"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:background="#66FFB74D"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/operate_main_layout"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:background="#CC151520"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#D9151520"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/shadowView">
-
-            <com.movtery.zalithlauncher.ui.view.AnimButton
-                android:id="@+id/return_button"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_8sdp"
-                android:backgroundTint="#FFB74D"
-                android:textColor="#151520"
-                android:textStyle="bold"
-                android:text="@string/generic_return"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <com.movtery.zalithlauncher.ui.view.AnimButton
-                android:id="@+id/support_development"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="@dimen/_8sdp"
-                android:layout_marginBottom="@dimen/_8sdp"
-                android:backgroundTint="#252538"
-                android:textColor="#FFB74D"
-                android:textStyle="bold"
-                android:text="@string/about_button_support_development"
-                app:layout_constraintBottom_toTopOf="@id/return_button"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"/>
 
             <com.movtery.zalithlauncher.ui.view.AnimTextView
                 android:id="@+id/app_info"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_8sdp"
+                android:layout_margin="@dimen/_12sdp"
                 android:padding="@dimen/_8sdp"
-                android:lineSpacingExtra="@dimen/_4sdp"
+                android:gravity="center"
+                android:lineSpacingExtra="@dimen/_6sdp"
                 android:textColor="#E8EAF6"
+                android:textSize="@dimen/_10ssp"
                 android:background="?android:attr/selectableItemBackground"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+            <com.movtery.zalithlauncher.ui.view.AnimButton
+                android:id="@+id/support_development"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:backgroundTint="#252538"
+                android:textColor="#FFB74D"
+                android:textStyle="bold"
+                android:text="@string/about_button_support_development"
+                app:layout_constraintBottom_toTopOf="@id/return_button"/>
+
+            <com.movtery.zalithlauncher.ui.view.AnimButton
+                android:id="@+id/return_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_16sdp"
+                android:backgroundTint="#FFB74D"
+                android:textColor="#151520"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:text="@string/generic_return"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
-
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
