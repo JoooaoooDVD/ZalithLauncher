@@ -1,10 +1,10 @@
-package com.movtery.zalithlauncher.feature
+package com.craftstudio.launcher.feature
 
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.feature.version.Version
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.utils.MCVersionRegex
-import com.movtery.zalithlauncher.utils.ZHTools
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.feature.version.Version
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.utils.MCVersionRegex
+import com.craftstudio.launcher.utils.ZHTools
 import org.jackhuang.hmcl.util.versioning.VersionNumber
 import org.jackhuang.hmcl.util.versioning.VersionRange
 

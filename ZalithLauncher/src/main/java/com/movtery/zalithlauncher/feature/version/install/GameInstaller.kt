@@ -1,12 +1,12 @@
-package com.movtery.zalithlauncher.feature.version.install
+package com.craftstudio.launcher.feature.version.install
 
 import android.app.Activity
 import com.kdt.mcgui.ProgressLayout
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.event.value.InstallGameEvent
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.feature.version.VersionsManager
-import com.movtery.zalithlauncher.task.Task
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.event.value.InstallGameEvent
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.feature.version.VersionsManager
+import com.craftstudio.launcher.task.Task
 import net.kdt.pojavlaunch.Tools
 import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper
 import net.kdt.pojavlaunch.tasks.AsyncMinecraftDownloader

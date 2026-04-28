@@ -14,17 +14,17 @@ import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import com.google.gson.JsonSyntaxException;
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.task.Task;
-import com.movtery.zalithlauncher.task.TaskExecutors;
-import com.movtery.zalithlauncher.ui.dialog.EditControlInfoDialog;
-import com.movtery.zalithlauncher.ui.dialog.SelectControlsDialog;
-import com.movtery.zalithlauncher.ui.dialog.TipDialog;
-import com.movtery.zalithlauncher.ui.subassembly.customcontrols.ControlInfoData;
-import com.movtery.zalithlauncher.utils.path.PathManager;
-import com.movtery.zalithlauncher.utils.stringutils.StringUtilsKt;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.task.Task;
+import com.craftstudio.launcher.task.TaskExecutors;
+import com.craftstudio.launcher.ui.dialog.EditControlInfoDialog;
+import com.craftstudio.launcher.ui.dialog.SelectControlsDialog;
+import com.craftstudio.launcher.ui.dialog.TipDialog;
+import com.craftstudio.launcher.ui.subassembly.customcontrols.ControlInfoData;
+import com.craftstudio.launcher.utils.path.PathManager;
+import com.craftstudio.launcher.utils.stringutils.StringUtilsKt;
 
 import net.kdt.pojavlaunch.MinecraftGLSurface;
 import net.kdt.pojavlaunch.Tools;

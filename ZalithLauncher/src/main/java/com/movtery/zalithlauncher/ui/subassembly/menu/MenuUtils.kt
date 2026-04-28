@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.menu
+package com.craftstudio.launcher.ui.subassembly.menu
 
 import android.annotation.SuppressLint
 import android.widget.SeekBar

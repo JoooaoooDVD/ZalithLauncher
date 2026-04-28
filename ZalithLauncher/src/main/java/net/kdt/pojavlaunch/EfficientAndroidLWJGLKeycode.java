@@ -1,11 +1,11 @@
 package net.kdt.pojavlaunch;
 
-import static com.movtery.zalithlauncher.context.ContextExecutor.getString;
+import static com.craftstudio.launcher.context.ContextExecutor.getString;
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 
 import android.view.KeyEvent;
 
-import com.movtery.zalithlauncher.R;
+import com.craftstudio.launcher.R;
 
 import org.lwjgl.glfw.CallbackBridge;
 

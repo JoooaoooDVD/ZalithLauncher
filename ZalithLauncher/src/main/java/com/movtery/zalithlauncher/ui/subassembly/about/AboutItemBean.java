@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.about;
+package com.craftstudio.launcher.ui.subassembly.about;
 
 import android.app.Activity;
 import android.graphics.drawable.Drawable;

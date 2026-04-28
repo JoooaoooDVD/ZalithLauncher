@@ -9,12 +9,12 @@ import android.content.res.Configuration;
 import android.graphics.Rect;
 import android.os.Build;
 
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.feature.unpack.Jre;
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.setting.AllStaticSettings;
-import com.movtery.zalithlauncher.setting.Settings;
-import com.movtery.zalithlauncher.ui.activity.BaseActivity;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.feature.unpack.Jre;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.setting.AllStaticSettings;
+import com.craftstudio.launcher.setting.Settings;
+import com.craftstudio.launcher.ui.activity.BaseActivity;
 
 import net.kdt.pojavlaunch.Tools;
 import net.kdt.pojavlaunch.multirt.MultiRTUtils;

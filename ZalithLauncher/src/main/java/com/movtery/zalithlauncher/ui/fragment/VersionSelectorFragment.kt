@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.fragment
+package com.craftstudio.launcher.ui.fragment
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -10,11 +10,11 @@ import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayout.OnTabSelectedListener
 import com.movtery.anim.AnimPlayer
 import com.movtery.anim.animations.Animations
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.FragmentVersionBinding
-import com.movtery.zalithlauncher.ui.subassembly.versionlist.VersionSelectedListener
-import com.movtery.zalithlauncher.ui.subassembly.versionlist.VersionType
-import com.movtery.zalithlauncher.utils.ZHTools
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.FragmentVersionBinding
+import com.craftstudio.launcher.ui.subassembly.versionlist.VersionSelectedListener
+import com.craftstudio.launcher.ui.subassembly.versionlist.VersionType
+import com.craftstudio.launcher.utils.ZHTools
 import net.kdt.pojavlaunch.Tools
 
 class VersionSelectorFragment : FragmentWithAnim(R.layout.fragment_version) {

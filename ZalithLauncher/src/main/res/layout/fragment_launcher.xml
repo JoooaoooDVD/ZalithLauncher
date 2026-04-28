@@ -40,7 +40,7 @@
                 android:paddingTop="@dimen/_16sdp"
                 android:paddingBottom="@dimen/_16sdp">
 
-                <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+                <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                     android:id="@+id/about_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -68,9 +68,9 @@
                             android:textSize="@dimen/_8sdp"
                             android:singleLine="true" />
                     </LinearLayout>
-                </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+                </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
-                <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+                <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                     android:id="@+id/custom_control_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -97,9 +97,9 @@
                             android:textSize="@dimen/_8sdp"
                             android:singleLine="true" />
                     </LinearLayout>
-                </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+                </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
-                <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+                <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                     android:id="@+id/open_main_dir_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -126,9 +126,9 @@
                             android:textSize="@dimen/_8sdp"
                             android:singleLine="true" />
                     </LinearLayout>
-                </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+                </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
-                <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+                <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                     android:id="@+id/install_jar_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -155,9 +155,9 @@
                             android:textSize="@dimen/_8sdp"
                             android:singleLine="true" />
                     </LinearLayout>
-                </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+                </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
-                <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+                <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                     android:id="@+id/share_logs_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -183,7 +183,7 @@
                             android:textSize="@dimen/_8sdp"
                             android:singleLine="true" />
                     </LinearLayout>
-                </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+                </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
             </LinearLayout>
         </ScrollView>
@@ -297,7 +297,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent" />
 
-                <com.movtery.zalithlauncher.ui.view.AnimButton
+                <com.craftstudio.launcher.ui.view.AnimButton
                     android:id="@+id/play_button"
                     android:layout_width="wrap_content"
                     android:layout_height="@dimen/_42sdp"
@@ -313,7 +313,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/manager_profile_button" />
 
-                <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+                <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                     android:id="@+id/version"
                     android:layout_width="wrap_content"
                     android:layout_height="@dimen/_42sdp"
@@ -368,7 +368,7 @@
                             android:textSize="@dimen/_9sdp"
                             android:visibility="gone" />
                     </LinearLayout>
-                </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+                </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>

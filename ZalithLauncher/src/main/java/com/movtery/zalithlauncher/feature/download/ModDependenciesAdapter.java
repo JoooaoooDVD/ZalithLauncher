@@ -1,7 +1,7 @@
-package com.movtery.zalithlauncher.feature.download;
+package com.craftstudio.launcher.feature.download;
 
-import static com.movtery.zalithlauncher.feature.download.InfoAdapter.createCategoryView;
-import static com.movtery.zalithlauncher.feature.download.InfoAdapter.getTagTextView;
+import static com.craftstudio.launcher.feature.download.InfoAdapter.createCategoryView;
+import static com.craftstudio.launcher.feature.download.InfoAdapter.getTagTextView;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -20,19 +20,19 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestBuilder;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.google.android.flexbox.FlexboxLayout;
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.databinding.ItemModDependenciesBinding;
-import com.movtery.zalithlauncher.event.value.AddFragmentEvent;
-import com.movtery.zalithlauncher.feature.download.enums.Category;
-import com.movtery.zalithlauncher.feature.download.enums.ModLoader;
-import com.movtery.zalithlauncher.feature.download.enums.Platform;
-import com.movtery.zalithlauncher.feature.download.item.DependenciesInfoItem;
-import com.movtery.zalithlauncher.feature.download.item.InfoItem;
-import com.movtery.zalithlauncher.feature.download.utils.DependencyUtils;
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.ui.fragment.DownloadModFragment;
-import com.movtery.zalithlauncher.utils.NumberWithUnits;
-import com.movtery.zalithlauncher.utils.ZHTools;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.databinding.ItemModDependenciesBinding;
+import com.craftstudio.launcher.event.value.AddFragmentEvent;
+import com.craftstudio.launcher.feature.download.enums.Category;
+import com.craftstudio.launcher.feature.download.enums.ModLoader;
+import com.craftstudio.launcher.feature.download.enums.Platform;
+import com.craftstudio.launcher.feature.download.item.DependenciesInfoItem;
+import com.craftstudio.launcher.feature.download.item.InfoItem;
+import com.craftstudio.launcher.feature.download.utils.DependencyUtils;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.ui.fragment.DownloadModFragment;
+import com.craftstudio.launcher.utils.NumberWithUnits;
+import com.craftstudio.launcher.utils.ZHTools;
 
 import net.kdt.pojavlaunch.Tools;
 

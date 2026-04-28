@@ -1,14 +1,14 @@
-package com.movtery.zalithlauncher.launch
+package com.craftstudio.launcher.launch
 
 import androidx.collection.ArrayMap
-import com.movtery.zalithlauncher.InfoDistributor
-import com.movtery.zalithlauncher.feature.accounts.AccountUtils
-import com.movtery.zalithlauncher.feature.customprofilepath.ProfilePathHome
-import com.movtery.zalithlauncher.feature.customprofilepath.ProfilePathHome.Companion.getLibrariesHome
-import com.movtery.zalithlauncher.feature.version.Version
-import com.movtery.zalithlauncher.utils.ZHTools
-import com.movtery.zalithlauncher.utils.path.LibPath
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.InfoDistributor
+import com.craftstudio.launcher.feature.accounts.AccountUtils
+import com.craftstudio.launcher.feature.customprofilepath.ProfilePathHome
+import com.craftstudio.launcher.feature.customprofilepath.ProfilePathHome.Companion.getLibrariesHome
+import com.craftstudio.launcher.feature.version.Version
+import com.craftstudio.launcher.utils.ZHTools
+import com.craftstudio.launcher.utils.path.LibPath
+import com.craftstudio.launcher.utils.path.PathManager
 import net.kdt.pojavlaunch.AWTCanvasView
 import net.kdt.pojavlaunch.JMinecraftVersionList
 import net.kdt.pojavlaunch.Tools

@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.ui.activity
+package com.craftstudio.launcher.ui.activity
 
-import com.movtery.zalithlauncher.feature.unpack.AbstractUnpackTask
+import com.craftstudio.launcher.feature.unpack.AbstractUnpackTask
 
 class InstallableItem(
     val name: String,

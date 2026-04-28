@@ -7,12 +7,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.kdt.mcgui.ProgressLayout;
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.feature.accounts.AccountType;
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.task.Task;
-import com.movtery.zalithlauncher.task.TaskExecutors;
-import com.movtery.zalithlauncher.utils.path.UrlManager;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.feature.accounts.AccountType;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.task.Task;
+import com.craftstudio.launcher.task.TaskExecutors;
+import com.craftstudio.launcher.utils.path.UrlManager;
 
 import net.kdt.pojavlaunch.Tools;
 import net.kdt.pojavlaunch.authenticator.listener.DoneListener;

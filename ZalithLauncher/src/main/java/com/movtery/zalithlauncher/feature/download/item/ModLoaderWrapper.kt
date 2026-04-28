@@ -1,14 +1,14 @@
-package com.movtery.zalithlauncher.feature.download.item
+package com.craftstudio.launcher.feature.download.item
 
 import android.content.Context
 import android.content.Intent
-import com.movtery.zalithlauncher.feature.download.enums.ModLoader
-import com.movtery.zalithlauncher.feature.mod.modloader.NeoForgeDownloadTask
-import com.movtery.zalithlauncher.feature.version.install.InstallTask
+import com.craftstudio.launcher.feature.download.enums.ModLoader
+import com.craftstudio.launcher.feature.mod.modloader.NeoForgeDownloadTask
+import com.craftstudio.launcher.feature.version.install.InstallTask
 import net.kdt.pojavlaunch.JavaGUILauncherActivity
-import com.movtery.zalithlauncher.feature.mod.modloader.FabricLikeUtils
-import com.movtery.zalithlauncher.feature.mod.modloader.ForgeDownloadTask
-import com.movtery.zalithlauncher.feature.version.install.InstallArgsUtils
+import com.craftstudio.launcher.feature.mod.modloader.FabricLikeUtils
+import com.craftstudio.launcher.feature.mod.modloader.ForgeDownloadTask
+import com.craftstudio.launcher.feature.version.install.InstallArgsUtils
 import java.io.File
 
 class ModLoaderWrapper(

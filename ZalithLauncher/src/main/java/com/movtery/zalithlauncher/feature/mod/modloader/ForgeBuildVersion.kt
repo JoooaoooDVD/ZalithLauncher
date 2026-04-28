@@ -16,7 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/gpl-3.0.txt>.
  */
 
-package com.movtery.zalithlauncher.feature.mod.modloader
+package com.craftstudio.launcher.feature.mod.modloader
 
 class ForgeBuildVersion private constructor(
     val major: Int,

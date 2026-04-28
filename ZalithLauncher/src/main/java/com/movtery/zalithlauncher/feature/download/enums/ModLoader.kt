@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.download.enums
+package com.craftstudio.launcher.feature.download.enums
 
 enum class ModLoader(val type: Int, val loaderName: String, val curseforgeId: String, val modrinthName: String) {
     ALL(-1, "", "", ""),

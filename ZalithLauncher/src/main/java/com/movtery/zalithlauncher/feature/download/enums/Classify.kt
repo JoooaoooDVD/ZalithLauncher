@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.download.enums
+package com.craftstudio.launcher.feature.download.enums
 
 enum class Classify(val type: Int) {
     ALL(-1),

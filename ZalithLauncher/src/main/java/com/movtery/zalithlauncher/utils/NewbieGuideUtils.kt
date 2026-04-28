@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils
+package com.craftstudio.launcher.utils
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -8,9 +8,9 @@ import com.getkeepsafe.taptargetview.TapTarget
 import com.google.gson.Gson
 import com.google.gson.JsonArray
 import com.google.gson.JsonParser
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.log.Logging.e
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.log.Logging.e
+import com.craftstudio.launcher.utils.path.PathManager
 import net.kdt.pojavlaunch.Tools
 import java.io.FileWriter
 

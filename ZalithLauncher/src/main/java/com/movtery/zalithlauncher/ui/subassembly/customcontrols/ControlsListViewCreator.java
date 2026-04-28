@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.customcontrols;
+package com.craftstudio.launcher.ui.subassembly.customcontrols;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,14 +10,14 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.task.Task;
-import com.movtery.zalithlauncher.task.TaskExecutors;
-import com.movtery.zalithlauncher.ui.dialog.DeleteDialog;
-import com.movtery.zalithlauncher.ui.subassembly.filelist.RefreshListener;
-import com.movtery.zalithlauncher.utils.path.PathManager;
-import com.movtery.zalithlauncher.utils.file.FileTools;
-import com.movtery.zalithlauncher.utils.stringutils.StringFilter;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.task.Task;
+import com.craftstudio.launcher.task.TaskExecutors;
+import com.craftstudio.launcher.ui.dialog.DeleteDialog;
+import com.craftstudio.launcher.ui.subassembly.filelist.RefreshListener;
+import com.craftstudio.launcher.utils.path.PathManager;
+import com.craftstudio.launcher.utils.file.FileTools;
+import com.craftstudio.launcher.utils.stringutils.StringFilter;
 
 import java.io.File;
 import java.util.ArrayList;

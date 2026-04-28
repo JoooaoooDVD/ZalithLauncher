@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.feature.download.install
+package com.craftstudio.launcher.feature.download.install
 
-import com.movtery.zalithlauncher.feature.download.item.ModLoaderWrapper
+import com.craftstudio.launcher.feature.download.item.ModLoaderWrapper
 import java.io.File
 import java.io.IOException
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/transparent"
-    tools:context="com.movtery.zalithlauncher.ui.fragment.SettingsFragment">
+    tools:context="com.craftstudio.launcher.ui.fragment.SettingsFragment">
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/settings_viewpager"
@@ -47,7 +47,7 @@
             app:tab_indicator_x_offset="@dimen/_4sdp"
             app:tab_orientation="VERTICAL">
 
-            <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+            <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_10sdp">
@@ -68,9 +68,9 @@
                     android:text="@string/setting_category_video"
                     android:textColor="#E8EAF6"
                     android:textStyle="bold" />
-            </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+            </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
-            <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+            <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_10sdp">
@@ -91,9 +91,9 @@
                     android:text="@string/setting_category_control"
                     android:textColor="#E8EAF6"
                     android:textStyle="bold" />
-            </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+            </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
-            <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+            <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_10sdp">
@@ -114,9 +114,9 @@
                     android:text="@string/setting_category_game"
                     android:textColor="#E8EAF6"
                     android:textStyle="bold" />
-            </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+            </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
-            <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+            <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_10sdp">
@@ -137,9 +137,9 @@
                     android:text="@string/setting_category_launcher"
                     android:textColor="#E8EAF6"
                     android:textStyle="bold" />
-            </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+            </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
-            <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+            <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_10sdp">
@@ -160,7 +160,7 @@
                     android:text="@string/setting_category_experimental"
                     android:textColor="#E8EAF6"
                     android:textStyle="bold" />
-            </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+            </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
         </com.angcyo.tablayout.DslTabLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>

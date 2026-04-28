@@ -19,7 +19,7 @@
         android:background="#F21A1B2E" 
         app:layout_constraintTop_toTopOf="parent">
 
-        <com.movtery.zalithlauncher.ui.view.AnimTextView
+        <com.craftstudio.launcher.ui.view.AnimTextView
             android:id="@+id/app_title_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -152,7 +152,7 @@
 
         </ScrollView>
 
-        <com.movtery.zalithlauncher.ui.view.AnimButton
+        <com.craftstudio.launcher.ui.view.AnimButton
             android:id="@+id/notice_got_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

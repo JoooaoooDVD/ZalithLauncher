@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils.image
+package com.craftstudio.launcher.utils.image
 
 class Dimension(@JvmField var width: Int, @JvmField var height: Int) {
     override fun toString(): String {

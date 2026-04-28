@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,12 +6,12 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.ItemLocalRendererViewBinding
-import com.movtery.zalithlauncher.plugins.PluginLoader
-import com.movtery.zalithlauncher.plugins.renderer.LocalRendererPlugin
-import com.movtery.zalithlauncher.plugins.renderer.RendererPluginManager
-import com.movtery.zalithlauncher.renderer.Renderers
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.ItemLocalRendererViewBinding
+import com.craftstudio.launcher.plugins.PluginLoader
+import com.craftstudio.launcher.plugins.renderer.LocalRendererPlugin
+import com.craftstudio.launcher.plugins.renderer.RendererPluginManager
+import com.craftstudio.launcher.renderer.Renderers
 import org.apache.commons.io.FileUtils
 
 class LocalRendererPluginDialog(

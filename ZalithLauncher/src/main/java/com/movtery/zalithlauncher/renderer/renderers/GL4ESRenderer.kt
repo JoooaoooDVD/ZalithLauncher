@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.renderer.renderers
+package com.craftstudio.launcher.renderer.renderers
 
-import com.movtery.zalithlauncher.renderer.RendererInterface
+import com.craftstudio.launcher.renderer.RendererInterface
 
 class GL4ESRenderer : RendererInterface {
     override fun getRendererId(): String = "opengles2"

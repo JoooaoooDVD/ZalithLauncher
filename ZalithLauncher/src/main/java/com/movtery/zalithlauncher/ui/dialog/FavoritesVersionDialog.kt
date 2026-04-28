@@ -1,13 +1,13 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.content.Context
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.version.favorites.FavoritesVersionUtils
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.task.TaskExecutors
-import com.movtery.zalithlauncher.ui.subassembly.version.FavoritesVersionAdapter
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.version.favorites.FavoritesVersionUtils
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.task.TaskExecutors
+import com.craftstudio.launcher.ui.subassembly.version.FavoritesVersionAdapter
 
 class FavoritesVersionDialog(
     context: Context,

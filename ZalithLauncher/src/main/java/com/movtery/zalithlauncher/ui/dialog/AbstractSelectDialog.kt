@@ -1,10 +1,10 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.content.Context
 import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
-import com.movtery.zalithlauncher.databinding.DialogSelectItemBinding
+import com.craftstudio.launcher.databinding.DialogSelectItemBinding
 
 abstract class AbstractSelectDialog(context: Context) : FullScreenDialog(context) {
     protected val binding = DialogSelectItemBinding.inflate(layoutInflater)

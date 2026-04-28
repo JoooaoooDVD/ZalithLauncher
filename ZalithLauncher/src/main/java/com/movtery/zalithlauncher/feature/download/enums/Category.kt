@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.feature.download.enums
+package com.craftstudio.launcher.feature.download.enums
 
-import com.movtery.zalithlauncher.R
+import com.craftstudio.launcher.R
 
 /**
  * CurseForge与Modrinth双平台的类别汇集，记录类别所代指的实际值，以便搜索资源时填入类别。

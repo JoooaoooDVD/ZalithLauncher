@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.fragment.settings
+package com.craftstudio.launcher.ui.fragment.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,19 +6,19 @@ import android.view.View
 import android.view.ViewGroup
 import com.movtery.anim.AnimPlayer
 import com.movtery.anim.animations.Animations
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.SettingsFragmentLauncherBinding
-import com.movtery.zalithlauncher.event.single.PageOpacityChangeEvent
-import com.movtery.zalithlauncher.feature.update.UpdateUtils
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.ui.fragment.CustomBackgroundFragment
-import com.movtery.zalithlauncher.ui.fragment.FragmentWithAnim
-import com.movtery.zalithlauncher.ui.fragment.settings.wrapper.BaseSettingsWrapper
-import com.movtery.zalithlauncher.ui.fragment.settings.wrapper.ListSettingsWrapper
-import com.movtery.zalithlauncher.ui.fragment.settings.wrapper.SeekBarSettingsWrapper
-import com.movtery.zalithlauncher.ui.fragment.settings.wrapper.SwitchSettingsWrapper
-import com.movtery.zalithlauncher.utils.CleanUpCache.Companion.start
-import com.movtery.zalithlauncher.utils.ZHTools
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.SettingsFragmentLauncherBinding
+import com.craftstudio.launcher.event.single.PageOpacityChangeEvent
+import com.craftstudio.launcher.feature.update.UpdateUtils
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.ui.fragment.CustomBackgroundFragment
+import com.craftstudio.launcher.ui.fragment.FragmentWithAnim
+import com.craftstudio.launcher.ui.fragment.settings.wrapper.BaseSettingsWrapper
+import com.craftstudio.launcher.ui.fragment.settings.wrapper.ListSettingsWrapper
+import com.craftstudio.launcher.ui.fragment.settings.wrapper.SeekBarSettingsWrapper
+import com.craftstudio.launcher.ui.fragment.settings.wrapper.SwitchSettingsWrapper
+import com.craftstudio.launcher.utils.CleanUpCache.Companion.start
+import com.craftstudio.launcher.utils.ZHTools
 import net.kdt.pojavlaunch.LauncherActivity
 import org.greenrobot.eventbus.EventBus
 

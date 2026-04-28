@@ -1,11 +1,11 @@
-package com.movtery.zalithlauncher.feature
+package com.craftstudio.launcher.feature
 
 import android.content.Context
 import android.os.Build
 import android.os.FileObserver
-import com.movtery.zalithlauncher.event.single.MCOptionChangeEvent
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.feature.version.Version
+import com.craftstudio.launcher.event.single.MCOptionChangeEvent
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.feature.version.Version
 import net.kdt.pojavlaunch.Tools
 import org.greenrobot.eventbus.EventBus
 import org.lwjgl.glfw.CallbackBridge.windowHeight

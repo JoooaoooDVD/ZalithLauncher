@@ -1,13 +1,13 @@
-package com.movtery.zalithlauncher.feature.mod.parser
+package com.craftstudio.launcher.feature.mod.parser
 
 import android.content.Context
 import android.os.Parcel
 import android.os.Parcelable
 import com.mio.util.AndroidUtil
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.task.TaskExecutors
-import com.movtery.zalithlauncher.ui.dialog.TipDialog
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.task.TaskExecutors
+import com.craftstudio.launcher.ui.dialog.TipDialog
 import net.kdt.pojavlaunch.Architecture
 import net.kdt.pojavlaunch.Logger
 import net.kdt.pojavlaunch.plugins.FFmpegPlugin

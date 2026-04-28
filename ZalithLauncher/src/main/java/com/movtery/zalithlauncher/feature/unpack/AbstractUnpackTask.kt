@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.unpack
+package com.craftstudio.launcher.feature.unpack
 
 abstract class AbstractUnpackTask: Runnable {
     abstract fun isNeedUnpack(): Boolean

@@ -1,8 +1,8 @@
-package com.movtery.zalithlauncher.ui.fragment
+package com.craftstudio.launcher.ui.fragment
 
 import com.movtery.anim.AnimPlayer
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.utils.anim.SlideAnimation
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.utils.anim.SlideAnimation
 
 abstract class FragmentWithAnim : BaseFragment, SlideAnimation {
     private var animPlayer: AnimPlayer = AnimPlayer()

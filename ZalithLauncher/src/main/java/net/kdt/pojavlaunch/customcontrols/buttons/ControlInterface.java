@@ -14,8 +14,8 @@ import androidx.annotation.CallSuper;
 import androidx.annotation.NonNull;
 import androidx.core.math.MathUtils;
 
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.setting.AllSettings;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.setting.AllSettings;
 
 import net.kdt.pojavlaunch.GrabListener;
 import net.kdt.pojavlaunch.Tools;

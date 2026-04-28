@@ -1,8 +1,8 @@
-package com.movtery.zalithlauncher.feature.download.utils
+package com.craftstudio.launcher.feature.download.utils
 
 import android.content.Context
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.download.enums.DependencyType
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.download.enums.DependencyType
 
 class DependencyUtils {
     companion object {

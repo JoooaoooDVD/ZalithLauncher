@@ -1,9 +1,9 @@
-package com.movtery.zalithlauncher.context
+package com.craftstudio.launcher.context
 
 import android.content.Context
 import android.content.ContextWrapper
-import com.movtery.zalithlauncher.setting.Settings
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.setting.Settings
+import com.craftstudio.launcher.utils.path.PathManager
 import net.kdt.pojavlaunch.prefs.LauncherPreferences
 
 class LocaleHelper(context: Context) : ContextWrapper(context) {

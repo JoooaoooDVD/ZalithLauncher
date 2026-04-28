@@ -1,7 +1,7 @@
-package com.movtery.zalithlauncher.utils
+package com.craftstudio.launcher.utils
 
 import android.content.Context
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.utils.path.PathManager
 import net.kdt.pojavlaunch.Tools
 import java.io.File
 import java.io.IOException

@@ -52,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/title_view"
         tools:ignore="HardcodedText" />
 
-    <com.movtery.zalithlauncher.ui.view.AnimButton
+    <com.craftstudio.launcher.ui.view.AnimButton
         android:id="@+id/button_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -1,11 +1,11 @@
-package com.movtery.zalithlauncher.feature.version.install
+package com.craftstudio.launcher.feature.version.install
 
 import android.content.Intent
 import com.google.gson.JsonParser
 import com.kdt.mcgui.ProgressLayout
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.customprofilepath.ProfilePathHome
-import com.movtery.zalithlauncher.utils.path.LibPath
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.customprofilepath.ProfilePathHome
+import com.craftstudio.launcher.utils.path.LibPath
 import net.kdt.pojavlaunch.JavaGUILauncherActivity
 import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper
 import java.io.File

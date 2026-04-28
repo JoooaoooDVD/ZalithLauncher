@@ -1,7 +1,7 @@
-package com.movtery.zalithlauncher.ui.subassembly.customcontrols
+package com.craftstudio.launcher.ui.subassembly.customcontrols
 
 import android.content.Context
-import com.movtery.zalithlauncher.feature.log.Logging
+import com.craftstudio.launcher.feature.log.Logging
 import net.kdt.pojavlaunch.Tools
 import net.kdt.pojavlaunch.customcontrols.CustomControls
 import net.kdt.pojavlaunch.customcontrols.LayoutConverter

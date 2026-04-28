@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils.file
+package com.craftstudio.launcher.utils.file
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,11 +6,11 @@ import android.content.Intent
 import android.net.Uri
 import android.provider.DocumentsContract
 import android.widget.EditText
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.ui.dialog.EditTextDialog
-import com.movtery.zalithlauncher.ui.dialog.EditTextDialog.ConfirmListener
-import com.movtery.zalithlauncher.utils.ZHTools
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.ui.dialog.EditTextDialog
+import com.craftstudio.launcher.ui.dialog.EditTextDialog.ConfirmListener
+import com.craftstudio.launcher.utils.ZHTools
 import net.kdt.pojavlaunch.Tools
 import org.apache.commons.io.FileUtils
 import java.io.File

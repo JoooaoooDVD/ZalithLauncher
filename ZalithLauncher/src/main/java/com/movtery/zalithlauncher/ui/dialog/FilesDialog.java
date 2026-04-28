@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.dialog;
+package com.craftstudio.launcher.ui.dialog;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -8,11 +8,11 @@ import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.databinding.DialogOperationFileBinding;
-import com.movtery.zalithlauncher.task.Task;
-import com.movtery.zalithlauncher.utils.file.FileTools;
-import com.movtery.zalithlauncher.utils.file.PasteFile;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.databinding.DialogOperationFileBinding;
+import com.craftstudio.launcher.task.Task;
+import com.craftstudio.launcher.utils.file.FileTools;
+import com.craftstudio.launcher.utils.file.PasteFile;
 
 import java.io.File;
 import java.util.ArrayList;

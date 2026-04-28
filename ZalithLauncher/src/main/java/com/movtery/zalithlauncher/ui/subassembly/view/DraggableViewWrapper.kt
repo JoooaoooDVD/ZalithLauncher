@@ -1,9 +1,9 @@
-package com.movtery.zalithlauncher.ui.subassembly.view
+package com.craftstudio.launcher.ui.subassembly.view
 
 import android.annotation.SuppressLint
 import android.view.MotionEvent
 import android.view.View
-import com.movtery.zalithlauncher.utils.ZHTools
+import com.craftstudio.launcher.utils.ZHTools
 import kotlin.math.max
 import kotlin.math.min
 

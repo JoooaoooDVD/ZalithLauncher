@@ -1,19 +1,19 @@
-package com.movtery.zalithlauncher.feature.update;
+package com.craftstudio.launcher.feature.update;
 
-import static com.movtery.zalithlauncher.task.TaskExecutors.runInUIThread;
-import static com.movtery.zalithlauncher.utils.file.FileTools.formatFileSize;
-import static com.movtery.zalithlauncher.utils.path.UrlManager.TIME_OUT;
+import static com.craftstudio.launcher.task.TaskExecutors.runInUIThread;
+import static com.craftstudio.launcher.utils.file.FileTools.formatFileSize;
+import static com.craftstudio.launcher.utils.path.UrlManager.TIME_OUT;
 
 import android.app.Dialog;
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.ui.dialog.ProgressDialog;
-import com.movtery.zalithlauncher.utils.ZHTools;
-import com.movtery.zalithlauncher.utils.path.UrlManager;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.ui.dialog.ProgressDialog;
+import com.craftstudio.launcher.utils.ZHTools;
+import com.craftstudio.launcher.utils.path.UrlManager;
 
 import net.kdt.pojavlaunch.Tools;
 

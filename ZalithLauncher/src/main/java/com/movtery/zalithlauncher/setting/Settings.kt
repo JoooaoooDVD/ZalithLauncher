@@ -1,13 +1,13 @@
-package com.movtery.zalithlauncher.setting
+package com.craftstudio.launcher.setting
 
 import androidx.annotation.CheckResult
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.reflect.TypeToken
-import com.movtery.zalithlauncher.event.single.SettingsChangeEvent
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.setting.unit.AbstractSettingUnit
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.event.single.SettingsChangeEvent
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.setting.unit.AbstractSettingUnit
+import com.craftstudio.launcher.utils.path.PathManager
 import net.kdt.pojavlaunch.Tools
 import org.apache.commons.io.FileUtils
 import org.greenrobot.eventbus.EventBus

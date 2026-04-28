@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils.skin;
+package com.craftstudio.launcher.utils.skin;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -9,8 +9,8 @@ import android.graphics.Paint;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.utils.path.PathManager;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.utils.path.PathManager;
 
 import net.kdt.pojavlaunch.value.MinecraftAccount;
 

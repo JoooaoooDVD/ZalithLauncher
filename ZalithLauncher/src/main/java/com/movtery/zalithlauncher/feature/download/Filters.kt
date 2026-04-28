@@ -1,8 +1,8 @@
-package com.movtery.zalithlauncher.feature.download
+package com.craftstudio.launcher.feature.download
 
-import com.movtery.zalithlauncher.feature.download.enums.Category
-import com.movtery.zalithlauncher.feature.download.enums.ModLoader
-import com.movtery.zalithlauncher.feature.download.enums.Sort
+import com.craftstudio.launcher.feature.download.enums.Category
+import com.craftstudio.launcher.feature.download.enums.ModLoader
+import com.craftstudio.launcher.feature.download.enums.Sort
 
 /**
  * 用于平台进行搜索时，提供筛选信息

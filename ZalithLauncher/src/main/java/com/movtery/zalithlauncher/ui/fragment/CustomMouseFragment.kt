@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.fragment
+package com.craftstudio.launcher.ui.fragment
 
 import android.annotation.SuppressLint
 import android.net.Uri
@@ -15,23 +15,23 @@ import com.bumptech.glide.request.target.DrawableImageViewTarget
 import com.getkeepsafe.taptargetview.TapTargetSequence
 import com.movtery.anim.AnimPlayer
 import com.movtery.anim.animations.Animations
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.FragmentCustomMouseBinding
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.task.TaskExecutors
-import com.movtery.zalithlauncher.ui.dialog.FilesDialog
-import com.movtery.zalithlauncher.ui.dialog.FilesDialog.FilesButton
-import com.movtery.zalithlauncher.ui.subassembly.filelist.FileIcon
-import com.movtery.zalithlauncher.ui.subassembly.filelist.FileItemBean
-import com.movtery.zalithlauncher.ui.subassembly.filelist.FileRecyclerViewCreator
-import com.movtery.zalithlauncher.utils.NewbieGuideUtils
-import com.movtery.zalithlauncher.utils.path.PathManager
-import com.movtery.zalithlauncher.utils.ZHTools
-import com.movtery.zalithlauncher.utils.file.FileTools
-import com.movtery.zalithlauncher.utils.file.FileTools.Companion.mkdirs
-import com.movtery.zalithlauncher.utils.image.ImageUtils.Companion.isImage
-import com.movtery.zalithlauncher.utils.stringutils.StringUtils
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.FragmentCustomMouseBinding
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.task.TaskExecutors
+import com.craftstudio.launcher.ui.dialog.FilesDialog
+import com.craftstudio.launcher.ui.dialog.FilesDialog.FilesButton
+import com.craftstudio.launcher.ui.subassembly.filelist.FileIcon
+import com.craftstudio.launcher.ui.subassembly.filelist.FileItemBean
+import com.craftstudio.launcher.ui.subassembly.filelist.FileRecyclerViewCreator
+import com.craftstudio.launcher.utils.NewbieGuideUtils
+import com.craftstudio.launcher.utils.path.PathManager
+import com.craftstudio.launcher.utils.ZHTools
+import com.craftstudio.launcher.utils.file.FileTools
+import com.craftstudio.launcher.utils.file.FileTools.Companion.mkdirs
+import com.craftstudio.launcher.utils.image.ImageUtils.Companion.isImage
+import com.craftstudio.launcher.utils.stringutils.StringUtils
 import net.kdt.pojavlaunch.Tools
 import java.io.File
 

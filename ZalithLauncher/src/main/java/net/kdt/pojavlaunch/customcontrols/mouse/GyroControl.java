@@ -10,8 +10,8 @@ import android.view.OrientationEventListener;
 import android.view.Surface;
 import android.view.WindowManager;
 
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.setting.AllStaticSettings;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.setting.AllStaticSettings;
 
 import net.kdt.pojavlaunch.GrabListener;
 

@@ -1,8 +1,8 @@
-package com.movtery.zalithlauncher.ui.subassembly.settingsbutton
+package com.craftstudio.launcher.ui.subassembly.settingsbutton
 
 import android.widget.ImageButton
 import androidx.core.content.ContextCompat
-import com.movtery.zalithlauncher.R
+import com.craftstudio.launcher.R
 
 class SettingsButtonWrapper(val button: ImageButton) {
     private var onTypeChangeListener: OnTypeChangeListener? = null

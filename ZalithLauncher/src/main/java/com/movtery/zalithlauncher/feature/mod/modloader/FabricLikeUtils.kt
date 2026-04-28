@@ -1,10 +1,10 @@
-package com.movtery.zalithlauncher.feature.mod.modloader
+package com.craftstudio.launcher.feature.mod.modloader
 
 import com.google.gson.Gson
 import com.google.gson.JsonArray
 import com.google.gson.JsonSyntaxException
-import com.movtery.zalithlauncher.feature.log.Logging.e
-import com.movtery.zalithlauncher.feature.version.install.Addon
+import com.craftstudio.launcher.feature.log.Logging.e
+import com.craftstudio.launcher.feature.version.install.Addon
 import net.kdt.pojavlaunch.Tools
 import net.kdt.pojavlaunch.modloaders.FabricVersion
 import net.kdt.pojavlaunch.utils.DownloadUtils

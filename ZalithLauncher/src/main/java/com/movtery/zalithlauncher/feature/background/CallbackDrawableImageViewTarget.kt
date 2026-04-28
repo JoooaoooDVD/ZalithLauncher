@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.background
+package com.craftstudio.launcher.feature.background
 
 import android.graphics.drawable.Drawable
 import android.widget.ImageView

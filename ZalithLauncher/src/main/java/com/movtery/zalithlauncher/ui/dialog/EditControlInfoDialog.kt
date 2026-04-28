@@ -1,13 +1,13 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.content.Context
 import android.os.Bundle
 import android.view.Window
 import android.widget.EditText
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.DialogEditControlInfoBinding
-import com.movtery.zalithlauncher.ui.dialog.DraggableDialog.DialogInitializationListener
-import com.movtery.zalithlauncher.ui.subassembly.customcontrols.ControlInfoData
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.DialogEditControlInfoBinding
+import com.craftstudio.launcher.ui.dialog.DraggableDialog.DialogInitializationListener
+import com.craftstudio.launcher.ui.subassembly.customcontrols.ControlInfoData
 
 class EditControlInfoDialog(
     context: Context,

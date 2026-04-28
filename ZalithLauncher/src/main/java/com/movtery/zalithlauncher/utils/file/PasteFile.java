@@ -1,11 +1,11 @@
-package com.movtery.zalithlauncher.utils.file;
+package com.craftstudio.launcher.utils.file;
 
 import android.app.Activity;
 import android.widget.Toast;
 
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.task.Task;
-import com.movtery.zalithlauncher.task.TaskExecutors;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.task.Task;
+import com.craftstudio.launcher.task.TaskExecutors;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.content.Context
 import android.os.Bundle
@@ -6,10 +6,10 @@ import android.view.View
 import android.view.Window
 import android.widget.EditText
 import androidx.annotation.CheckResult
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.DialogEditTextBinding
-import com.movtery.zalithlauncher.ui.dialog.DraggableDialog.DialogInitializationListener
-import com.movtery.zalithlauncher.utils.stringutils.StringUtilsKt.Companion.isEmptyOrBlank
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.DialogEditTextBinding
+import com.craftstudio.launcher.ui.dialog.DraggableDialog.DialogInitializationListener
+import com.craftstudio.launcher.utils.stringutils.StringUtilsKt.Companion.isEmptyOrBlank
 
 class EditTextDialog private constructor(
     private val context: Context,

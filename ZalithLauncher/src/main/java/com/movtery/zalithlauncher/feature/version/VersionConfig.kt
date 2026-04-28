@@ -1,14 +1,14 @@
-package com.movtery.zalithlauncher.feature.version
+package com.craftstudio.launcher.feature.version
 
 import android.content.Context
 import android.os.Parcel
 import android.os.Parcelable
 import com.google.gson.JsonParser
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.feature.version.VersionsManager.getZalithVersionPath
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.utils.stringutils.StringUtils.getStringNotNull
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.feature.version.VersionsManager.getZalithVersionPath
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.utils.stringutils.StringUtils.getStringNotNull
 import net.kdt.pojavlaunch.Tools
 import java.io.File
 import java.io.FileWriter

@@ -1,9 +1,9 @@
-package com.movtery.zalithlauncher.feature.mod
+package com.craftstudio.launcher.feature.mod
 
 import android.content.Context
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.utils.file.FileHandler
-import com.movtery.zalithlauncher.utils.file.FileSearchProgress
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.utils.file.FileHandler
+import com.craftstudio.launcher.utils.file.FileSearchProgress
 import org.apache.commons.io.FileUtils
 import java.io.File
 import java.util.concurrent.atomic.AtomicLong

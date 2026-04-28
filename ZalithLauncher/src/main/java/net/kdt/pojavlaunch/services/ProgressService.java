@@ -16,11 +16,11 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 
-import com.movtery.zalithlauncher.InfoCenter;
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.task.TaskExecutors;
-import com.movtery.zalithlauncher.utils.ZHTools;
+import com.craftstudio.launcher.InfoCenter;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.task.TaskExecutors;
+import com.craftstudio.launcher.utils.ZHTools;
 
 import net.kdt.pojavlaunch.Tools;
 import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;

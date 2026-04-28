@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils;
+package com.craftstudio.launcher.utils;
 
 import android.Manifest;
 import android.content.Context;
@@ -33,18 +33,18 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.movtery.zalithlauncher.BuildConfig;
-import com.movtery.zalithlauncher.InfoDistributor;
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.context.ContextExecutor;
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.task.Task;
-import com.movtery.zalithlauncher.task.TaskExecutors;
-import com.movtery.zalithlauncher.ui.dialog.TipDialog;
-import com.movtery.zalithlauncher.ui.fragment.FragmentWithAnim;
-import com.movtery.zalithlauncher.utils.file.FileTools;
-import com.movtery.zalithlauncher.utils.path.PathManager;
+import com.craftstudio.launcher.BuildConfig;
+import com.craftstudio.launcher.InfoDistributor;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.context.ContextExecutor;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.task.Task;
+import com.craftstudio.launcher.task.TaskExecutors;
+import com.craftstudio.launcher.ui.dialog.TipDialog;
+import com.craftstudio.launcher.ui.fragment.FragmentWithAnim;
+import com.craftstudio.launcher.utils.file.FileTools;
+import com.craftstudio.launcher.utils.path.PathManager;
 
 import net.kdt.pojavlaunch.Tools;
 

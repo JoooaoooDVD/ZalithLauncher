@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils.platform
+package com.craftstudio.launcher.utils.platform
 
 import android.app.ActivityManager
 import android.content.Context

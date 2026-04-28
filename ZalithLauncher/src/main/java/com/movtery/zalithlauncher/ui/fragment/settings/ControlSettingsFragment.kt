@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.fragment.settings
+package com.craftstudio.launcher.ui.fragment.settings
 
 import android.content.Context
 import android.hardware.Sensor
@@ -10,15 +10,15 @@ import android.view.ViewGroup
 import android.widget.Toast
 import com.movtery.anim.AnimPlayer
 import com.movtery.anim.animations.Animations
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.SettingsFragmentControlBinding
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.ui.fragment.CustomMouseFragment
-import com.movtery.zalithlauncher.ui.fragment.FragmentWithAnim
-import com.movtery.zalithlauncher.ui.fragment.settings.wrapper.BaseSettingsWrapper
-import com.movtery.zalithlauncher.ui.fragment.settings.wrapper.SeekBarSettingsWrapper
-import com.movtery.zalithlauncher.ui.fragment.settings.wrapper.SwitchSettingsWrapper
-import com.movtery.zalithlauncher.utils.ZHTools
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.SettingsFragmentControlBinding
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.ui.fragment.CustomMouseFragment
+import com.craftstudio.launcher.ui.fragment.FragmentWithAnim
+import com.craftstudio.launcher.ui.fragment.settings.wrapper.BaseSettingsWrapper
+import com.craftstudio.launcher.ui.fragment.settings.wrapper.SeekBarSettingsWrapper
+import com.craftstudio.launcher.ui.fragment.settings.wrapper.SwitchSettingsWrapper
+import com.craftstudio.launcher.utils.ZHTools
 import fr.spse.gamepad_remapper.Remapper
 import net.kdt.pojavlaunch.fragments.GamepadMapperFragment
 

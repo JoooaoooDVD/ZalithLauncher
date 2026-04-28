@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.fragment.settings.wrapper
+package com.craftstudio.launcher.ui.fragment.settings.wrapper
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -8,10 +8,10 @@ import android.widget.SeekBar
 import android.widget.SeekBar.OnSeekBarChangeListener
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.log.Logging.e
-import com.movtery.zalithlauncher.setting.unit.IntSettingUnit
-import com.movtery.zalithlauncher.ui.dialog.EditTextDialog
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.log.Logging.e
+import com.craftstudio.launcher.setting.unit.IntSettingUnit
+import com.craftstudio.launcher.ui.dialog.EditTextDialog
 
 @SuppressLint("UseSwitchCompatOrMaterialCode", "StringFormatInvalid")
 class SeekBarSettingsWrapper(

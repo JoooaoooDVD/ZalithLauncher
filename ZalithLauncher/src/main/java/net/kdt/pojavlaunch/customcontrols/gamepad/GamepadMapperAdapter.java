@@ -16,8 +16,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.SwitchCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.ui.dialog.KeyboardDialog;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.ui.dialog.KeyboardDialog;
 
 import net.kdt.pojavlaunch.EfficientAndroidLWJGLKeycode;
 import net.kdt.pojavlaunch.GrabListener;

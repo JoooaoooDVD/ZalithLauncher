@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.event.single
+package com.craftstudio.launcher.event.single
 
 /**
  * 通过这个事件刷新MC物品栏的判定框

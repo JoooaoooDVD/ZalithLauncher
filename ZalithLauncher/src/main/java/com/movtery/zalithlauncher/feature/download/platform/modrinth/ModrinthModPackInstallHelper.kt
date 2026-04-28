@@ -1,13 +1,13 @@
-package com.movtery.zalithlauncher.feature.download.platform.modrinth
+package com.craftstudio.launcher.feature.download.platform.modrinth
 
 import com.kdt.mcgui.ProgressLayout
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.download.enums.ModLoader
-import com.movtery.zalithlauncher.feature.download.install.InstallHelper
-import com.movtery.zalithlauncher.feature.download.item.ModLoaderWrapper
-import com.movtery.zalithlauncher.feature.download.item.VersionItem
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.feature.mod.modpack.install.ModPackUtils.Companion.verifyModrinthIndex
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.download.enums.ModLoader
+import com.craftstudio.launcher.feature.download.install.InstallHelper
+import com.craftstudio.launcher.feature.download.item.ModLoaderWrapper
+import com.craftstudio.launcher.feature.download.item.VersionItem
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.feature.mod.modpack.install.ModPackUtils.Companion.verifyModrinthIndex
 import net.kdt.pojavlaunch.Tools
 import net.kdt.pojavlaunch.modloaders.modpacks.api.ModDownloader
 import net.kdt.pojavlaunch.modloaders.modpacks.models.ModrinthIndex

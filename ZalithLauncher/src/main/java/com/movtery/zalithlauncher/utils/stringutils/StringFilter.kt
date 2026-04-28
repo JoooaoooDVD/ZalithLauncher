@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils.stringutils
+package com.craftstudio.launcher.utils.stringutils
 
 import java.util.Locale
 import java.util.regex.Pattern

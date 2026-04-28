@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -11,8 +11,8 @@ import android.view.View
 import android.view.Window
 import android.widget.TextView
 import androidx.annotation.CheckResult
-import com.movtery.zalithlauncher.databinding.DialogTipBinding
-import com.movtery.zalithlauncher.ui.dialog.DraggableDialog.DialogInitializationListener
+import com.craftstudio.launcher.databinding.DialogTipBinding
+import com.craftstudio.launcher.ui.dialog.DraggableDialog.DialogInitializationListener
 
 
 class TipDialog private constructor(

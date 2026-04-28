@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.fragment
+package com.craftstudio.launcher.ui.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,16 +10,16 @@ import androidx.viewpager2.widget.ViewPager2
 import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
 import com.movtery.anim.AnimPlayer
 import com.movtery.anim.animations.Animations
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.FragmentDownloadBinding
-import com.movtery.zalithlauncher.event.value.DownloadPageEvent
-import com.movtery.zalithlauncher.event.value.DownloadPageEvent.PageSwapEvent.Companion.IN
-import com.movtery.zalithlauncher.event.value.DownloadPageEvent.PageSwapEvent.Companion.OUT
-import com.movtery.zalithlauncher.ui.fragment.download.resource.ModDownloadFragment
-import com.movtery.zalithlauncher.ui.fragment.download.resource.ModPackDownloadFragment
-import com.movtery.zalithlauncher.ui.fragment.download.resource.ResourcePackDownloadFragment
-import com.movtery.zalithlauncher.ui.fragment.download.resource.ShaderPackDownloadFragment
-import com.movtery.zalithlauncher.ui.fragment.download.resource.WorldDownloadFragment
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.FragmentDownloadBinding
+import com.craftstudio.launcher.event.value.DownloadPageEvent
+import com.craftstudio.launcher.event.value.DownloadPageEvent.PageSwapEvent.Companion.IN
+import com.craftstudio.launcher.event.value.DownloadPageEvent.PageSwapEvent.Companion.OUT
+import com.craftstudio.launcher.ui.fragment.download.resource.ModDownloadFragment
+import com.craftstudio.launcher.ui.fragment.download.resource.ModPackDownloadFragment
+import com.craftstudio.launcher.ui.fragment.download.resource.ResourcePackDownloadFragment
+import com.craftstudio.launcher.ui.fragment.download.resource.ShaderPackDownloadFragment
+import com.craftstudio.launcher.ui.fragment.download.resource.WorldDownloadFragment
 import org.greenrobot.eventbus.EventBus
 
 class DownloadFragment : FragmentWithAnim(R.layout.fragment_download) {

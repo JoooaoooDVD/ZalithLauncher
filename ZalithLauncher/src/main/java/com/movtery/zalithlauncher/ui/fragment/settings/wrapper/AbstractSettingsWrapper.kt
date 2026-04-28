@@ -1,10 +1,10 @@
-package com.movtery.zalithlauncher.ui.fragment.settings.wrapper
+package com.craftstudio.launcher.ui.fragment.settings.wrapper
 
 import android.content.Context
 import android.view.View
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.ui.dialog.TipDialog
-import com.movtery.zalithlauncher.utils.ZHTools
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.ui.dialog.TipDialog
+import com.craftstudio.launcher.utils.ZHTools
 
 abstract class AbstractSettingsWrapper(
     private val mainView: View

@@ -1,12 +1,12 @@
-package com.movtery.zalithlauncher.feature.mod.modloader;
+package com.craftstudio.launcher.feature.mod.modloader;
 
 import androidx.annotation.NonNull;
 
 import com.kdt.mcgui.ProgressLayout;
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.feature.customprofilepath.ProfilePathHome;
-import com.movtery.zalithlauncher.feature.version.install.InstallTask;
-import com.movtery.zalithlauncher.utils.path.PathManager;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.feature.customprofilepath.ProfilePathHome;
+import com.craftstudio.launcher.feature.version.install.InstallTask;
+import com.craftstudio.launcher.utils.path.PathManager;
 
 import net.kdt.pojavlaunch.Tools;
 import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;

@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.fragment.about
+package com.craftstudio.launcher.ui.fragment.about
 
 import android.annotation.SuppressLint
 import android.content.res.Resources
@@ -9,13 +9,13 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.viewpager2.widget.ViewPager2
-import com.movtery.zalithlauncher.InfoCenter
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.FragmentAboutInfoPageBinding
-import com.movtery.zalithlauncher.ui.subassembly.about.AboutItemBean
-import com.movtery.zalithlauncher.ui.subassembly.about.AboutItemBean.AboutItemButtonBean
-import com.movtery.zalithlauncher.ui.subassembly.about.AboutRecyclerAdapter
-import com.movtery.zalithlauncher.utils.ZHTools
+import com.craftstudio.launcher.InfoCenter
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.FragmentAboutInfoPageBinding
+import com.craftstudio.launcher.ui.subassembly.about.AboutItemBean
+import com.craftstudio.launcher.ui.subassembly.about.AboutItemBean.AboutItemButtonBean
+import com.craftstudio.launcher.ui.subassembly.about.AboutRecyclerAdapter
+import com.craftstudio.launcher.utils.ZHTools
 
 class AboutInfoPageFragment() : Fragment(R.layout.fragment_about_info_page) {
     private lateinit var binding: FragmentAboutInfoPageBinding

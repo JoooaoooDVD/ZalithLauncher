@@ -5,8 +5,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.movtery.zalithlauncher.InfoCenter;
-import com.movtery.zalithlauncher.R;
+import com.craftstudio.launcher.InfoCenter;
+import com.craftstudio.launcher.R;
 
 public class MissingStorageActivity extends AppCompatActivity {
     @Override

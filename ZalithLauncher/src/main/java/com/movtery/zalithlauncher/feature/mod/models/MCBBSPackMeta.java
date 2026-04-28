@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.mod.models;
+package com.craftstudio.launcher.feature.mod.models;
 
 public class MCBBSPackMeta {
     public String author;

@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.ui.subassembly.hotbar
+package com.craftstudio.launcher.ui.subassembly.hotbar
 
-import com.movtery.zalithlauncher.R
+import com.craftstudio.launcher.R
 
 /**
  * 快捷栏判定类型

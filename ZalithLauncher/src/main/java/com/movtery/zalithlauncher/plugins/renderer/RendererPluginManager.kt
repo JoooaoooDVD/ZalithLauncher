@@ -1,13 +1,13 @@
-package com.movtery.zalithlauncher.plugins.renderer
+package com.craftstudio.launcher.plugins.renderer
 
 import android.content.Context
 import android.content.pm.ApplicationInfo
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.feature.update.UpdateUtils
-import com.movtery.zalithlauncher.renderer.Renderers
-import com.movtery.zalithlauncher.utils.path.PathManager
-import com.movtery.zalithlauncher.utils.stringutils.StringUtilsKt
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.feature.update.UpdateUtils
+import com.craftstudio.launcher.renderer.Renderers
+import com.craftstudio.launcher.utils.path.PathManager
+import com.craftstudio.launcher.utils.stringutils.StringUtilsKt
 import net.kdt.pojavlaunch.Architecture
 import net.kdt.pojavlaunch.Tools
 import net.kdt.pojavlaunch.utils.ZipUtils

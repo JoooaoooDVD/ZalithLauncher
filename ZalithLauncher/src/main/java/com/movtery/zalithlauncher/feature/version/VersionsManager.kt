@@ -1,21 +1,21 @@
-package com.movtery.zalithlauncher.feature.version
+package com.craftstudio.launcher.feature.version
 
 import android.content.Context
-import com.movtery.zalithlauncher.InfoDistributor
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.event.single.RefreshVersionsEvent
-import com.movtery.zalithlauncher.event.single.RefreshVersionsEvent.MODE.END
-import com.movtery.zalithlauncher.event.single.RefreshVersionsEvent.MODE.START
-import com.movtery.zalithlauncher.feature.customprofilepath.ProfilePathHome
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.feature.version.favorites.FavoritesVersionUtils
-import com.movtery.zalithlauncher.feature.version.utils.VersionInfoUtils
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.task.TaskExecutors
-import com.movtery.zalithlauncher.ui.dialog.EditTextDialog
-import com.movtery.zalithlauncher.utils.ZHTools
-import com.movtery.zalithlauncher.utils.file.FileTools
-import com.movtery.zalithlauncher.utils.stringutils.SortStrings
+import com.craftstudio.launcher.InfoDistributor
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.event.single.RefreshVersionsEvent
+import com.craftstudio.launcher.event.single.RefreshVersionsEvent.MODE.END
+import com.craftstudio.launcher.event.single.RefreshVersionsEvent.MODE.START
+import com.craftstudio.launcher.feature.customprofilepath.ProfilePathHome
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.feature.version.favorites.FavoritesVersionUtils
+import com.craftstudio.launcher.feature.version.utils.VersionInfoUtils
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.task.TaskExecutors
+import com.craftstudio.launcher.ui.dialog.EditTextDialog
+import com.craftstudio.launcher.utils.ZHTools
+import com.craftstudio.launcher.utils.file.FileTools
+import com.craftstudio.launcher.utils.stringutils.SortStrings
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -70,7 +70,7 @@ object VersionsManager {
     /**
      * 异步刷新当前的版本列表，刷新完成后，将使用一个事件进行通知，不过这个事件并不会在UI线程执行
      * @param tag 标记是谁发起了版本刷新任务，方便debug
-     * @see com.movtery.zalithlauncher.event.single.RefreshVersionsEvent
+     * @see com.craftstudio.launcher.event.single.RefreshVersionsEvent
      */
     fun refresh(tag: String, refreshVersionInfo: Boolean = false) {
         Logging.i("VersionsManager", "$tag initiated the refresh version task")

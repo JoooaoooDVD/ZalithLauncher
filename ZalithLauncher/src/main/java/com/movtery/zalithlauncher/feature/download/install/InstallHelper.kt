@@ -1,14 +1,14 @@
-package com.movtery.zalithlauncher.feature.download.install
+package com.craftstudio.launcher.feature.download.install
 
 import com.kdt.mcgui.ProgressLayout
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.event.value.DownloadProgressKeyEvent
-import com.movtery.zalithlauncher.feature.download.item.ModLoaderWrapper
-import com.movtery.zalithlauncher.feature.download.item.VersionItem
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.feature.version.VersionsManager
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.event.value.DownloadProgressKeyEvent
+import com.craftstudio.launcher.feature.download.item.ModLoaderWrapper
+import com.craftstudio.launcher.feature.download.item.VersionItem
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.feature.version.VersionsManager
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.utils.path.PathManager
 import net.kdt.pojavlaunch.progresskeeper.DownloaderProgressWrapper
 import net.kdt.pojavlaunch.utils.DownloadUtils
 import org.apache.commons.io.FileUtils

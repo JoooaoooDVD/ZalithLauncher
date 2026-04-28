@@ -1,9 +1,9 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.content.Context
 import androidx.recyclerview.widget.RecyclerView
-import com.movtery.zalithlauncher.ui.subassembly.customcontrols.ControlSelectedListener
-import com.movtery.zalithlauncher.ui.subassembly.customcontrols.ControlsListViewCreator
+import com.craftstudio.launcher.ui.subassembly.customcontrols.ControlSelectedListener
+import com.craftstudio.launcher.ui.subassembly.customcontrols.ControlsListViewCreator
 import java.io.File
 
 class SelectControlsDialog(

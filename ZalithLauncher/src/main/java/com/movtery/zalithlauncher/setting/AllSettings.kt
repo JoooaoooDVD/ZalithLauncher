@@ -1,12 +1,12 @@
-package com.movtery.zalithlauncher.setting
+package com.craftstudio.launcher.setting
 
-import com.movtery.zalithlauncher.InfoDistributor
-import com.movtery.zalithlauncher.context.ContextExecutor
-import com.movtery.zalithlauncher.setting.unit.BooleanSettingUnit
-import com.movtery.zalithlauncher.setting.unit.IntSettingUnit
-import com.movtery.zalithlauncher.setting.unit.LongSettingUnit
-import com.movtery.zalithlauncher.setting.unit.StringSettingUnit
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.InfoDistributor
+import com.craftstudio.launcher.context.ContextExecutor
+import com.craftstudio.launcher.setting.unit.BooleanSettingUnit
+import com.craftstudio.launcher.setting.unit.IntSettingUnit
+import com.craftstudio.launcher.setting.unit.LongSettingUnit
+import com.craftstudio.launcher.setting.unit.StringSettingUnit
+import com.craftstudio.launcher.utils.path.PathManager
 import net.kdt.pojavlaunch.Tools
 import net.kdt.pojavlaunch.prefs.LauncherPreferences
 

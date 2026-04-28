@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.fragment.settings.wrapper
+package com.craftstudio.launcher.ui.fragment.settings.wrapper
 
 import android.annotation.SuppressLint
 import android.content.Context

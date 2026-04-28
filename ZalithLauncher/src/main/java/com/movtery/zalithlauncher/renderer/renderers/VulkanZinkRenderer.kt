@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.renderer.renderers
+package com.craftstudio.launcher.renderer.renderers
 
-import com.movtery.zalithlauncher.renderer.RendererInterface
+import com.craftstudio.launcher.renderer.RendererInterface
 
 class VulkanZinkRenderer : RendererInterface {
     override fun getRendererId(): String = "vulkan_zink"

@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.ui.subassembly.hotbar
+package com.craftstudio.launcher.ui.subassembly.hotbar
 
-import com.movtery.zalithlauncher.setting.AllSettings.Companion.hotbarType
+import com.craftstudio.launcher.setting.AllSettings.Companion.hotbarType
 
 class HotbarUtils {
     companion object {

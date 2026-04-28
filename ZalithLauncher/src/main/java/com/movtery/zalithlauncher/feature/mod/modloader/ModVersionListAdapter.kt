@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.mod.modloader
+package com.craftstudio.launcher.feature.mod.modloader
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.movtery.anim.animations.Animations
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.ItemFileListViewBinding
-import com.movtery.zalithlauncher.feature.download.item.VersionItem
-import com.movtery.zalithlauncher.utils.anim.ViewAnimUtils
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.ItemFileListViewBinding
+import com.craftstudio.launcher.feature.download.item.VersionItem
+import com.craftstudio.launcher.utils.anim.ViewAnimUtils
 import net.kdt.pojavlaunch.modloaders.FabricVersion
 import net.kdt.pojavlaunch.modloaders.OptiFineUtils.OptiFineVersion
 

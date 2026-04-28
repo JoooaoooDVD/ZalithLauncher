@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.view
+package com.craftstudio.launcher.ui.view
 
 import android.animation.AnimatorInflater
 import android.content.Context
@@ -6,8 +6,8 @@ import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatEditText
 import com.movtery.anim.animations.Animations
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.utils.anim.ViewAnimUtils.Companion.setViewAnim
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.utils.anim.ViewAnimUtils.Companion.setViewAnim
 
 class AnimEditText @JvmOverloads constructor(
     context: Context,

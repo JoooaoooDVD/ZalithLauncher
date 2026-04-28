@@ -11,9 +11,9 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.movtery.anim.animations.Animations;
-import com.movtery.zalithlauncher.databinding.ViewLoggerBinding;
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.utils.anim.ViewAnimUtils;
+import com.craftstudio.launcher.databinding.ViewLoggerBinding;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.utils.anim.ViewAnimUtils;
 
 import net.kdt.pojavlaunch.Logger;
 

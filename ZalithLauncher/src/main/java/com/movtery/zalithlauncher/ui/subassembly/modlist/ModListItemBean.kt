@@ -1,7 +1,7 @@
-package com.movtery.zalithlauncher.ui.subassembly.modlist
+package com.craftstudio.launcher.ui.subassembly.modlist
 
 import androidx.recyclerview.widget.RecyclerView
-import com.movtery.zalithlauncher.feature.download.enums.ModLoader
+import com.craftstudio.launcher.feature.download.enums.ModLoader
 import java.util.concurrent.atomic.AtomicReference
 
 class ModListItemBean(

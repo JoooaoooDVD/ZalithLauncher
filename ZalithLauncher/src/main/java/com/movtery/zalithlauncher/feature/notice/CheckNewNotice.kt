@@ -1,12 +1,12 @@
-package com.movtery.zalithlauncher.feature.notice
+package com.craftstudio.launcher.feature.notice
 
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.utils.ZHTools
-import com.movtery.zalithlauncher.utils.http.CallUtils
-import com.movtery.zalithlauncher.utils.http.CallUtils.CallbackListener
-import com.movtery.zalithlauncher.utils.path.UrlManager
-import com.movtery.zalithlauncher.utils.stringutils.StringUtils
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.utils.ZHTools
+import com.craftstudio.launcher.utils.http.CallUtils
+import com.craftstudio.launcher.utils.http.CallUtils.CallbackListener
+import com.craftstudio.launcher.utils.path.UrlManager
+import com.craftstudio.launcher.utils.stringutils.StringUtils
 import net.kdt.pojavlaunch.Tools
 import okhttp3.Call
 import okhttp3.Response

@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.customcontrols
+package com.craftstudio.launcher.ui.subassembly.customcontrols
 
 class ControlItemBean(@JvmField val controlInfoData: ControlInfoData) {
     @JvmField

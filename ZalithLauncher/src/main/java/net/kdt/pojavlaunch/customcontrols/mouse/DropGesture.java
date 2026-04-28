@@ -4,7 +4,7 @@ import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 
 import android.os.Handler;
 
-import com.movtery.zalithlauncher.setting.AllStaticSettings;
+import com.craftstudio.launcher.setting.AllStaticSettings;
 
 import net.kdt.pojavlaunch.LwjglGlfwKeycode;
 

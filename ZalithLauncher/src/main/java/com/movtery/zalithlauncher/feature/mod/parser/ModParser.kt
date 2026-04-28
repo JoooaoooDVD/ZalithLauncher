@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.mod.parser
+package com.craftstudio.launcher.feature.mod.parser
 
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
@@ -6,11 +6,11 @@ import com.google.gson.JsonArray
 import com.google.gson.JsonParser
 import com.google.gson.reflect.TypeToken
 import com.moandjiezana.toml.Toml
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.feature.version.Version
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.utils.file.FileTools
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.feature.version.Version
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.utils.file.FileTools
+import com.craftstudio.launcher.utils.path.PathManager
 import kotlinx.coroutines.*
 import kotlinx.coroutines.sync.Semaphore
 import net.kdt.pojavlaunch.Tools

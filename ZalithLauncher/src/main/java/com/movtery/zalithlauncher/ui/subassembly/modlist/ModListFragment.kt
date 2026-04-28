@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.modlist
+package com.craftstudio.launcher.ui.subassembly.modlist
 
 import android.content.Context
 import android.graphics.Paint
@@ -16,14 +16,14 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.movtery.anim.AnimPlayer
 import com.movtery.anim.animations.Animations
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.FragmentModDownloadBinding
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.ui.fragment.FragmentWithAnim
-import com.movtery.zalithlauncher.utils.ZHTools
-import com.movtery.zalithlauncher.utils.anim.AnimUtils
-import com.movtery.zalithlauncher.utils.anim.AnimUtils.Companion.playVisibilityAnim
-import com.movtery.zalithlauncher.utils.stringutils.StringUtils
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.FragmentModDownloadBinding
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.ui.fragment.FragmentWithAnim
+import com.craftstudio.launcher.utils.ZHTools
+import com.craftstudio.launcher.utils.anim.AnimUtils
+import com.craftstudio.launcher.utils.anim.AnimUtils.Companion.playVisibilityAnim
+import com.craftstudio.launcher.utils.stringutils.StringUtils
 import java.util.concurrent.Future
 
 abstract class ModListFragment : FragmentWithAnim(R.layout.fragment_mod_download) {

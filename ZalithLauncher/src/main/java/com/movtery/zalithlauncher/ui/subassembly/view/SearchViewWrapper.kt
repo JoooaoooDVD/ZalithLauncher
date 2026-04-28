@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.view
+package com.craftstudio.launcher.ui.subassembly.view
 
 import android.view.View
 import android.widget.CheckBox
@@ -7,7 +7,7 @@ import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import com.movtery.zalithlauncher.R
+import com.craftstudio.launcher.R
 import com.petterp.floatingx.assist.FxGravity
 import com.petterp.floatingx.assist.helper.FxScopeHelper
 import com.petterp.floatingx.listener.IFxViewLifecycle

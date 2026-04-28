@@ -1,14 +1,14 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.content.Context
 import android.os.Bundle
 import androidx.core.widget.doAfterTextChanged
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayout.OnTabSelectedListener
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.DialogSelectVersionBinding
-import com.movtery.zalithlauncher.ui.subassembly.versionlist.VersionSelectedListener
-import com.movtery.zalithlauncher.ui.subassembly.versionlist.VersionType
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.DialogSelectVersionBinding
+import com.craftstudio.launcher.ui.subassembly.versionlist.VersionSelectedListener
+import com.craftstudio.launcher.ui.subassembly.versionlist.VersionType
 
 class SelectVersionDialog(context: Context) : FullScreenDialog(context) {
     private val binding: DialogSelectVersionBinding = DialogSelectVersionBinding.inflate(layoutInflater)

@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.renderer
+package com.craftstudio.launcher.renderer
 
 /**
  * @param rendererIdentifier 渲染器唯一标识符

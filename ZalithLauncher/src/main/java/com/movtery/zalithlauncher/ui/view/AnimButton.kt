@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.view
+package com.craftstudio.launcher.ui.view
 
 import android.animation.AnimatorInflater
 import android.content.Context
@@ -8,7 +8,7 @@ import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatButton
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
-import com.movtery.zalithlauncher.R
+import com.craftstudio.launcher.R
 import net.kdt.pojavlaunch.Tools
 
 open class AnimButton @JvmOverloads constructor(

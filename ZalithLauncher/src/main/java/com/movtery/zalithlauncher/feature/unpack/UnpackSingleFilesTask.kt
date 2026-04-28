@@ -1,9 +1,9 @@
-package com.movtery.zalithlauncher.feature.unpack
+package com.craftstudio.launcher.feature.unpack
 
 import android.content.Context
-import com.movtery.zalithlauncher.feature.log.Logging.e
-import com.movtery.zalithlauncher.utils.CopyDefaultFromAssets.Companion.copyFromAssets
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.feature.log.Logging.e
+import com.craftstudio.launcher.utils.CopyDefaultFromAssets.Companion.copyFromAssets
+import com.craftstudio.launcher.utils.path.PathManager
 import net.kdt.pojavlaunch.Tools
 
 class UnpackSingleFilesTask(val context: Context) : AbstractUnpackTask() {

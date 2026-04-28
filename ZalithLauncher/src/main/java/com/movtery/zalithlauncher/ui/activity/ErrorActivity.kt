@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.activity
+package com.craftstudio.launcher.ui.activity
 
 import android.content.Context
 import android.content.Intent
@@ -12,8 +12,8 @@ import com.craftstudio.launcher.R
 import com.craftstudio.launcher.databinding.ActivityErrorBinding
 
 // Purane utilities ke imports
-import com.movtery.zalithlauncher.InfoCenter
-import com.movtery.zalithlauncher.utils.ZHTools
+import com.craftstudio.launcher.InfoCenter
+import com.craftstudio.launcher.utils.ZHTools
 import net.kdt.pojavlaunch.Tools
 
 class ErrorActivity : BaseActivity() {

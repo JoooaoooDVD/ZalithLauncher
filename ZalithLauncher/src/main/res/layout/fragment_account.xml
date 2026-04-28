@@ -43,7 +43,7 @@
                 app:tab_deselect_color="#99E8EAF6"
                 app:tab_select_color="#FFB74D">
 
-                <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+                <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                     android:id="@+id/add_microsoft_account"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -71,9 +71,9 @@
                         android:text="@string/account_microsoft_account"
                         android:textStyle="bold"/>
 
-                </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+                </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
-                <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+                <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                     android:id="@+id/add_local_account"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
                         android:text="@string/account_local_account"
                         android:textStyle="bold"/>
 
-                </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+                </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
             </com.angcyo.tablayout.DslTabLayout>
 
@@ -182,7 +182,7 @@
                     layout="@layout/view_account" />
             </androidx.cardview.widget.CardView>
 
-            <com.movtery.zalithlauncher.ui.view.AnimButton
+            <com.craftstudio.launcher.ui.view.AnimButton
                 android:id="@+id/return_button"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_45sdp"

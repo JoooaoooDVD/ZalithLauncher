@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.versionlist
+package com.craftstudio.launcher.ui.subassembly.versionlist
 
 abstract class VersionSelectedListener {
     abstract fun onVersionSelected(version: String?)

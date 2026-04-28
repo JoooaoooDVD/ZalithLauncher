@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.filelist;
+package com.craftstudio.launcher.ui.subassembly.filelist;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -13,11 +13,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.DrawableImageViewTarget;
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.databinding.ItemFileListViewBinding;
-import com.movtery.zalithlauncher.utils.file.FileTools;
-import com.movtery.zalithlauncher.utils.image.ImageUtils;
-import com.movtery.zalithlauncher.utils.stringutils.StringUtils;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.databinding.ItemFileListViewBinding;
+import com.craftstudio.launcher.utils.file.FileTools;
+import com.craftstudio.launcher.utils.image.ImageUtils;
+import com.craftstudio.launcher.utils.stringutils.StringUtils;
 
 import java.io.File;
 import java.util.ArrayList;

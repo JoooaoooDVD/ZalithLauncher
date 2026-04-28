@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.account
+package com.craftstudio.launcher.ui.subassembly.account
 
 import net.kdt.pojavlaunch.value.MinecraftAccount
 

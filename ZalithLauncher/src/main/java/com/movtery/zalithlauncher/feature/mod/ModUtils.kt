@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.feature.mod
+package com.craftstudio.launcher.feature.mod
 
-import com.movtery.zalithlauncher.utils.file.FileTools.Companion.renameFile
+import com.craftstudio.launcher.utils.file.FileTools.Companion.renameFile
 import java.io.File
 
 class ModUtils {

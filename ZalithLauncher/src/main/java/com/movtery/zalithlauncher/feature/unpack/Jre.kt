@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.feature.unpack
+package com.craftstudio.launcher.feature.unpack
 
-import com.movtery.zalithlauncher.R
+import com.craftstudio.launcher.R
 
 enum class Jre(val jreName: String, val jrePath: String, val summary: Int) {
     JRE_8("Internal-8", "components/jre-8", R.string.splash_screen_jre8),

@@ -1,7 +1,7 @@
-package com.movtery.zalithlauncher.utils.path
+package com.craftstudio.launcher.utils.path
 
-import com.movtery.zalithlauncher.utils.path.PathManager.Companion.DIR_DATA
-import com.movtery.zalithlauncher.utils.path.PathManager.Companion.DIR_GAME_HOME
+import com.craftstudio.launcher.utils.path.PathManager.Companion.DIR_DATA
+import com.craftstudio.launcher.utils.path.PathManager.Companion.DIR_GAME_HOME
 import java.io.File
 
 class LibPath {

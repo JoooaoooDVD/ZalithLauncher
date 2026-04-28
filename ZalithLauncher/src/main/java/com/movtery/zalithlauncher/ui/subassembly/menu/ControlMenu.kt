@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.menu
+package com.craftstudio.launcher.ui.subassembly.menu
 
 import android.app.Activity
 import android.content.Intent
@@ -6,9 +6,9 @@ import android.provider.DocumentsContract
 import android.view.View
 import android.widget.CompoundButton
 import android.widget.SeekBar
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.ViewControlMenuBinding
-import com.movtery.zalithlauncher.setting.AllSettings
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.ViewControlMenuBinding
+import com.craftstudio.launcher.setting.AllSettings
 import net.kdt.pojavlaunch.Tools
 import net.kdt.pojavlaunch.customcontrols.ControlData
 import net.kdt.pojavlaunch.customcontrols.ControlDrawerData

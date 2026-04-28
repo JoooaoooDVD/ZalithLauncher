@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.filelist
+package com.craftstudio.launcher.ui.subassembly.filelist
 
 import java.io.File
 

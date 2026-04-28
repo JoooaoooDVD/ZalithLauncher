@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.fragment.settings.wrapper
+package com.craftstudio.launcher.ui.fragment.settings.wrapper
 
 import android.text.InputFilter
 import android.text.InputFilter.LengthFilter
@@ -7,7 +7,7 @@ import android.view.Gravity
 import android.view.View
 import android.widget.EditText
 import androidx.core.widget.doAfterTextChanged
-import com.movtery.zalithlauncher.setting.unit.StringSettingUnit
+import com.craftstudio.launcher.setting.unit.StringSettingUnit
 
 class EditTextSettingsWrapper(
     private val unit: StringSettingUnit,

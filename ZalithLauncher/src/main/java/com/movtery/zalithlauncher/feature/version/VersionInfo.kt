@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.feature.version
+package com.craftstudio.launcher.feature.version
 
-import com.movtery.zalithlauncher.feature.log.Logging
+import com.craftstudio.launcher.feature.log.Logging
 import net.kdt.pojavlaunch.Tools
 import java.io.File
 import java.io.FileWriter

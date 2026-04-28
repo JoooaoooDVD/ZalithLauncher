@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.utils.http
+package com.craftstudio.launcher.utils.http
 
-import com.movtery.zalithlauncher.utils.path.UrlManager
+import com.craftstudio.launcher.utils.path.UrlManager
 import okhttp3.Call
 import okhttp3.Callback
 import okhttp3.Interceptor

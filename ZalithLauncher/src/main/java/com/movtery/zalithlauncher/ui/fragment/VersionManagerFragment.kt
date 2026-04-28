@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.fragment
+package com.craftstudio.launcher.ui.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,16 +6,16 @@ import android.view.View
 import android.view.ViewGroup
 import com.movtery.anim.AnimPlayer
 import com.movtery.anim.animations.Animations
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.FragmentVersionManagerBinding
-import com.movtery.zalithlauncher.feature.version.NoVersionException
-import com.movtery.zalithlauncher.feature.version.Version
-import com.movtery.zalithlauncher.feature.version.VersionsManager
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.task.TaskExecutors
-import com.movtery.zalithlauncher.ui.dialog.TipDialog
-import com.movtery.zalithlauncher.utils.ZHTools
-import com.movtery.zalithlauncher.utils.file.FileDeletionHandler
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.FragmentVersionManagerBinding
+import com.craftstudio.launcher.feature.version.NoVersionException
+import com.craftstudio.launcher.feature.version.Version
+import com.craftstudio.launcher.feature.version.VersionsManager
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.task.TaskExecutors
+import com.craftstudio.launcher.ui.dialog.TipDialog
+import com.craftstudio.launcher.utils.ZHTools
+import com.craftstudio.launcher.utils.file.FileDeletionHandler
 import net.kdt.pojavlaunch.Tools
 import java.io.File
 

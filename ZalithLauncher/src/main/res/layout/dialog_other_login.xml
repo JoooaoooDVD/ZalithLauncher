@@ -24,7 +24,7 @@
         android:layout_marginHorizontal="@dimen/_8sdp"
         android:text="@string/other_login_email"/>
 
-    <com.movtery.zalithlauncher.ui.view.AnimEditText
+    <com.craftstudio.launcher.ui.view.AnimEditText
         android:id="@+id/email_edit"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_38sdp"
@@ -45,7 +45,7 @@
         android:layout_marginHorizontal="@dimen/_8sdp"
         android:text="@string/other_login_password"/>
 
-    <com.movtery.zalithlauncher.ui.view.AnimEditText
+    <com.craftstudio.launcher.ui.view.AnimEditText
         android:id="@+id/password_edit"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_38sdp"
@@ -75,7 +75,7 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal">
 
-        <com.movtery.zalithlauncher.ui.view.AnimButton
+        <com.craftstudio.launcher.ui.view.AnimButton
             android:id="@+id/cancel_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -83,7 +83,7 @@
             android:layout_marginEnd="@dimen/_2sdp"
             android:text="@android:string/cancel" />
 
-        <com.movtery.zalithlauncher.ui.view.AnimButton
+        <com.craftstudio.launcher.ui.view.AnimButton
             android:id="@+id/login_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

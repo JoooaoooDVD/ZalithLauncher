@@ -7,14 +7,14 @@ import android.widget.FrameLayout;
 import androidx.activity.OnBackPressedCallback;
 import androidx.drawerlayout.widget.DrawerLayout;
 
-import com.movtery.zalithlauncher.databinding.ActivityCustomControlsBinding;
-import com.movtery.zalithlauncher.databinding.ViewControlMenuBinding;
-import com.movtery.zalithlauncher.feature.background.BackgroundManager;
-import com.movtery.zalithlauncher.feature.background.BackgroundType;
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.ui.activity.BaseActivity;
-import com.movtery.zalithlauncher.ui.subassembly.menu.ControlMenu;
-import com.movtery.zalithlauncher.ui.subassembly.view.GameMenuViewWrapper;
+import com.craftstudio.launcher.databinding.ActivityCustomControlsBinding;
+import com.craftstudio.launcher.databinding.ViewControlMenuBinding;
+import com.craftstudio.launcher.feature.background.BackgroundManager;
+import com.craftstudio.launcher.feature.background.BackgroundType;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.ui.activity.BaseActivity;
+import com.craftstudio.launcher.ui.subassembly.menu.ControlMenu;
+import com.craftstudio.launcher.ui.subassembly.view.GameMenuViewWrapper;
 
 import net.kdt.pojavlaunch.customcontrols.ControlLayout;
 import net.kdt.pojavlaunch.customcontrols.EditorExitable;

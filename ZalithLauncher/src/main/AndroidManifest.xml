@@ -43,7 +43,7 @@
             android:name="android.max_aspect"
             android:value="ratio_float" />
         <activity
-            android:name="com.movtery.zalithlauncher.ui.activity.SplashActivity"
+            android:name="com.craftstudio.launcher.ui.activity.SplashActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|keyboard|navigation"
@@ -65,7 +65,7 @@
             android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|keyboard|navigation"
             android:screenOrientation="sensorLandscape" />
         <activity
-            android:name="com.movtery.zalithlauncher.ui.activity.ErrorActivity"
+            android:name="com.craftstudio.launcher.ui.activity.ErrorActivity"
             android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|keyboard|navigation"
             android:screenOrientation="sensorLandscape" />
         <activity android:name="net.kdt.pojavlaunch.ShowErrorActivity"

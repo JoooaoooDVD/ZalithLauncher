@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.dialog;
+package com.craftstudio.launcher.ui.dialog;
 
 import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
 
@@ -8,8 +8,8 @@ import android.view.WindowManager;
 
 import androidx.annotation.NonNull;
 
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.ui.subassembly.view.DraggableViewWrapper;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.ui.subassembly.view.DraggableViewWrapper;
 
 public final class DraggableDialog {
     private DraggableDialog() {}

@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.content.Context
 import android.os.Bundle
@@ -8,12 +8,12 @@ import android.view.WindowManager
 import android.view.animation.AnimationUtils
 import android.view.animation.LayoutAnimationController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.DialogModDependenciesBinding
-import com.movtery.zalithlauncher.feature.download.ModDependenciesAdapter
-import com.movtery.zalithlauncher.feature.download.item.DependenciesInfoItem
-import com.movtery.zalithlauncher.feature.download.item.InfoItem
-import com.movtery.zalithlauncher.feature.log.Logging
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.DialogModDependenciesBinding
+import com.craftstudio.launcher.feature.download.ModDependenciesAdapter
+import com.craftstudio.launcher.feature.download.item.DependenciesInfoItem
+import com.craftstudio.launcher.feature.download.item.InfoItem
+import com.craftstudio.launcher.feature.log.Logging
 import net.kdt.pojavlaunch.Tools
 
 class ModDependenciesDialog(

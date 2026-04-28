@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.feature.version.favorites
+package com.craftstudio.launcher.feature.version.favorites
 
-import com.movtery.zalithlauncher.feature.version.VersionsManager
+import com.craftstudio.launcher.feature.version.VersionsManager
 import java.util.concurrent.ConcurrentHashMap
 
 class FavoritesVersionUtils private constructor() {

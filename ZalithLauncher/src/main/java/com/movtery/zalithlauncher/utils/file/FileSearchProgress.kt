@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils.file
+package com.craftstudio.launcher.utils.file
 
 interface FileSearchProgress {
     fun getCurrentFileCount(): Long = 0

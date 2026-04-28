@@ -5,7 +5,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewTreeObserver;
 
-import com.movtery.zalithlauncher.setting.AllStaticSettings;
+import com.craftstudio.launcher.setting.AllStaticSettings;
 
 import net.kdt.pojavlaunch.MinecraftGLSurface;
 import net.kdt.pojavlaunch.Tools;

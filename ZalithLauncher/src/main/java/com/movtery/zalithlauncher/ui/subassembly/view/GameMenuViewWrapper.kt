@@ -1,15 +1,15 @@
-package com.movtery.zalithlauncher.ui.subassembly.view
+package com.craftstudio.launcher.ui.subassembly.view
 
 import android.app.Activity
 import android.view.View
 import android.widget.TextView
 import com.getkeepsafe.taptargetview.TapTargetView
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.task.TaskExecutors
-import com.movtery.zalithlauncher.utils.NewbieGuideUtils
-import com.movtery.zalithlauncher.utils.file.FileTools.Companion.formatFileSize
-import com.movtery.zalithlauncher.utils.platform.MemoryUtils
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.task.TaskExecutors
+import com.craftstudio.launcher.utils.NewbieGuideUtils
+import com.craftstudio.launcher.utils.file.FileTools.Companion.formatFileSize
+import com.craftstudio.launcher.utils.platform.MemoryUtils
 import com.petterp.floatingx.assist.FxGravity
 import com.petterp.floatingx.assist.helper.FxScopeHelper
 import com.petterp.floatingx.listener.IFxViewLifecycle

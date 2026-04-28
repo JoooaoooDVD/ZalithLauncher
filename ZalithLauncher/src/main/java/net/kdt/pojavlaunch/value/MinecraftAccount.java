@@ -4,11 +4,11 @@ import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
 
 import com.google.gson.JsonSyntaxException;
-import com.movtery.zalithlauncher.feature.accounts.AccountsManager;
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.utils.path.PathManager;
-import com.movtery.zalithlauncher.utils.skin.SkinFileDownloader;
-import com.movtery.zalithlauncher.utils.stringutils.StringUtilsKt;
+import com.craftstudio.launcher.feature.accounts.AccountsManager;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.utils.path.PathManager;
+import com.craftstudio.launcher.utils.skin.SkinFileDownloader;
+import com.craftstudio.launcher.utils.stringutils.StringUtilsKt;
 
 import net.kdt.pojavlaunch.Tools;
 

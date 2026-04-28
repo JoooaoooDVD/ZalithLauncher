@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.mod.modpack.install
+package com.craftstudio.launcher.feature.mod.modpack.install
 
 /**
  * 整合包关键信息

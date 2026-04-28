@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,18 +6,18 @@ import android.os.Bundle
 import android.view.View
 import android.view.Window
 import android.widget.Toast
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.DialogUpdateBinding
-import com.movtery.zalithlauncher.feature.update.LauncherVersion
-import com.movtery.zalithlauncher.feature.update.LauncherVersion.WhatsNew
-import com.movtery.zalithlauncher.feature.update.UpdateLauncher
-import com.movtery.zalithlauncher.feature.update.UpdateUtils.Companion.getFileSize
-import com.movtery.zalithlauncher.setting.AllSettings.Companion.ignoreUpdate
-import com.movtery.zalithlauncher.task.TaskExecutors.Companion.runInUIThread
-import com.movtery.zalithlauncher.ui.dialog.DraggableDialog.DialogInitializationListener
-import com.movtery.zalithlauncher.utils.ZHTools
-import com.movtery.zalithlauncher.utils.file.FileTools.Companion.formatFileSize
-import com.movtery.zalithlauncher.utils.stringutils.StringUtils
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.DialogUpdateBinding
+import com.craftstudio.launcher.feature.update.LauncherVersion
+import com.craftstudio.launcher.feature.update.LauncherVersion.WhatsNew
+import com.craftstudio.launcher.feature.update.UpdateLauncher
+import com.craftstudio.launcher.feature.update.UpdateUtils.Companion.getFileSize
+import com.craftstudio.launcher.setting.AllSettings.Companion.ignoreUpdate
+import com.craftstudio.launcher.task.TaskExecutors.Companion.runInUIThread
+import com.craftstudio.launcher.ui.dialog.DraggableDialog.DialogInitializationListener
+import com.craftstudio.launcher.utils.ZHTools
+import com.craftstudio.launcher.utils.file.FileTools.Companion.formatFileSize
+import com.craftstudio.launcher.utils.stringutils.StringUtils
 
 class UpdateDialog(context: Context, private val launcherVersion: LauncherVersion) :
     FullScreenDialog(context), DialogInitializationListener {

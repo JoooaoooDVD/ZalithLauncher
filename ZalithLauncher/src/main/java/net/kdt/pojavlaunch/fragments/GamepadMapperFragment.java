@@ -19,10 +19,10 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.movtery.anim.AnimPlayer;
 import com.movtery.anim.animations.Animations;
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.databinding.FragmentControllerRemapperBinding;
-import com.movtery.zalithlauncher.ui.fragment.FragmentWithAnim;
-import com.movtery.zalithlauncher.utils.ZHTools;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.databinding.FragmentControllerRemapperBinding;
+import com.craftstudio.launcher.ui.fragment.FragmentWithAnim;
+import com.craftstudio.launcher.utils.ZHTools;
 
 import net.kdt.pojavlaunch.customcontrols.gamepad.Gamepad;
 import net.kdt.pojavlaunch.customcontrols.gamepad.GamepadMapperAdapter;

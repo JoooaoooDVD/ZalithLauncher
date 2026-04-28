@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.filelist;
+package com.craftstudio.launcher.ui.subassembly.filelist;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.widget.Toast;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.task.TaskExecutors;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.task.TaskExecutors;
 
 import java.io.File;
 import java.util.ArrayList;

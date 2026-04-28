@@ -1,5 +1,5 @@
-package com.movtery.zalithlauncher.event.value
+package com.craftstudio.launcher.event.value
 
-import com.movtery.zalithlauncher.feature.mod.modpack.install.InstallExtra
+import com.craftstudio.launcher.feature.mod.modpack.install.InstallExtra
 
 data class InstallLocalModpackEvent(val installExtra: InstallExtra)

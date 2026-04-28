@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.event.value
+package com.craftstudio.launcher.event.value
 
 /**
  * 当快捷栏判定框变更时，会广播这个事件

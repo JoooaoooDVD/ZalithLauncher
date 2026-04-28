@@ -1,10 +1,10 @@
-package com.movtery.zalithlauncher.ui.fragment.settings
+package com.craftstudio.launcher.ui.fragment.settings
 
 import androidx.annotation.CallSuper
 import com.movtery.anim.AnimPlayer
-import com.movtery.zalithlauncher.event.single.SettingsChangeEvent
-import com.movtery.zalithlauncher.event.value.SettingsPageSwapEvent
-import com.movtery.zalithlauncher.ui.fragment.FragmentWithAnim
+import com.craftstudio.launcher.event.single.SettingsChangeEvent
+import com.craftstudio.launcher.event.value.SettingsPageSwapEvent
+import com.craftstudio.launcher.ui.fragment.FragmentWithAnim
 import net.kdt.pojavlaunch.prefs.LauncherPreferences
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe

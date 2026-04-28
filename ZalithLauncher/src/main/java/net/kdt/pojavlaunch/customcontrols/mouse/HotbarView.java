@@ -14,14 +14,14 @@ import androidx.annotation.Nullable;
 
 import com.movtery.anim.AnimPlayer;
 import com.movtery.anim.animations.Animations;
-import com.movtery.zalithlauncher.event.single.MCOptionChangeEvent;
-import com.movtery.zalithlauncher.event.single.RefreshHotbarEvent;
-import com.movtery.zalithlauncher.event.value.HotbarChangeEvent;
-import com.movtery.zalithlauncher.feature.MCOptions;
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.setting.AllStaticSettings;
-import com.movtery.zalithlauncher.ui.subassembly.hotbar.HotbarType;
-import com.movtery.zalithlauncher.ui.subassembly.hotbar.HotbarUtils;
+import com.craftstudio.launcher.event.single.MCOptionChangeEvent;
+import com.craftstudio.launcher.event.single.RefreshHotbarEvent;
+import com.craftstudio.launcher.event.value.HotbarChangeEvent;
+import com.craftstudio.launcher.feature.MCOptions;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.setting.AllStaticSettings;
+import com.craftstudio.launcher.ui.subassembly.hotbar.HotbarType;
+import com.craftstudio.launcher.ui.subassembly.hotbar.HotbarUtils;
 
 import net.kdt.pojavlaunch.GrabListener;
 import net.kdt.pojavlaunch.LwjglGlfwKeycode;

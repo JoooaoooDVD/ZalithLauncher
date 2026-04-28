@@ -1,11 +1,11 @@
-package com.movtery.zalithlauncher.support.touch_controller;
+package com.craftstudio.launcher.support.touch_controller;
 
 import android.content.Context;
 import android.os.Vibrator;
 import android.system.Os;
 
-import com.movtery.zalithlauncher.InfoDistributor;
-import com.movtery.zalithlauncher.feature.log.Logging;
+import com.craftstudio.launcher.InfoDistributor;
+import com.craftstudio.launcher.feature.log.Logging;
 
 import net.kdt.pojavlaunch.Logger;
 

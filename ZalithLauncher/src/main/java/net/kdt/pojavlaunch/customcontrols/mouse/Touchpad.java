@@ -11,11 +11,11 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.setting.AllStaticSettings;
-import com.movtery.zalithlauncher.utils.ZHTools;
-import com.movtery.zalithlauncher.utils.image.Dimension;
-import com.movtery.zalithlauncher.utils.image.ImageUtils;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.setting.AllStaticSettings;
+import com.craftstudio.launcher.utils.ZHTools;
+import com.craftstudio.launcher.utils.image.Dimension;
+import com.craftstudio.launcher.utils.image.ImageUtils;
 
 import net.kdt.pojavlaunch.GrabListener;
 

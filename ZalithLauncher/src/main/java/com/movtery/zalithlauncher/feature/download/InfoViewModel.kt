@@ -1,8 +1,8 @@
-package com.movtery.zalithlauncher.feature.download
+package com.craftstudio.launcher.feature.download
 
 import androidx.lifecycle.ViewModel
-import com.movtery.zalithlauncher.feature.download.item.InfoItem
-import com.movtery.zalithlauncher.feature.download.platform.AbstractPlatformHelper
+import com.craftstudio.launcher.feature.download.item.InfoItem
+import com.craftstudio.launcher.feature.download.platform.AbstractPlatformHelper
 
 class InfoViewModel : ViewModel() {
     var platformHelper: AbstractPlatformHelper? = null

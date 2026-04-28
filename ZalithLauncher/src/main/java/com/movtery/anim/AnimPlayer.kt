@@ -4,7 +4,7 @@ import android.animation.Animator
 import android.animation.AnimatorSet
 import android.view.View
 import com.movtery.anim.animations.Animations
-import com.movtery.zalithlauncher.setting.AllSettings
+import com.craftstudio.launcher.setting.AllSettings
 
 class AnimPlayer {
     private var mAnimatorSet: AnimatorSet = AnimatorSet()

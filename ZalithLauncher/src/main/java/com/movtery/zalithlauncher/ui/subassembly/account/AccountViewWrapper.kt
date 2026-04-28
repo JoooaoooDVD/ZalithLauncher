@@ -1,17 +1,17 @@
-package com.movtery.zalithlauncher.ui.subassembly.account
+package com.craftstudio.launcher.ui.subassembly.account
 
 import android.content.Context
 import android.view.View
 import androidx.core.content.ContextCompat
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.ViewAccountBinding
-import com.movtery.zalithlauncher.feature.accounts.AccountUtils
-import com.movtery.zalithlauncher.feature.accounts.AccountsManager
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.ui.fragment.AccountFragment
-import com.movtery.zalithlauncher.ui.fragment.FragmentWithAnim
-import com.movtery.zalithlauncher.utils.ZHTools
-import com.movtery.zalithlauncher.utils.skin.SkinLoader
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.ViewAccountBinding
+import com.craftstudio.launcher.feature.accounts.AccountUtils
+import com.craftstudio.launcher.feature.accounts.AccountsManager
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.ui.fragment.AccountFragment
+import com.craftstudio.launcher.ui.fragment.FragmentWithAnim
+import com.craftstudio.launcher.utils.ZHTools
+import com.craftstudio.launcher.utils.skin.SkinLoader
 import net.kdt.pojavlaunch.Tools
 
 class AccountViewWrapper(private val parentFragment: FragmentWithAnim? = null, val binding: ViewAccountBinding) {

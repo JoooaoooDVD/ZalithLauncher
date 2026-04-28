@@ -1,3 +1,3 @@
-package com.movtery.zalithlauncher.event.single
+package com.craftstudio.launcher.event.single
 
 class LaunchGameEvent

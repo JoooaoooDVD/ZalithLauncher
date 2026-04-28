@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.notice
+package com.craftstudio.launcher.feature.notice
 
 data class NoticeInfo(
     @JvmField val title: String,

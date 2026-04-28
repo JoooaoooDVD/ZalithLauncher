@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.dialog;
+package com.craftstudio.launcher.ui.dialog;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -10,9 +10,9 @@ import android.view.WindowManager;
 
 import androidx.annotation.NonNull;
 
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.databinding.DialogKeyboardBinding;
-import com.movtery.zalithlauncher.ui.view.AnimButton;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.databinding.DialogKeyboardBinding;
+import com.craftstudio.launcher.ui.view.AnimButton;
 
 import net.kdt.pojavlaunch.Tools;
 

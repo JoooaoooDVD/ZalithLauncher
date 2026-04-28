@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.about;
+package com.craftstudio.launcher.ui.subassembly.about;
 
 import android.annotation.SuppressLint;
 import android.graphics.drawable.Drawable;
@@ -10,8 +10,8 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.databinding.ItemSponsorViewBinding;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.databinding.ItemSponsorViewBinding;
 
 public class SponsorRecyclerAdapter extends RecyclerView.Adapter<SponsorRecyclerAdapter.Holder> {
     private final SponsorMeta mMeta;

@@ -1,6 +1,6 @@
 package net.kdt.pojavlaunch.customcontrols;
 
-import static com.movtery.zalithlauncher.context.ContextExecutor.getString;
+import static com.craftstudio.launcher.context.ContextExecutor.getString;
 import static net.kdt.pojavlaunch.LwjglGlfwKeycode.GLFW_KEY_UNKNOWN;
 
 import android.content.Context;
@@ -8,9 +8,9 @@ import android.util.ArrayMap;
 
 import androidx.annotation.Keep;
 
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.utils.stringutils.StringUtils;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.utils.stringutils.StringUtils;
 
 import net.kdt.pojavlaunch.Tools;
 import net.kdt.pojavlaunch.customcontrols.buttons.ControlInterface;

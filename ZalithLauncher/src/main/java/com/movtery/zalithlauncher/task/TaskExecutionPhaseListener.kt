@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.task
+package com.craftstudio.launcher.task
 
 /**
  * 任务执行的各种阶段的监听器

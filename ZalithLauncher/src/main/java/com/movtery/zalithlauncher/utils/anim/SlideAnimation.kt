@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils.anim
+package com.craftstudio.launcher.utils.anim
 
 import com.movtery.anim.AnimPlayer
 

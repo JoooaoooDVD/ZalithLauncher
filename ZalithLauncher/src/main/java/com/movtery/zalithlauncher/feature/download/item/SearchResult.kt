@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.download.item
+package com.craftstudio.launcher.feature.download.item
 
 /**
  * 用于记录搜索结果

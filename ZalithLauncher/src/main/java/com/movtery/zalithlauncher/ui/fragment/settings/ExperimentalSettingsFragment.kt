@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.fragment.settings
+package com.craftstudio.launcher.ui.fragment.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,11 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import com.movtery.anim.AnimPlayer
 import com.movtery.anim.animations.Animations
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.SettingsFragmentExperimentalBinding
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.ui.fragment.settings.wrapper.SeekBarSettingsWrapper
-import com.movtery.zalithlauncher.ui.fragment.settings.wrapper.SwitchSettingsWrapper
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.SettingsFragmentExperimentalBinding
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.ui.fragment.settings.wrapper.SeekBarSettingsWrapper
+import com.craftstudio.launcher.ui.fragment.settings.wrapper.SwitchSettingsWrapper
 
 class ExperimentalSettingsFragment :
     AbstractSettingsFragment(R.layout.settings_fragment_experimental, SettingCategory.EXPERIMENTAL) {

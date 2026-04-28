@@ -2,8 +2,8 @@ package net.kdt.pojavlaunch.modloaders.modpacks.api;
 
 import androidx.annotation.Nullable;
 
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.setting.AllSettings;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.setting.AllSettings;
 
 import net.kdt.pojavlaunch.Tools;
 import net.kdt.pojavlaunch.utils.DownloadUtils;

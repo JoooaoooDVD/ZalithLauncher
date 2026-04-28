@@ -2,8 +2,8 @@ package net.kdt.pojavlaunch.progresskeeper;
 
 import static net.kdt.pojavlaunch.Tools.BYTE_TO_MB;
 
-import com.movtery.zalithlauncher.utils.ZHTools;
-import com.movtery.zalithlauncher.utils.file.FileTools;
+import com.craftstudio.launcher.utils.ZHTools;
+import com.craftstudio.launcher.utils.file.FileTools;
 
 import net.kdt.pojavlaunch.Tools;
 import net.kdt.pojavlaunch.tasks.SpeedCalculator;

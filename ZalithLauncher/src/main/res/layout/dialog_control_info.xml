@@ -163,7 +163,7 @@
 
             </TableLayout>
 
-            <com.movtery.zalithlauncher.ui.view.AnimButton
+            <com.craftstudio.launcher.ui.view.AnimButton
                 android:id="@+id/close_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

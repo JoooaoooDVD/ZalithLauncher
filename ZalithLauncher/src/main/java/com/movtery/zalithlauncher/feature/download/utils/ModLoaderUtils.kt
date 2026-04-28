@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.feature.download.utils
+package com.craftstudio.launcher.feature.download.utils
 
-import com.movtery.zalithlauncher.feature.download.enums.ModLoader
+import com.craftstudio.launcher.feature.download.enums.ModLoader
 
 class ModLoaderUtils {
     companion object {

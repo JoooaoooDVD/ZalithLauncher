@@ -1,6 +1,6 @@
 package net.kdt.pojavlaunch.fragments;
 
-import static com.movtery.zalithlauncher.event.single.RefreshVersionsEvent.MODE.END;
+import static com.craftstudio.launcher.event.single.RefreshVersionsEvent.MODE.END;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,27 +13,27 @@ import androidx.annotation.Nullable;
 
 import com.movtery.anim.AnimPlayer;
 import com.movtery.anim.animations.Animations;
-import com.movtery.zalithlauncher.InfoCenter;
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.databinding.FragmentLauncherBinding;
-import com.movtery.zalithlauncher.event.single.AccountUpdateEvent;
-import com.movtery.zalithlauncher.event.single.LaunchGameEvent;
-import com.movtery.zalithlauncher.event.single.RefreshVersionsEvent;
-import com.movtery.zalithlauncher.feature.version.Version;
-import com.movtery.zalithlauncher.feature.version.utils.VersionIconUtils;
-import com.movtery.zalithlauncher.feature.version.VersionInfo;
-import com.movtery.zalithlauncher.feature.version.VersionsManager;
-import com.movtery.zalithlauncher.task.TaskExecutors;
-import com.movtery.zalithlauncher.ui.fragment.AboutFragment;
-import com.movtery.zalithlauncher.ui.fragment.ControlButtonFragment;
-import com.movtery.zalithlauncher.ui.fragment.FilesFragment;
-import com.movtery.zalithlauncher.ui.fragment.FragmentWithAnim;
-import com.movtery.zalithlauncher.ui.fragment.VersionManagerFragment;
-import com.movtery.zalithlauncher.ui.fragment.VersionsListFragment;
-import com.movtery.zalithlauncher.ui.subassembly.account.AccountViewWrapper;
-import com.movtery.zalithlauncher.utils.path.PathManager;
-import com.movtery.zalithlauncher.utils.ZHTools;
-import com.movtery.zalithlauncher.utils.anim.ViewAnimUtils;
+import com.craftstudio.launcher.InfoCenter;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.databinding.FragmentLauncherBinding;
+import com.craftstudio.launcher.event.single.AccountUpdateEvent;
+import com.craftstudio.launcher.event.single.LaunchGameEvent;
+import com.craftstudio.launcher.event.single.RefreshVersionsEvent;
+import com.craftstudio.launcher.feature.version.Version;
+import com.craftstudio.launcher.feature.version.utils.VersionIconUtils;
+import com.craftstudio.launcher.feature.version.VersionInfo;
+import com.craftstudio.launcher.feature.version.VersionsManager;
+import com.craftstudio.launcher.task.TaskExecutors;
+import com.craftstudio.launcher.ui.fragment.AboutFragment;
+import com.craftstudio.launcher.ui.fragment.ControlButtonFragment;
+import com.craftstudio.launcher.ui.fragment.FilesFragment;
+import com.craftstudio.launcher.ui.fragment.FragmentWithAnim;
+import com.craftstudio.launcher.ui.fragment.VersionManagerFragment;
+import com.craftstudio.launcher.ui.fragment.VersionsListFragment;
+import com.craftstudio.launcher.ui.subassembly.account.AccountViewWrapper;
+import com.craftstudio.launcher.utils.path.PathManager;
+import com.craftstudio.launcher.utils.ZHTools;
+import com.craftstudio.launcher.utils.anim.ViewAnimUtils;
 
 import net.kdt.pojavlaunch.Tools;
 import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;

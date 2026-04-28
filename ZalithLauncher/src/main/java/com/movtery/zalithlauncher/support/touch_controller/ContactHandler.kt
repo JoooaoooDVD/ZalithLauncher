@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.support.touch_controller
+package com.craftstudio.launcher.support.touch_controller
 
 import android.util.SparseIntArray
 import android.view.MotionEvent

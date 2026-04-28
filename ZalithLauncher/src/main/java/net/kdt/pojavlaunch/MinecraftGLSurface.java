@@ -21,12 +21,12 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 
-import com.movtery.zalithlauncher.event.single.RefreshHotbarEvent;
-import com.movtery.zalithlauncher.feature.MCOptions;
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.setting.AllStaticSettings;
-import com.movtery.zalithlauncher.ui.activity.BaseActivity;
+import com.craftstudio.launcher.event.single.RefreshHotbarEvent;
+import com.craftstudio.launcher.feature.MCOptions;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.setting.AllStaticSettings;
+import com.craftstudio.launcher.ui.activity.BaseActivity;
 
 import net.kdt.pojavlaunch.customcontrols.ControlLayout;
 import net.kdt.pojavlaunch.customcontrols.gamepad.DefaultDataProvider;

@@ -52,7 +52,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <com.movtery.zalithlauncher.ui.view.AnimCheckBox
+                <com.craftstudio.launcher.ui.view.AnimCheckBox
                     android:id="@+id/select_all"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <com.movtery.zalithlauncher.ui.subassembly.filelist.FileRecyclerView
+            <com.craftstudio.launcher.ui.subassembly.filelist.FileRecyclerView
                 android:id="@+id/file_recycler_view"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -99,7 +99,7 @@
                     android:textColor="#E8EAF6"
                     android:layout_gravity="center_vertical" />
 
-                <com.movtery.zalithlauncher.ui.view.AnimTextView
+                <com.craftstudio.launcher.ui.view.AnimTextView
                     android:id="@+id/go_download_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -153,7 +153,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <com.movtery.zalithlauncher.ui.view.AnimCheckBox
+                <com.craftstudio.launcher.ui.view.AnimCheckBox
                     android:id="@+id/multi_select_files"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

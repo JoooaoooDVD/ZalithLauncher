@@ -17,7 +17,7 @@
  */
 package org.jackhuang.hmcl.util;
 
-import com.movtery.zalithlauncher.utils.stringutils.StringUtilsKt;
+import com.craftstudio.launcher.utils.stringutils.StringUtilsKt;
 
 import java.util.ArrayList;
 import java.util.Collections;

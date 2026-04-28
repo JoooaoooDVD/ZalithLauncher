@@ -1,6 +1,6 @@
 package net.kdt.pojavlaunch.utils;
 
-import static com.movtery.zalithlauncher.utils.path.PathManager.DIR_NATIVE_LIB;
+import static com.craftstudio.launcher.utils.path.PathManager.DIR_NATIVE_LIB;
 import static net.kdt.pojavlaunch.Architecture.ARCH_X86;
 import static net.kdt.pojavlaunch.Architecture.is64BitsDevice;
 import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
@@ -15,24 +15,24 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.movtery.zalithlauncher.InfoDistributor;
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.event.value.JvmExitEvent;
-import com.movtery.zalithlauncher.feature.customprofilepath.ProfilePathHome;
-import com.movtery.zalithlauncher.feature.customprofilepath.ProfilePathManager;
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.feature.version.Version;
-import com.movtery.zalithlauncher.feature.version.VersionInfo;
-import com.movtery.zalithlauncher.plugins.driver.DriverPluginManager;
-import com.movtery.zalithlauncher.plugins.renderer.RendererPluginManager;
-import com.movtery.zalithlauncher.plugins.renderer.RendererPlugin;
-import com.movtery.zalithlauncher.renderer.RendererInterface;
-import com.movtery.zalithlauncher.renderer.Renderers;
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.ui.activity.ErrorActivity;
-import com.movtery.zalithlauncher.utils.ZHTools;
-import com.movtery.zalithlauncher.utils.path.LibPath;
-import com.movtery.zalithlauncher.utils.path.PathManager;
+import com.craftstudio.launcher.InfoDistributor;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.event.value.JvmExitEvent;
+import com.craftstudio.launcher.feature.customprofilepath.ProfilePathHome;
+import com.craftstudio.launcher.feature.customprofilepath.ProfilePathManager;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.feature.version.Version;
+import com.craftstudio.launcher.feature.version.VersionInfo;
+import com.craftstudio.launcher.plugins.driver.DriverPluginManager;
+import com.craftstudio.launcher.plugins.renderer.RendererPluginManager;
+import com.craftstudio.launcher.plugins.renderer.RendererPlugin;
+import com.craftstudio.launcher.renderer.RendererInterface;
+import com.craftstudio.launcher.renderer.Renderers;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.ui.activity.ErrorActivity;
+import com.craftstudio.launcher.utils.ZHTools;
+import com.craftstudio.launcher.utils.path.LibPath;
+import com.craftstudio.launcher.utils.path.PathManager;
 import com.oracle.dalvik.VMLauncher;
 
 import net.kdt.pojavlaunch.Architecture;

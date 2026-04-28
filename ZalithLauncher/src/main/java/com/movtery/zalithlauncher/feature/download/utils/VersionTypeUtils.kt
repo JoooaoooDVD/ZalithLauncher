@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.feature.download.utils
+package com.craftstudio.launcher.feature.download.utils
 
-import com.movtery.zalithlauncher.feature.download.enums.VersionType
+import com.craftstudio.launcher.feature.download.enums.VersionType
 
 class VersionTypeUtils {
     companion object {

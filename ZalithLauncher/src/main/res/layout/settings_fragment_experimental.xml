@@ -28,7 +28,7 @@
                 android:text="@string/setting_category_experimental_patches"
                 android:textColor="@color/settings_category" />
 
-            <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+            <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                 android:id="@+id/dump_shaders_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -61,9 +61,9 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true" />
-            </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+            </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
-            <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+            <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                 android:id="@+id/bigCoreAffinity_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true" />
-            </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+            </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -117,7 +117,7 @@
                 android:text="@string/setting_category_support"
                 android:textColor="@color/settings_category" />
 
-            <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+            <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
                 android:id="@+id/tcVibrateDuration_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -164,7 +164,7 @@
                     android:layout_marginVertical="@dimen/_8sdp"
                     android:layout_marginEnd="@dimen/_12sdp"
                     tools:text="0" />
-            </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+            </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 

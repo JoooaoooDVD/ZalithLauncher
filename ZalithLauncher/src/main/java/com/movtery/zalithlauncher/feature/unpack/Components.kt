@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.feature.unpack
+package com.craftstudio.launcher.feature.unpack
 
-import com.movtery.zalithlauncher.R
+import com.craftstudio.launcher.R
 
 enum class Components(val component: String, val displayName: String, val summary: Int?, val privateDirectory: Boolean) {
     OTHER_LOGIN("other_login", "authlib-injector", R.string.splash_screen_authlib_injector, false),

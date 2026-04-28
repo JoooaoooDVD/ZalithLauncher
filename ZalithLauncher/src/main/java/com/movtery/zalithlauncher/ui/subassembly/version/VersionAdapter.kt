@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.version
+package com.craftstudio.launcher.ui.subassembly.version
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -14,18 +14,18 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.flexbox.FlexboxLayout
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.ItemVersionBinding
-import com.movtery.zalithlauncher.databinding.ViewVersionManagerBinding
-import com.movtery.zalithlauncher.feature.customprofilepath.ProfilePathManager
-import com.movtery.zalithlauncher.feature.version.Version
-import com.movtery.zalithlauncher.feature.version.utils.VersionIconUtils
-import com.movtery.zalithlauncher.feature.version.VersionsManager
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.ui.dialog.TipDialog
-import com.movtery.zalithlauncher.ui.fragment.FilesFragment
-import com.movtery.zalithlauncher.utils.ZHTools
-import com.movtery.zalithlauncher.utils.file.FileDeletionHandler
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.ItemVersionBinding
+import com.craftstudio.launcher.databinding.ViewVersionManagerBinding
+import com.craftstudio.launcher.feature.customprofilepath.ProfilePathManager
+import com.craftstudio.launcher.feature.version.Version
+import com.craftstudio.launcher.feature.version.utils.VersionIconUtils
+import com.craftstudio.launcher.feature.version.VersionsManager
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.ui.dialog.TipDialog
+import com.craftstudio.launcher.ui.fragment.FilesFragment
+import com.craftstudio.launcher.utils.ZHTools
+import com.craftstudio.launcher.utils.file.FileDeletionHandler
 import net.kdt.pojavlaunch.Tools
 
 class VersionAdapter(

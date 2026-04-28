@@ -1,11 +1,11 @@
-package com.movtery.zalithlauncher.feature.version.utils
+package com.craftstudio.launcher.feature.version.utils
 
 import com.google.gson.JsonArray
 import com.google.gson.JsonElement
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.feature.version.VersionInfo
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.feature.version.VersionInfo
 import net.kdt.pojavlaunch.Tools
 import java.io.File
 

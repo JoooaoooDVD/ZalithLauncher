@@ -1,7 +1,7 @@
-package com.movtery.zalithlauncher.ui.fragment.download.addon
+package com.craftstudio.launcher.ui.fragment.download.addon
 
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.mod.modloader.FabricLikeUtils
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.mod.modloader.FabricLikeUtils
 
 class DownloadFabricFragment : DownloadFabricLikeFragment(FabricLikeUtils.FABRIC_UTILS, R.drawable.ic_fabric) {
     companion object {

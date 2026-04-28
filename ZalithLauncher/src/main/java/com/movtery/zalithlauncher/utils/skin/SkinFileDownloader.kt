@@ -1,9 +1,9 @@
-package com.movtery.zalithlauncher.utils.skin
+package com.craftstudio.launcher.utils.skin
 
 import com.google.gson.JsonObject
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.utils.path.UrlManager
-import com.movtery.zalithlauncher.utils.stringutils.StringUtils
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.utils.path.UrlManager
+import com.craftstudio.launcher.utils.stringutils.StringUtils
 import net.kdt.pojavlaunch.Tools
 import net.kdt.pojavlaunch.utils.DownloadUtils
 import okhttp3.Request

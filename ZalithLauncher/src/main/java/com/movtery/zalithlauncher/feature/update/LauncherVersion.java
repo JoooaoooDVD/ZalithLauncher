@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.update;
+package com.craftstudio.launcher.feature.update;
 
 import androidx.annotation.NonNull;
 

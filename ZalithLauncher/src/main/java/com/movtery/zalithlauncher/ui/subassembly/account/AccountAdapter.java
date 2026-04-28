@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.account;
+package com.craftstudio.launcher.ui.subassembly.account;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,11 +8,11 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.databinding.ItemAccountManagerBinding;
-import com.movtery.zalithlauncher.feature.accounts.AccountUtils;
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.utils.skin.SkinLoader;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.databinding.ItemAccountManagerBinding;
+import com.craftstudio.launcher.feature.accounts.AccountUtils;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.utils.skin.SkinLoader;
 
 import net.kdt.pojavlaunch.Tools;
 import net.kdt.pojavlaunch.value.MinecraftAccount;

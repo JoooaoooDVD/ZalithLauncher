@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.customprofilepath
+package com.craftstudio.launcher.ui.subassembly.customprofilepath
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -9,19 +9,19 @@ import android.view.ViewGroup
 import android.widget.PopupWindow
 import android.widget.RadioButton
 import androidx.recyclerview.widget.RecyclerView
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.ItemProfilePathBinding
-import com.movtery.zalithlauncher.databinding.ViewPathManagerBinding
-import com.movtery.zalithlauncher.feature.customprofilepath.ProfilePathManager
-import com.movtery.zalithlauncher.feature.customprofilepath.ProfilePathManager.setCurrentPathId
-import com.movtery.zalithlauncher.feature.version.VersionsManager
-import com.movtery.zalithlauncher.setting.AllSettings.Companion.launcherProfile
-import com.movtery.zalithlauncher.ui.dialog.EditTextDialog
-import com.movtery.zalithlauncher.ui.dialog.TipDialog
-import com.movtery.zalithlauncher.ui.fragment.FilesFragment
-import com.movtery.zalithlauncher.ui.fragment.FragmentWithAnim
-import com.movtery.zalithlauncher.utils.StoragePermissionsUtils
-import com.movtery.zalithlauncher.utils.ZHTools
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.ItemProfilePathBinding
+import com.craftstudio.launcher.databinding.ViewPathManagerBinding
+import com.craftstudio.launcher.feature.customprofilepath.ProfilePathManager
+import com.craftstudio.launcher.feature.customprofilepath.ProfilePathManager.setCurrentPathId
+import com.craftstudio.launcher.feature.version.VersionsManager
+import com.craftstudio.launcher.setting.AllSettings.Companion.launcherProfile
+import com.craftstudio.launcher.ui.dialog.EditTextDialog
+import com.craftstudio.launcher.ui.dialog.TipDialog
+import com.craftstudio.launcher.ui.fragment.FilesFragment
+import com.craftstudio.launcher.ui.fragment.FragmentWithAnim
+import com.craftstudio.launcher.utils.StoragePermissionsUtils
+import com.craftstudio.launcher.utils.ZHTools
 
 class ProfilePathAdapter(
     private val fragment: FragmentWithAnim,

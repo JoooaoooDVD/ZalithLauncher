@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.fragment
+package com.craftstudio.launcher.ui.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,11 +10,11 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
 import com.movtery.anim.AnimPlayer
 import com.movtery.anim.animations.Animations
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.FragmentAboutBinding
-import com.movtery.zalithlauncher.ui.fragment.about.AboutInfoPageFragment
-import com.movtery.zalithlauncher.utils.ZHTools
-import com.movtery.zalithlauncher.utils.stringutils.StringUtils
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.FragmentAboutBinding
+import com.craftstudio.launcher.ui.fragment.about.AboutInfoPageFragment
+import com.craftstudio.launcher.utils.ZHTools
+import com.craftstudio.launcher.utils.stringutils.StringUtils
 
 class AboutFragment : FragmentWithAnim(R.layout.fragment_about) {
     companion object {

@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils
+package com.craftstudio.launcher.utils
 
 import android.Manifest
 import android.app.Activity
@@ -12,9 +12,9 @@ import android.provider.Settings
 import androidx.annotation.RequiresApi
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.movtery.zalithlauncher.InfoCenter
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.ui.dialog.TipDialog
+import com.craftstudio.launcher.InfoCenter
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.ui.dialog.TipDialog
 
 class StoragePermissionsUtils {
     companion object {

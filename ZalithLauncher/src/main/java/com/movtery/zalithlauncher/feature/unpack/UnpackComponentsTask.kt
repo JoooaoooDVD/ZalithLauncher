@@ -1,9 +1,9 @@
-package com.movtery.zalithlauncher.feature.unpack
+package com.craftstudio.launcher.feature.unpack
 
 import android.content.Context
 import android.content.res.AssetManager
-import com.movtery.zalithlauncher.feature.log.Logging.i
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.feature.log.Logging.i
+import com.craftstudio.launcher.utils.path.PathManager
 import net.kdt.pojavlaunch.Tools
 import org.apache.commons.io.FileUtils
 import java.io.File

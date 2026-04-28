@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.download
+package com.craftstudio.launcher.feature.download
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -15,17 +15,17 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.google.android.flexbox.FlexboxLayout
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.ItemDownloadInfoBinding
-import com.movtery.zalithlauncher.event.value.DownloadPageEvent
-import com.movtery.zalithlauncher.feature.download.enums.Platform
-import com.movtery.zalithlauncher.feature.download.item.InfoItem
-import com.movtery.zalithlauncher.feature.download.item.ModInfoItem
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.ui.fragment.DownloadModFragment
-import com.movtery.zalithlauncher.utils.NumberWithUnits
-import com.movtery.zalithlauncher.utils.ZHTools
-import com.movtery.zalithlauncher.utils.stringutils.StringUtils
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.ItemDownloadInfoBinding
+import com.craftstudio.launcher.event.value.DownloadPageEvent
+import com.craftstudio.launcher.feature.download.enums.Platform
+import com.craftstudio.launcher.feature.download.item.InfoItem
+import com.craftstudio.launcher.feature.download.item.ModInfoItem
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.ui.fragment.DownloadModFragment
+import com.craftstudio.launcher.utils.NumberWithUnits
+import com.craftstudio.launcher.utils.ZHTools
+import com.craftstudio.launcher.utils.stringutils.StringUtils
 import net.kdt.pojavlaunch.Tools
 import org.greenrobot.eventbus.EventBus
 import org.jackhuang.hmcl.ui.versions.ModTranslations
@@ -184,7 +184,7 @@ class InfoAdapter(
     private class LoadingViewHolder(view: View) : RecyclerView.ViewHolder(view)
 
     /**
-     * @see com.movtery.zalithlauncher.ui.fragment.download.AbstractResourceDownloadFragment
+     * @see com.craftstudio.launcher.ui.fragment.download.AbstractResourceDownloadFragment
      */
     interface CallSearchListener {
         /**

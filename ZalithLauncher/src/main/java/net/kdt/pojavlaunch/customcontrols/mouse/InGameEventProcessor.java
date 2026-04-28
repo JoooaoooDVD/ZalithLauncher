@@ -5,9 +5,9 @@ import android.os.Looper;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.setting.AllStaticSettings;
-import com.movtery.zalithlauncher.support.touch_controller.ContactHandler;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.setting.AllStaticSettings;
+import com.craftstudio.launcher.support.touch_controller.ContactHandler;
 
 import org.lwjgl.glfw.CallbackBridge;
 

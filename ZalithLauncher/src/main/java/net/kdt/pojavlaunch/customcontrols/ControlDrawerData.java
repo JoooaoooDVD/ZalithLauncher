@@ -8,8 +8,8 @@ import static net.kdt.pojavlaunch.customcontrols.ControlDrawerData.Orientation.U
 
 import android.content.Context;
 
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.context.ContextExecutor;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.context.ContextExecutor;
 
 import net.kdt.pojavlaunch.Tools;
 

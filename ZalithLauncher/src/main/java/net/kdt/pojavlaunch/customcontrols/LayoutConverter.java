@@ -3,7 +3,7 @@ package net.kdt.pojavlaunch.customcontrols;
 import android.content.Context;
 
 import com.google.gson.JsonSyntaxException;
-import com.movtery.zalithlauncher.R;
+import com.craftstudio.launcher.R;
 
 import net.kdt.pojavlaunch.LwjglGlfwKeycode;
 import net.kdt.pojavlaunch.Tools;

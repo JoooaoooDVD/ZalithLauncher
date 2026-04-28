@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils.stringutils;
+package com.craftstudio.launcher.utils.stringutils;
 
 import static android.content.Context.CLIPBOARD_SERVICE;
 
@@ -8,8 +8,8 @@ import android.content.Context;
 import android.util.Base64;
 import android.widget.Toast;
 
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.task.TaskExecutors;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.task.TaskExecutors;
 
 import org.commonmark.node.Node;
 import org.commonmark.parser.Parser;

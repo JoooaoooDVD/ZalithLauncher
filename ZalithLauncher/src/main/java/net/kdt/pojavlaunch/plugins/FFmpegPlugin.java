@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 
-import com.movtery.zalithlauncher.feature.log.Logging;
+import com.craftstudio.launcher.feature.log.Logging;
 
 import java.io.File;
 

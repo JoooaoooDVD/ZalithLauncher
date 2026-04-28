@@ -101,7 +101,7 @@
                     android:minHeight="@dimen/_24sdp" />
             </LinearLayout>
 
-            <com.movtery.zalithlauncher.ui.view.AnimButton
+            <com.craftstudio.launcher.ui.view.AnimButton
                 android:id="@+id/back_button"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_45sdp"

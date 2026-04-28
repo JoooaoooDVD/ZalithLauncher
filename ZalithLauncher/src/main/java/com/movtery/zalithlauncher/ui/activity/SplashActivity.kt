@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.activity
+package com.craftstudio.launcher.ui.activity
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -7,18 +7,18 @@ import android.os.Build
 import android.os.Bundle
 import androidx.core.app.ActivityCompat
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.movtery.zalithlauncher.InfoCenter
-import com.movtery.zalithlauncher.InfoDistributor
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.ActivitySplashBinding
-import com.movtery.zalithlauncher.feature.unpack.Components
-import com.movtery.zalithlauncher.feature.unpack.Jre
-import com.movtery.zalithlauncher.feature.unpack.UnpackComponentsTask
-import com.movtery.zalithlauncher.feature.unpack.UnpackJreTask
-import com.movtery.zalithlauncher.feature.unpack.UnpackSingleFilesTask
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.ui.dialog.TipDialog
-import com.movtery.zalithlauncher.utils.StoragePermissionsUtils
+import com.craftstudio.launcher.InfoCenter
+import com.craftstudio.launcher.InfoDistributor
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.ActivitySplashBinding
+import com.craftstudio.launcher.feature.unpack.Components
+import com.craftstudio.launcher.feature.unpack.Jre
+import com.craftstudio.launcher.feature.unpack.UnpackComponentsTask
+import com.craftstudio.launcher.feature.unpack.UnpackJreTask
+import com.craftstudio.launcher.feature.unpack.UnpackSingleFilesTask
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.ui.dialog.TipDialog
+import com.craftstudio.launcher.utils.StoragePermissionsUtils
 import net.kdt.pojavlaunch.LauncherActivity
 import net.kdt.pojavlaunch.MissingStorageActivity
 import net.kdt.pojavlaunch.Tools

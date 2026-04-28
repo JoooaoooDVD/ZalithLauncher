@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.activity
+package com.craftstudio.launcher.ui.activity
 
 import android.os.Handler
 import android.os.Looper
@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.movtery.zalithlauncher.databinding.ItemInstallableBinding
-import com.movtery.zalithlauncher.feature.unpack.OnTaskRunningListener
+import com.craftstudio.launcher.databinding.ItemInstallableBinding
+import com.craftstudio.launcher.feature.unpack.OnTaskRunningListener
 
 class InstallableAdapter(
     private val items: List<InstallableItem>,

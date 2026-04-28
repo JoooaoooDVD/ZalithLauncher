@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.event.sticky
+package com.craftstudio.launcher.event.sticky
 
 import net.kdt.pojavlaunch.JMinecraftVersionList
 

@@ -1,7 +1,7 @@
-package com.movtery.zalithlauncher.ui.subassembly.filelist
+package com.craftstudio.launcher.ui.subassembly.filelist
 
 import android.graphics.drawable.Drawable
-import com.movtery.zalithlauncher.utils.stringutils.SortStrings.Companion.compareChar
+import com.craftstudio.launcher.utils.stringutils.SortStrings.Companion.compareChar
 import org.apache.commons.io.FileUtils
 import java.io.File
 import java.util.Date

@@ -1,16 +1,16 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.content.Context
 import android.os.Bundle
 import android.view.View
 import android.view.Window
 import android.widget.Toast
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.DialogOtherLoginBinding
-import com.movtery.zalithlauncher.feature.accounts.OtherLoginHelper
-import com.movtery.zalithlauncher.feature.login.Servers.Server
-import com.movtery.zalithlauncher.ui.dialog.DraggableDialog.DialogInitializationListener
-import com.movtery.zalithlauncher.utils.ZHTools
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.DialogOtherLoginBinding
+import com.craftstudio.launcher.feature.accounts.OtherLoginHelper
+import com.craftstudio.launcher.feature.login.Servers.Server
+import com.craftstudio.launcher.ui.dialog.DraggableDialog.DialogInitializationListener
+import com.craftstudio.launcher.utils.ZHTools
 
 class OtherLoginDialog(
     context: Context,

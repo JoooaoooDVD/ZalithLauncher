@@ -1,6 +1,6 @@
 package net.kdt.pojavlaunch.tasks;
 
-import com.movtery.zalithlauncher.event.sticky.MinecraftVersionValueEvent;
+import com.craftstudio.launcher.event.sticky.MinecraftVersionValueEvent;
 
 import net.kdt.pojavlaunch.JMinecraftVersionList;
 

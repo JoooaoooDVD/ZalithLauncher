@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.filelist
+package com.craftstudio.launcher.ui.subassembly.filelist
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -9,10 +9,10 @@ import android.view.animation.LayoutAnimationController
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.mod.ModUtils
-import com.movtery.zalithlauncher.ui.subassembly.filelist.FileRecyclerAdapter.OnMultiSelectListener
-import com.movtery.zalithlauncher.utils.stringutils.StringFilter.Companion.containsSubstring
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.mod.ModUtils
+import com.craftstudio.launcher.ui.subassembly.filelist.FileRecyclerAdapter.OnMultiSelectListener
+import com.craftstudio.launcher.utils.stringutils.StringFilter.Companion.containsSubstring
 import java.io.File
 import java.util.Date
 import java.util.concurrent.atomic.AtomicInteger

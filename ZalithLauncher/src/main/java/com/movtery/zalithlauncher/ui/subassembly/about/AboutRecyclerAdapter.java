@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.about;
+package com.craftstudio.launcher.ui.subassembly.about;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.movtery.zalithlauncher.databinding.ItemAboutViewBinding;
-import com.movtery.zalithlauncher.utils.ZHTools;
+import com.craftstudio.launcher.databinding.ItemAboutViewBinding;
+import com.craftstudio.launcher.utils.ZHTools;
 
 import java.util.List;
 

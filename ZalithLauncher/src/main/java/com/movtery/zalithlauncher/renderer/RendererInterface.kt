@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.renderer
+package com.craftstudio.launcher.renderer
 
 /**
  * 启动器渲染器实现

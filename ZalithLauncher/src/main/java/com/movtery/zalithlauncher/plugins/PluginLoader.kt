@@ -1,15 +1,15 @@
-package com.movtery.zalithlauncher.plugins
+package com.craftstudio.launcher.plugins
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
-import com.movtery.zalithlauncher.plugins.driver.DriverPluginManager
-import com.movtery.zalithlauncher.plugins.renderer.RendererPlugin
-import com.movtery.zalithlauncher.plugins.renderer.RendererPluginManager
-import com.movtery.zalithlauncher.renderer.RendererInterface
-import com.movtery.zalithlauncher.renderer.Renderers
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.plugins.driver.DriverPluginManager
+import com.craftstudio.launcher.plugins.renderer.RendererPlugin
+import com.craftstudio.launcher.plugins.renderer.RendererPluginManager
+import com.craftstudio.launcher.renderer.RendererInterface
+import com.craftstudio.launcher.renderer.Renderers
+import com.craftstudio.launcher.utils.path.PathManager
 import org.apache.commons.io.FileUtils
 
 /**

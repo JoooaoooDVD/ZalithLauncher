@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.version.install
+package com.craftstudio.launcher.feature.version.install
 
 import java.io.File
 

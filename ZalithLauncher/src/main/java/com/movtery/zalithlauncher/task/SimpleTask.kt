@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.task
+package com.craftstudio.launcher.task
 
 import java.util.concurrent.Callable
 

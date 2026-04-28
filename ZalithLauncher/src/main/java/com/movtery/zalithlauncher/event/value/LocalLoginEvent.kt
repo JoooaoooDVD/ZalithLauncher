@@ -1,3 +1,3 @@
-package com.movtery.zalithlauncher.event.value
+package com.craftstudio.launcher.event.value
 
 data class LocalLoginEvent(val userName: String)

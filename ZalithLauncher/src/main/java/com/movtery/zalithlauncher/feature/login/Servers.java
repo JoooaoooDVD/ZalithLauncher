@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.login;
+package com.craftstudio.launcher.feature.login;
 
 import com.google.gson.annotations.SerializedName;
 

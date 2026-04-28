@@ -1,7 +1,7 @@
-package com.movtery.zalithlauncher.setting.unit
+package com.craftstudio.launcher.setting.unit
 
 import androidx.annotation.CheckResult
-import com.movtery.zalithlauncher.setting.Settings
+import com.craftstudio.launcher.setting.Settings
 
 abstract class AbstractSettingUnit<V>(
     val key: String,

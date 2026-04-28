@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils.image
+package com.craftstudio.launcher.utils.image
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory

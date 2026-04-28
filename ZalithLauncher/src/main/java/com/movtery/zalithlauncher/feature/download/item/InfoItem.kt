@@ -1,8 +1,8 @@
-package com.movtery.zalithlauncher.feature.download.item
+package com.craftstudio.launcher.feature.download.item
 
-import com.movtery.zalithlauncher.feature.download.enums.Category
-import com.movtery.zalithlauncher.feature.download.enums.Classify
-import com.movtery.zalithlauncher.feature.download.enums.Platform
+import com.craftstudio.launcher.feature.download.enums.Category
+import com.craftstudio.launcher.feature.download.enums.Classify
+import com.craftstudio.launcher.feature.download.enums.Platform
 import java.util.Date
 
 /**

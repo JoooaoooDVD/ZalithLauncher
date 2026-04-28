@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.task
+package com.craftstudio.launcher.task
 
 import androidx.annotation.CheckResult
 import java.util.concurrent.Callable

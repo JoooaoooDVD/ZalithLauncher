@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.about;
+package com.craftstudio.launcher.ui.subassembly.about;
 
 public class SponsorMeta {
     public Sponsor[] sponsors;

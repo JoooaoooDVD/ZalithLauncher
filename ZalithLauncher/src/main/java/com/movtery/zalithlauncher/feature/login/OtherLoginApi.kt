@@ -1,12 +1,12 @@
-package com.movtery.zalithlauncher.feature.login
+package com.craftstudio.launcher.feature.login
 
 import android.content.Context
 import com.google.gson.Gson
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.utils.path.UrlManager
-import com.movtery.zalithlauncher.utils.path.UrlManager.Companion.createRequestBuilder
-import com.movtery.zalithlauncher.utils.stringutils.StringUtilsKt
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.utils.path.UrlManager
+import com.craftstudio.launcher.utils.path.UrlManager.Companion.createRequestBuilder
+import com.craftstudio.launcher.utils.stringutils.StringUtilsKt
 import net.kdt.pojavlaunch.Tools
 import net.kdt.pojavlaunch.value.MinecraftAccount
 import okhttp3.MediaType.Companion.toMediaTypeOrNull

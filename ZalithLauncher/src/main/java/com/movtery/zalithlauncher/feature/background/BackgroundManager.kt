@@ -1,15 +1,15 @@
-package com.movtery.zalithlauncher.feature.background
+package com.craftstudio.launcher.feature.background
 
 import android.content.Context
 import android.widget.ImageView
 import androidx.core.content.ContextCompat
 import com.bumptech.glide.Glide
-import com.movtery.zalithlauncher.InfoDistributor
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.utils.path.PathManager
-import com.movtery.zalithlauncher.utils.file.FileTools.Companion.mkdirs
-import com.movtery.zalithlauncher.utils.image.ImageUtils.Companion.isImage
+import com.craftstudio.launcher.InfoDistributor
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.utils.path.PathManager
+import com.craftstudio.launcher.utils.file.FileTools.Companion.mkdirs
+import com.craftstudio.launcher.utils.image.ImageUtils.Companion.isImage
 import net.kdt.pojavlaunch.Tools
 import java.io.File
 import java.io.FileReader

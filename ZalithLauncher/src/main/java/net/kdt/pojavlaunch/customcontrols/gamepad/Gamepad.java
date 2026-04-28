@@ -34,11 +34,11 @@ import android.widget.ImageView;
 
 import androidx.core.math.MathUtils;
 
-import com.movtery.zalithlauncher.event.single.MCOptionChangeEvent;
-import com.movtery.zalithlauncher.feature.MCOptions;
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.setting.AllStaticSettings;
-import com.movtery.zalithlauncher.utils.ZHTools;
+import com.craftstudio.launcher.event.single.MCOptionChangeEvent;
+import com.craftstudio.launcher.feature.MCOptions;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.setting.AllStaticSettings;
+import com.craftstudio.launcher.utils.ZHTools;
 
 import net.kdt.pojavlaunch.GrabListener;
 import net.kdt.pojavlaunch.LwjglGlfwKeycode;

@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.feature.download.install
+package com.craftstudio.launcher.feature.download.install
 
-import com.movtery.zalithlauncher.feature.log.Logging
+import com.craftstudio.launcher.feature.log.Logging
 import net.kdt.pojavlaunch.utils.ZipUtils
 import org.apache.commons.io.FileUtils
 import java.io.File

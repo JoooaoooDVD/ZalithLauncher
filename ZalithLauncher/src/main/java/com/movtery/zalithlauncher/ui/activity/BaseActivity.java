@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.activity;
+package com.craftstudio.launcher.ui.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,15 +8,15 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.movtery.zalithlauncher.context.ContextExecutor;
-import com.movtery.zalithlauncher.context.LocaleHelper;
-import com.movtery.zalithlauncher.event.single.LauncherIgnoreNotchEvent;
-import com.movtery.zalithlauncher.feature.accounts.AccountsManager;
-import com.movtery.zalithlauncher.feature.customprofilepath.ProfilePathManager;
-import com.movtery.zalithlauncher.plugins.PluginLoader;
-import com.movtery.zalithlauncher.renderer.Renderers;
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.utils.StoragePermissionsUtils;
+import com.craftstudio.launcher.context.ContextExecutor;
+import com.craftstudio.launcher.context.LocaleHelper;
+import com.craftstudio.launcher.event.single.LauncherIgnoreNotchEvent;
+import com.craftstudio.launcher.feature.accounts.AccountsManager;
+import com.craftstudio.launcher.feature.customprofilepath.ProfilePathManager;
+import com.craftstudio.launcher.plugins.PluginLoader;
+import com.craftstudio.launcher.renderer.Renderers;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.utils.StoragePermissionsUtils;
 
 import net.kdt.pojavlaunch.MissingStorageActivity;
 import net.kdt.pojavlaunch.Tools;

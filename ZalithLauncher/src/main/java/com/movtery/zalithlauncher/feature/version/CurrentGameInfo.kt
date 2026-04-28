@@ -1,8 +1,8 @@
-package com.movtery.zalithlauncher.feature.version
+package com.craftstudio.launcher.feature.version
 
 import com.google.gson.annotations.SerializedName
-import com.movtery.zalithlauncher.feature.customprofilepath.ProfilePathHome
-import com.movtery.zalithlauncher.feature.log.Logging
+import com.craftstudio.launcher.feature.customprofilepath.ProfilePathHome
+import com.craftstudio.launcher.feature.log.Logging
 import net.kdt.pojavlaunch.Tools
 import org.apache.commons.io.FileUtils
 import java.io.File

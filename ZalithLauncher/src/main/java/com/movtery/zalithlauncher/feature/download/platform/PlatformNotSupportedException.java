@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.download.platform;
+package com.craftstudio.launcher.feature.download.platform;
 
 public class PlatformNotSupportedException extends RuntimeException {
     public PlatformNotSupportedException(String message) {

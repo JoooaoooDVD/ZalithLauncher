@@ -23,7 +23,7 @@
             android:layout_marginStart="@dimen/_4sdp"
             android:src="@drawable/ic_move" />
 
-        <com.movtery.zalithlauncher.ui.view.AnimTextView
+        <com.craftstudio.launcher.ui.view.AnimTextView
             android:id="@+id/goto_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
             android:scaleY="0.95"
             android:src="@drawable/ic_profile_saves" />
 
-        <com.movtery.zalithlauncher.ui.view.AnimTextView
+        <com.craftstudio.launcher.ui.view.AnimTextView
             android:id="@+id/game_path"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -81,7 +81,7 @@
             android:scaleY="1.1"
             android:src="@drawable/ic_edit" />
 
-        <com.movtery.zalithlauncher.ui.view.AnimTextView
+        <com.craftstudio.launcher.ui.view.AnimTextView
             android:id="@+id/rename"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -110,7 +110,7 @@
             android:scaleY="1.1"
             android:src="@drawable/ic_copy" />
 
-        <com.movtery.zalithlauncher.ui.view.AnimTextView
+        <com.craftstudio.launcher.ui.view.AnimTextView
             android:id="@+id/copy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -139,7 +139,7 @@
             android:scaleY="1.2"
             android:src="@drawable/ic_menu_delete_forever" />
 
-        <com.movtery.zalithlauncher.ui.view.AnimTextView
+        <com.craftstudio.launcher.ui.view.AnimTextView
             android:id="@+id/delete"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

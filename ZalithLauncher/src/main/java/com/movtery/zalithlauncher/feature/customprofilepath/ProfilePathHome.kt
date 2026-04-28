@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.customprofilepath
+package com.craftstudio.launcher.feature.customprofilepath
 
 class ProfilePathHome {
     companion object {

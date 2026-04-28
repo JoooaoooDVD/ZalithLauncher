@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.modlist
+package com.craftstudio.launcher.ui.subassembly.modlist
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -8,12 +8,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.ItemModDownloadBinding
-import com.movtery.zalithlauncher.feature.download.enums.DependencyType
-import com.movtery.zalithlauncher.feature.download.enums.ModLoader
-import com.movtery.zalithlauncher.feature.version.utils.VersionIconUtils
-import com.movtery.zalithlauncher.feature.version.VersionsManager
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.ItemModDownloadBinding
+import com.craftstudio.launcher.feature.download.enums.DependencyType
+import com.craftstudio.launcher.feature.download.enums.ModLoader
+import com.craftstudio.launcher.feature.version.utils.VersionIconUtils
+import com.craftstudio.launcher.feature.version.VersionsManager
 
 class ModListAdapter(
     private val fragment: ModListFragment,

@@ -1,10 +1,10 @@
-package com.movtery.zalithlauncher.ui.view
+package com.craftstudio.launcher.ui.view
 
 import android.animation.AnimatorInflater
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatCheckBox
-import com.movtery.zalithlauncher.R
+import com.craftstudio.launcher.R
 
 class AnimCheckBox @JvmOverloads constructor(
     context: Context,

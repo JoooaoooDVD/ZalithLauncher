@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils
+package com.craftstudio.launcher.utils
 
 import java.util.regex.Pattern
 

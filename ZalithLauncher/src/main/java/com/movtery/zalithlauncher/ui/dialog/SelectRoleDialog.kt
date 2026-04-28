@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,9 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.ItemFileListViewBinding
-import com.movtery.zalithlauncher.feature.login.AuthResult.AvailableProfiles
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.ItemFileListViewBinding
+import com.craftstudio.launcher.feature.login.AuthResult.AvailableProfiles
 
 class SelectRoleDialog(
     context: Context,

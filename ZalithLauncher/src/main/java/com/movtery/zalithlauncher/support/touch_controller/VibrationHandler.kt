@@ -1,9 +1,9 @@
-package com.movtery.zalithlauncher.support.touch_controller
+package com.craftstudio.launcher.support.touch_controller
 
 import android.os.VibrationEffect
 import android.os.Vibrator
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.setting.AllSettings
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.setting.AllSettings
 import top.fifthlight.touchcontroller.proxy.client.LauncherProxyClient
 import top.fifthlight.touchcontroller.proxy.message.VibrateMessage
 

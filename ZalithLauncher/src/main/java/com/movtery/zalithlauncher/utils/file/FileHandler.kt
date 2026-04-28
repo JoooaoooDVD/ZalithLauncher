@@ -1,10 +1,10 @@
-package com.movtery.zalithlauncher.utils.file
+package com.craftstudio.launcher.utils.file
 
 import android.content.Context
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.task.TaskExecutors
-import com.movtery.zalithlauncher.ui.dialog.ProgressDialog
-import com.movtery.zalithlauncher.utils.ZHTools
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.task.TaskExecutors
+import com.craftstudio.launcher.ui.dialog.ProgressDialog
+import com.craftstudio.launcher.utils.ZHTools
 import java.util.Timer
 import java.util.TimerTask
 import java.util.concurrent.Future

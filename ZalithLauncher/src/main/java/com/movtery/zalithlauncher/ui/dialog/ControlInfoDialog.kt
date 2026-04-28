@@ -1,17 +1,17 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.content.Context
 import android.os.Bundle
 import android.view.Window
 import android.widget.TextView
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.DialogControlInfoBinding
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.ui.dialog.DraggableDialog.DialogInitializationListener
-import com.movtery.zalithlauncher.ui.subassembly.customcontrols.ControlInfoData
-import com.movtery.zalithlauncher.ui.subassembly.customcontrols.EditControlData.Companion.loadCustomControlsFromFile
-import com.movtery.zalithlauncher.ui.subassembly.customcontrols.EditControlData.Companion.saveToFile
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.DialogControlInfoBinding
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.ui.dialog.DraggableDialog.DialogInitializationListener
+import com.craftstudio.launcher.ui.subassembly.customcontrols.ControlInfoData
+import com.craftstudio.launcher.ui.subassembly.customcontrols.EditControlData.Companion.loadCustomControlsFromFile
+import com.craftstudio.launcher.ui.subassembly.customcontrols.EditControlData.Companion.saveToFile
+import com.craftstudio.launcher.utils.path.PathManager
 import java.io.File
 
 class ControlInfoDialog(

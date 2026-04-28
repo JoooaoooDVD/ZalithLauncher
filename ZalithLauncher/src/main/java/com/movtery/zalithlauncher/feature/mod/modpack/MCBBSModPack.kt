@@ -1,16 +1,16 @@
-package com.movtery.zalithlauncher.feature.mod.modpack
+package com.craftstudio.launcher.feature.mod.modpack
 
 import android.content.Context
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.download.enums.ModLoader
-import com.movtery.zalithlauncher.feature.download.item.ModLoaderWrapper
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.feature.mod.models.MCBBSPackMeta
-import com.movtery.zalithlauncher.feature.mod.models.MCBBSPackMeta.MCBBSAddons
-import com.movtery.zalithlauncher.feature.mod.modpack.install.ModPackUtils
-import com.movtery.zalithlauncher.task.TaskExecutors
-import com.movtery.zalithlauncher.ui.dialog.ProgressDialog
-import com.movtery.zalithlauncher.utils.file.FileTools
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.download.enums.ModLoader
+import com.craftstudio.launcher.feature.download.item.ModLoaderWrapper
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.feature.mod.models.MCBBSPackMeta
+import com.craftstudio.launcher.feature.mod.models.MCBBSPackMeta.MCBBSAddons
+import com.craftstudio.launcher.feature.mod.modpack.install.ModPackUtils
+import com.craftstudio.launcher.task.TaskExecutors
+import com.craftstudio.launcher.ui.dialog.ProgressDialog
+import com.craftstudio.launcher.utils.file.FileTools
 import net.kdt.pojavlaunch.Tools
 import net.kdt.pojavlaunch.utils.FileUtils
 import net.kdt.pojavlaunch.utils.ZipUtils

@@ -81,7 +81,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layout">
 
-        <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+        <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
             android:id="@+id/copy_view"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_48sdp"
@@ -106,9 +106,9 @@
                 android:text="@android:string/copy"
                 android:textColor="@color/black_or_white"
                 android:textSize="@dimen/_14ssp" />
-        </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+        </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
-        <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+        <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
             android:id="@+id/rename_view"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_48sdp"
@@ -135,9 +135,9 @@
                 android:text="@string/generic_rename"
                 android:textColor="@color/black_or_white"
                 android:textSize="@dimen/_14ssp" />
-        </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+        </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
-        <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+        <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
             android:id="@+id/share_view"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_48sdp"
@@ -162,7 +162,7 @@
                 android:text="@string/generic_share"
                 android:textColor="@color/black_or_white"
                 android:textSize="@dimen/_14ssp" />
-        </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+        </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -176,7 +176,7 @@
         app:layout_constraintStart_toEndOf="@+id/layout_1"
         app:layout_constraintTop_toBottomOf="@+id/layout">
 
-        <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+        <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
             android:id="@+id/move_view"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_48sdp"
@@ -201,9 +201,9 @@
                 android:text="@string/generic_move"
                 android:textColor="@color/black_or_white"
                 android:textSize="@dimen/_14ssp" />
-        </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+        </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
-        <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+        <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
             android:id="@+id/delete_view"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_48sdp"
@@ -228,9 +228,9 @@
                 android:text="@string/generic_delete"
                 android:textColor="@color/black_or_white"
                 android:textSize="@dimen/_14ssp" />
-        </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+        </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
 
-        <com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout
+        <com.craftstudio.launcher.ui.layout.AnimRelativeLayout
             android:id="@+id/more_view"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_48sdp"
@@ -256,6 +256,6 @@
                 android:text="@string/generic_more"
                 android:textColor="@color/black_or_white"
                 android:textSize="@dimen/_14ssp" />
-        </com.movtery.zalithlauncher.ui.layout.AnimRelativeLayout>
+        </com.craftstudio.launcher.ui.layout.AnimRelativeLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

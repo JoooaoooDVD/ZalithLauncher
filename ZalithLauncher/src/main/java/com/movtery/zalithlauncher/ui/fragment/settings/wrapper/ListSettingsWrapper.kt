@@ -1,12 +1,12 @@
-package com.movtery.zalithlauncher.ui.fragment.settings.wrapper
+package com.craftstudio.launcher.ui.fragment.settings.wrapper
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.setting.unit.StringSettingUnit
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.setting.unit.StringSettingUnit
 
 @SuppressLint("UseSwitchCompatOrMaterialCode")
 class ListSettingsWrapper(

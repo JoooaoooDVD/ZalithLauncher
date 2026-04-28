@@ -1,7 +1,7 @@
-package com.movtery.zalithlauncher.utils
+package com.craftstudio.launcher.utils
 
-import com.movtery.zalithlauncher.feature.customprofilepath.ProfilePathHome
-import com.movtery.zalithlauncher.feature.log.Logging
+import com.craftstudio.launcher.feature.customprofilepath.ProfilePathHome
+import com.craftstudio.launcher.feature.log.Logging
 import org.apache.commons.io.FileUtils
 import java.io.File
 import java.io.IOException

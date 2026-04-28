@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils.http
+package com.craftstudio.launcher.utils.http
 
 import android.content.Context
 import android.net.ConnectivityManager

@@ -12,7 +12,7 @@ import android.view.ViewTreeObserver;
 import androidx.annotation.Nullable;
 import androidx.core.content.res.ResourcesCompat;
 
-import com.movtery.zalithlauncher.R;
+import com.craftstudio.launcher.R;
 
 import net.kdt.pojavlaunch.customcontrols.buttons.ControlInterface;
 

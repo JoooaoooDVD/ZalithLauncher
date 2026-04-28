@@ -1,7 +1,7 @@
-package com.movtery.zalithlauncher.feature.download.utils
+package com.craftstudio.launcher.feature.download.utils
 
-import com.movtery.zalithlauncher.feature.download.enums.Category
-import com.movtery.zalithlauncher.feature.download.enums.Classify
+import com.craftstudio.launcher.feature.download.enums.Category
+import com.craftstudio.launcher.feature.download.enums.Classify
 
 class CategoryUtils {
     companion object {

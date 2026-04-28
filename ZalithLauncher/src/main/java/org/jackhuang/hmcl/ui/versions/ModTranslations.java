@@ -19,9 +19,9 @@ package org.jackhuang.hmcl.ui.versions;
 
 import static org.jackhuang.hmcl.util.Pair.pair;
 
-import com.movtery.zalithlauncher.feature.download.enums.Classify;
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.utils.stringutils.StringUtilsKt;
+import com.craftstudio.launcher.feature.download.enums.Classify;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.utils.stringutils.StringUtilsKt;
 
 import net.kdt.pojavlaunch.Tools;
 

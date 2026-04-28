@@ -1,7 +1,7 @@
-package com.movtery.zalithlauncher.feature.download.item
+package com.craftstudio.launcher.feature.download.item
 
-import com.movtery.zalithlauncher.feature.download.enums.ModLoader
-import com.movtery.zalithlauncher.feature.download.enums.VersionType
+import com.craftstudio.launcher.feature.download.enums.ModLoader
+import com.craftstudio.launcher.feature.download.enums.VersionType
 import java.util.Date
 
 /**

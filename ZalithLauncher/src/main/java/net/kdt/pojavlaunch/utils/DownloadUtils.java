@@ -2,10 +2,10 @@ package net.kdt.pojavlaunch.utils;
 
 import androidx.annotation.Nullable;
 
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.utils.path.PathManager;
-import com.movtery.zalithlauncher.utils.ZHTools;
-import com.movtery.zalithlauncher.utils.path.UrlManager;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.utils.path.PathManager;
+import com.craftstudio.launcher.utils.ZHTools;
+import com.craftstudio.launcher.utils.path.UrlManager;
 
 import net.kdt.pojavlaunch.Tools;
 

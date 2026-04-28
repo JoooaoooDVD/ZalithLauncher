@@ -16,11 +16,11 @@ import android.webkit.MimeTypeMap;
 
 import androidx.annotation.Nullable;
 
-import com.movtery.zalithlauncher.BuildConfig;
-import com.movtery.zalithlauncher.InfoDistributor;
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.utils.path.PathManager;
+import com.craftstudio.launcher.BuildConfig;
+import com.craftstudio.launcher.InfoDistributor;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.utils.path.PathManager;
 
 import net.kdt.pojavlaunch.Tools;
 

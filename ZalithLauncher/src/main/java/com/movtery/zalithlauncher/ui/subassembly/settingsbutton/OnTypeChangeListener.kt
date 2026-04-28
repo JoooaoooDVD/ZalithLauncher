@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.settingsbutton
+package com.craftstudio.launcher.ui.subassembly.settingsbutton
 
 interface OnTypeChangeListener {
     fun onChange(type: ButtonType)

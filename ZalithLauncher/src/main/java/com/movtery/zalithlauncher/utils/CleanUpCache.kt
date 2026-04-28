@@ -1,12 +1,12 @@
-package com.movtery.zalithlauncher.utils
+package com.craftstudio.launcher.utils
 
 import android.content.Context
 import android.widget.Toast
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.task.TaskExecutors
-import com.movtery.zalithlauncher.utils.file.FileTools
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.task.TaskExecutors
+import com.craftstudio.launcher.utils.file.FileTools
+import com.craftstudio.launcher.utils.path.PathManager
 import org.apache.commons.io.FileUtils
 import java.io.File
 

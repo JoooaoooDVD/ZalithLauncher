@@ -14,11 +14,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.task.Task;
-import com.movtery.zalithlauncher.ui.dialog.SelectRuntimeDialog;
-import com.movtery.zalithlauncher.utils.runtime.RuntimeSelectedListener;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.task.Task;
+import com.craftstudio.launcher.ui.dialog.SelectRuntimeDialog;
+import com.craftstudio.launcher.utils.runtime.RuntimeSelectedListener;
 
 import net.kdt.pojavlaunch.Architecture;
 import net.kdt.pojavlaunch.Tools;

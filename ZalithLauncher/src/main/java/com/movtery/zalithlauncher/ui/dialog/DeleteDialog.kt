@@ -1,10 +1,10 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.annotation.SuppressLint
 import android.content.Context
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.utils.file.FileDeletionHandler
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.utils.file.FileDeletionHandler
 import java.io.File
 
 @SuppressLint("CheckResult")

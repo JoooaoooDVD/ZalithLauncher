@@ -1,13 +1,13 @@
-package com.movtery.zalithlauncher.feature.customprofilepath
+package com.craftstudio.launcher.feature.customprofilepath
 
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.feature.version.VersionsManager
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.ui.subassembly.customprofilepath.ProfileItem
-import com.movtery.zalithlauncher.utils.path.PathManager
-import com.movtery.zalithlauncher.utils.StoragePermissionsUtils
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.feature.version.VersionsManager
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.ui.subassembly.customprofilepath.ProfileItem
+import com.craftstudio.launcher.utils.path.PathManager
+import com.craftstudio.launcher.utils.StoragePermissionsUtils
 import net.kdt.pojavlaunch.Tools
 import java.io.File
 import java.io.FileWriter

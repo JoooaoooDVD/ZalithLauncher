@@ -1,14 +1,14 @@
-package com.movtery.zalithlauncher.feature.mod.modloader
+package com.craftstudio.launcher.feature.mod.modloader
 
 import com.kdt.mcgui.ProgressLayout
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.feature.mod.modloader.NeoForgeUtils.Companion.downloadNeoForgeVersions
-import com.movtery.zalithlauncher.feature.mod.modloader.NeoForgeUtils.Companion.downloadNeoForgedForgeVersions
-import com.movtery.zalithlauncher.feature.mod.modloader.NeoForgeUtils.Companion.getNeoForgeInstallerUrl
-import com.movtery.zalithlauncher.feature.mod.modloader.NeoForgeUtils.Companion.getNeoForgedForgeInstallerUrl
-import com.movtery.zalithlauncher.feature.version.install.InstallTask
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.feature.mod.modloader.NeoForgeUtils.Companion.downloadNeoForgeVersions
+import com.craftstudio.launcher.feature.mod.modloader.NeoForgeUtils.Companion.downloadNeoForgedForgeVersions
+import com.craftstudio.launcher.feature.mod.modloader.NeoForgeUtils.Companion.getNeoForgeInstallerUrl
+import com.craftstudio.launcher.feature.mod.modloader.NeoForgeUtils.Companion.getNeoForgedForgeInstallerUrl
+import com.craftstudio.launcher.feature.version.install.InstallTask
+import com.craftstudio.launcher.utils.path.PathManager
 import net.kdt.pojavlaunch.Tools.DownloaderFeedback
 import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper
 import net.kdt.pojavlaunch.utils.DownloadUtils

@@ -5,11 +5,11 @@ import static org.apache.commons.io.FileUtils.listFiles;
 import android.system.Os;
 
 import com.kdt.mcgui.ProgressLayout;
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.feature.unpack.Jre;
-import com.movtery.zalithlauncher.utils.path.PathManager;
-import com.movtery.zalithlauncher.utils.stringutils.SortStrings;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.feature.unpack.Jre;
+import com.craftstudio.launcher.utils.path.PathManager;
+import com.craftstudio.launcher.utils.stringutils.SortStrings;
 
 import net.kdt.pojavlaunch.Tools;
 import net.kdt.pojavlaunch.utils.MathUtils;

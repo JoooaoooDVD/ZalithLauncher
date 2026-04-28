@@ -78,7 +78,7 @@
                     android:weightSum="3"
                     app:layout_constraintTop_toBottomOf="@id/dec3">
 
-                    <com.movtery.zalithlauncher.ui.view.AnimButton
+                    <com.craftstudio.launcher.ui.view.AnimButton
                         android:id="@+id/license_button"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -89,7 +89,7 @@
                         android:textStyle="bold"
                         android:text="GPL v3" />
 
-                    <com.movtery.zalithlauncher.ui.view.AnimButton
+                    <com.craftstudio.launcher.ui.view.AnimButton
                         android:id="@+id/github_button"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
                         android:backgroundTint="#252538"
                         android:textColor="#FFB74D"
                         android:textStyle="bold"
-                        android:text="Website" /> <com.movtery.zalithlauncher.ui.view.AnimButton
+                        android:text="Website" /> <com.craftstudio.launcher.ui.view.AnimButton
                         android:id="@+id/discord_button"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -109,7 +109,7 @@
                         android:textStyle="bold"
                         android:text="Discord" />
 
-                    <com.movtery.zalithlauncher.ui.view.AnimButton
+                    <com.craftstudio.launcher.ui.view.AnimButton
                         android:id="@+id/qq_group_button"
                         android:layout_width="0dp"
                         android:layout_height="0dp"
@@ -144,7 +144,7 @@
                     android:maxHeight="@dimen/_250sdp"
                     app:layout_constraintTop_toBottomOf="@id/about_title" />
 
-                <com.movtery.zalithlauncher.ui.view.AnimButton
+                <com.craftstudio.launcher.ui.view.AnimButton
                     android:id="@+id/sponsor"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_42sdp"

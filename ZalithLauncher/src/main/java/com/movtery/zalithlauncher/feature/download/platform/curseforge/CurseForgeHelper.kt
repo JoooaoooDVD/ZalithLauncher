@@ -1,21 +1,21 @@
-package com.movtery.zalithlauncher.feature.download.platform.curseforge
+package com.craftstudio.launcher.feature.download.platform.curseforge
 
 import android.widget.Toast
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.context.ContextExecutor
-import com.movtery.zalithlauncher.feature.download.Filters
-import com.movtery.zalithlauncher.feature.download.enums.Classify
-import com.movtery.zalithlauncher.feature.download.install.InstallHelper
-import com.movtery.zalithlauncher.feature.download.install.UnpackWorldZipHelper
-import com.movtery.zalithlauncher.feature.download.item.InfoItem
-import com.movtery.zalithlauncher.feature.download.item.ModLoaderWrapper
-import com.movtery.zalithlauncher.feature.download.item.ScreenshotItem
-import com.movtery.zalithlauncher.feature.download.item.SearchResult
-import com.movtery.zalithlauncher.feature.download.item.VersionItem
-import com.movtery.zalithlauncher.feature.download.platform.AbstractPlatformHelper
-import com.movtery.zalithlauncher.feature.download.platform.curseforge.CurseForgeCommonUtils.Companion.CURSEFORGE_MODPACK_CLASS_ID
-import com.movtery.zalithlauncher.feature.download.platform.curseforge.CurseForgeCommonUtils.Companion.CURSEFORGE_MOD_CLASS_ID
-import com.movtery.zalithlauncher.feature.download.utils.PlatformUtils
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.context.ContextExecutor
+import com.craftstudio.launcher.feature.download.Filters
+import com.craftstudio.launcher.feature.download.enums.Classify
+import com.craftstudio.launcher.feature.download.install.InstallHelper
+import com.craftstudio.launcher.feature.download.install.UnpackWorldZipHelper
+import com.craftstudio.launcher.feature.download.item.InfoItem
+import com.craftstudio.launcher.feature.download.item.ModLoaderWrapper
+import com.craftstudio.launcher.feature.download.item.ScreenshotItem
+import com.craftstudio.launcher.feature.download.item.SearchResult
+import com.craftstudio.launcher.feature.download.item.VersionItem
+import com.craftstudio.launcher.feature.download.platform.AbstractPlatformHelper
+import com.craftstudio.launcher.feature.download.platform.curseforge.CurseForgeCommonUtils.Companion.CURSEFORGE_MODPACK_CLASS_ID
+import com.craftstudio.launcher.feature.download.platform.curseforge.CurseForgeCommonUtils.Companion.CURSEFORGE_MOD_CLASS_ID
+import com.craftstudio.launcher.feature.download.utils.PlatformUtils
 import java.io.File
 
 class CurseForgeHelper : AbstractPlatformHelper(PlatformUtils.createCurseForgeApi()) {

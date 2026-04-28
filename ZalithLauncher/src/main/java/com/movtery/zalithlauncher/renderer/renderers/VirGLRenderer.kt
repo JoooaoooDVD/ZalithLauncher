@@ -1,7 +1,7 @@
-package com.movtery.zalithlauncher.renderer.renderers
+package com.craftstudio.launcher.renderer.renderers
 
-import com.movtery.zalithlauncher.renderer.RendererInterface
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.renderer.RendererInterface
+import com.craftstudio.launcher.utils.path.PathManager
 import java.io.File
 
 class VirGLRenderer : RendererInterface {

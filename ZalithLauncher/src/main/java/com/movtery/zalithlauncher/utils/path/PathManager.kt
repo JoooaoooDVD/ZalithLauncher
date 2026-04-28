@@ -1,9 +1,9 @@
-package com.movtery.zalithlauncher.utils.path
+package com.craftstudio.launcher.utils.path
 
 import android.content.Context
 import android.os.Build.VERSION
 import android.os.Environment
-import com.movtery.zalithlauncher.InfoDistributor
+import com.craftstudio.launcher.InfoDistributor
 import org.apache.commons.io.FileUtils
 import java.io.File
 

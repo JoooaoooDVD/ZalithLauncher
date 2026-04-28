@@ -1,10 +1,10 @@
-package com.movtery.zalithlauncher.context
+package com.craftstudio.launcher.context
 
 import android.app.Activity
 import android.app.Application
 import android.content.Context
 import android.widget.Toast
-import com.movtery.zalithlauncher.task.TaskExecutors
+import com.craftstudio.launcher.task.TaskExecutors
 import net.kdt.pojavlaunch.Tools
 import net.kdt.pojavlaunch.lifecycle.ContextExecutorTask
 import java.lang.ref.WeakReference

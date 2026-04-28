@@ -39,7 +39,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/shadowView">
 
-            <com.movtery.zalithlauncher.ui.view.AnimTextView
+            <com.craftstudio.launcher.ui.view.AnimTextView
                 android:id="@+id/app_info"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
                 android:background="?android:attr/selectableItemBackground"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <com.movtery.zalithlauncher.ui.view.AnimButton
+            <com.craftstudio.launcher.ui.view.AnimButton
                 android:id="@+id/support_development"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_40sdp"
@@ -64,7 +64,7 @@
                 android:text="@string/about_button_support_development"
                 app:layout_constraintBottom_toTopOf="@id/return_button"/>
 
-            <com.movtery.zalithlauncher.ui.view.AnimButton
+            <com.craftstudio.launcher.ui.view.AnimButton
                 android:id="@+id/return_button"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_45sdp"

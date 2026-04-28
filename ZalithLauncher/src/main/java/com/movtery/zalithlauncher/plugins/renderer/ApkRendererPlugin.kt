@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.plugins.renderer
+package com.craftstudio.launcher.plugins.renderer
 
 class ApkRendererPlugin(
     id: String,

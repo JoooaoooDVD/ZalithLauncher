@@ -1,8 +1,8 @@
-package com.movtery.zalithlauncher.utils
+package com.craftstudio.launcher.utils
 
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.context.ContextExecutor.Companion.getString
-import com.movtery.zalithlauncher.utils.stringutils.StringUtils
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.context.ContextExecutor.Companion.getString
+import com.craftstudio.launcher.utils.stringutils.StringUtils
 import java.math.BigDecimal
 import java.math.RoundingMode
 import java.text.DecimalFormat

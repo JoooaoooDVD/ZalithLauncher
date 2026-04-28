@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.setting
+package com.craftstudio.launcher.setting
 
 /**
  * 静态设置项的值，用于一些临时生效的设置项使用

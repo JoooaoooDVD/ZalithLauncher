@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.mod.parser;
+package com.craftstudio.launcher.feature.mod.parser;
 
 import androidx.annotation.NonNull;
 

@@ -1,10 +1,10 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.annotation.SuppressLint
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.LifecycleOwner
-import com.movtery.zalithlauncher.task.TaskExecutors
+import com.craftstudio.launcher.task.TaskExecutors
 import java.util.concurrent.atomic.AtomicBoolean
 
 abstract class LifecycleAwareTipDialog: LifecycleEventObserver {

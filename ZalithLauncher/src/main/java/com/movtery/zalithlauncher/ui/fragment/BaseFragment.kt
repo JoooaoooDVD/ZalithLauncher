@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.fragment
+package com.craftstudio.launcher.ui.fragment
 
 import androidx.fragment.app.Fragment
 import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper

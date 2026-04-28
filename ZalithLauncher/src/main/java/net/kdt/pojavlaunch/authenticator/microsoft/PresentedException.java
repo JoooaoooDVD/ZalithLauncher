@@ -2,8 +2,8 @@ package net.kdt.pojavlaunch.authenticator.microsoft;
 
 import android.content.Context;
 
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.utils.stringutils.StringUtils;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.utils.stringutils.StringUtils;
 
 public class PresentedException extends RuntimeException {
     final int localizationStringId;

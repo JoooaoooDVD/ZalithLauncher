@@ -1,8 +1,8 @@
 package net.kdt.pojavlaunch;
 
 import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
-import static com.movtery.zalithlauncher.utils.ZHTools.getVersionCode;
-import static com.movtery.zalithlauncher.utils.ZHTools.getVersionName;
+import static com.craftstudio.launcher.utils.ZHTools.getVersionCode;
+import static com.craftstudio.launcher.utils.ZHTools.getVersionName;
 
 import android.app.Application;
 import android.content.Context;
@@ -16,14 +16,14 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.core.app.ActivityCompat;
 
-import com.movtery.zalithlauncher.InfoDistributor;
-import com.movtery.zalithlauncher.context.ContextExecutor;
-import com.movtery.zalithlauncher.context.LocaleHelper;
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.setting.AllSettings;
-import com.movtery.zalithlauncher.ui.activity.ErrorActivity;
-import com.movtery.zalithlauncher.utils.path.PathManager;
-import com.movtery.zalithlauncher.utils.ZHTools;
+import com.craftstudio.launcher.InfoDistributor;
+import com.craftstudio.launcher.context.ContextExecutor;
+import com.craftstudio.launcher.context.LocaleHelper;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.setting.AllSettings;
+import com.craftstudio.launcher.ui.activity.ErrorActivity;
+import com.craftstudio.launcher.utils.path.PathManager;
+import com.craftstudio.launcher.utils.ZHTools;
 
 import net.kdt.pojavlaunch.utils.FileUtils;
 

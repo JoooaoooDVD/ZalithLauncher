@@ -43,7 +43,7 @@
                 app:tabIndicatorHeight="@dimen/_3sdp"
                 app:tabMode="fixed" />
 
-            <com.movtery.zalithlauncher.ui.subassembly.versionlist.VersionListView
+            <com.craftstudio.launcher.ui.subassembly.versionlist.VersionListView
                 android:id="@+id/version"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -88,7 +88,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/shadowView">
 
-            <com.movtery.zalithlauncher.ui.view.AnimEditText
+            <com.craftstudio.launcher.ui.view.AnimEditText
                 android:id="@+id/search_version"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
                 android:paddingHorizontal="@dimen/_8sdp"
                 app:layout_constraintTop_toTopOf="parent"/>
 
-            <com.movtery.zalithlauncher.ui.view.AnimButton
+            <com.craftstudio.launcher.ui.view.AnimButton
                 android:id="@+id/return_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

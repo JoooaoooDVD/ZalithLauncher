@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.fragment
+package com.craftstudio.launcher.ui.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,15 +10,15 @@ import androidx.viewpager2.widget.ViewPager2
 import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
 import com.movtery.anim.AnimPlayer
 import com.movtery.anim.animations.Animations
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.databinding.FragmentSettingsBinding
-import com.movtery.zalithlauncher.event.value.SettingsPageSwapEvent
-import com.movtery.zalithlauncher.setting.Settings
-import com.movtery.zalithlauncher.ui.fragment.settings.ControlSettingsFragment
-import com.movtery.zalithlauncher.ui.fragment.settings.ExperimentalSettingsFragment
-import com.movtery.zalithlauncher.ui.fragment.settings.GameSettingsFragment
-import com.movtery.zalithlauncher.ui.fragment.settings.LauncherSettingsFragment
-import com.movtery.zalithlauncher.ui.fragment.settings.VideoSettingsFragment
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.databinding.FragmentSettingsBinding
+import com.craftstudio.launcher.event.value.SettingsPageSwapEvent
+import com.craftstudio.launcher.setting.Settings
+import com.craftstudio.launcher.ui.fragment.settings.ControlSettingsFragment
+import com.craftstudio.launcher.ui.fragment.settings.ExperimentalSettingsFragment
+import com.craftstudio.launcher.ui.fragment.settings.GameSettingsFragment
+import com.craftstudio.launcher.ui.fragment.settings.LauncherSettingsFragment
+import com.craftstudio.launcher.ui.fragment.settings.VideoSettingsFragment
 import org.greenrobot.eventbus.EventBus
 
 class SettingsFragment : FragmentWithAnim(R.layout.fragment_settings) {

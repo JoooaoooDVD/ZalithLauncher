@@ -1,7 +1,7 @@
-package com.movtery.zalithlauncher.ui.fragment.download.addon
+package com.craftstudio.launcher.ui.fragment.download.addon
 
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.version.install.Addon
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.version.install.Addon
 
 class DownloadFabricApiFragment: DownloadFabricLikeApiModFragment(
     Addon.FABRIC_API,

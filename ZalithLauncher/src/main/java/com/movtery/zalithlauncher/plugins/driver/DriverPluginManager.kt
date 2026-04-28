@@ -1,8 +1,8 @@
-package com.movtery.zalithlauncher.plugins.driver
+package com.craftstudio.launcher.plugins.driver
 
 import android.content.Context
 import android.content.pm.ApplicationInfo
-import com.movtery.zalithlauncher.setting.AllSettings
+import com.craftstudio.launcher.setting.AllSettings
 
 /**
  * FCL 驱动器插件

@@ -1,11 +1,11 @@
-package com.movtery.zalithlauncher.ui.fragment.settings.wrapper
+package com.craftstudio.launcher.ui.fragment.settings.wrapper
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.view.View
 import android.widget.CompoundButton
 import android.widget.Switch
-import com.movtery.zalithlauncher.setting.unit.BooleanSettingUnit
+import com.craftstudio.launcher.setting.unit.BooleanSettingUnit
 
 @SuppressLint("UseSwitchCompatOrMaterialCode")
 class SwitchSettingsWrapper(

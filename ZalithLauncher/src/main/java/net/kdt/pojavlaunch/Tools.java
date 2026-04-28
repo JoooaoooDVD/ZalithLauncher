@@ -2,7 +2,7 @@ package net.kdt.pojavlaunch;
 
 import static android.os.Build.VERSION.SDK_INT;
 import static android.os.Build.VERSION_CODES.P;
-import static com.movtery.zalithlauncher.setting.AllStaticSettings.notchSize;
+import static com.craftstudio.launcher.setting.AllStaticSettings.notchSize;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -29,20 +29,20 @@ import androidx.fragment.app.FragmentActivity;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.movtery.zalithlauncher.InfoDistributor;
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.context.ContextExecutor;
-import com.movtery.zalithlauncher.utils.LauncherProfiles;
-import com.movtery.zalithlauncher.feature.customprofilepath.ProfilePathHome;
-import com.movtery.zalithlauncher.feature.log.Logging;
-import com.movtery.zalithlauncher.feature.version.Version;
-import com.movtery.zalithlauncher.task.Task;
-import com.movtery.zalithlauncher.ui.activity.BaseActivity;
-import com.movtery.zalithlauncher.ui.dialog.EditTextDialog;
-import com.movtery.zalithlauncher.utils.path.PathManager;
-import com.movtery.zalithlauncher.utils.ZHTools;
-import com.movtery.zalithlauncher.utils.runtime.SelectRuntimeUtils;
-import com.movtery.zalithlauncher.utils.stringutils.StringUtils;
+import com.craftstudio.launcher.InfoDistributor;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.context.ContextExecutor;
+import com.craftstudio.launcher.utils.LauncherProfiles;
+import com.craftstudio.launcher.feature.customprofilepath.ProfilePathHome;
+import com.craftstudio.launcher.feature.log.Logging;
+import com.craftstudio.launcher.feature.version.Version;
+import com.craftstudio.launcher.task.Task;
+import com.craftstudio.launcher.ui.activity.BaseActivity;
+import com.craftstudio.launcher.ui.dialog.EditTextDialog;
+import com.craftstudio.launcher.utils.path.PathManager;
+import com.craftstudio.launcher.utils.ZHTools;
+import com.craftstudio.launcher.utils.runtime.SelectRuntimeUtils;
+import com.craftstudio.launcher.utils.stringutils.StringUtils;
 
 import net.kdt.pojavlaunch.fragments.MainMenuFragment;
 import net.kdt.pojavlaunch.lifecycle.ContextExecutorTask;

@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils.file;
+package com.craftstudio.launcher.utils.file;
 
 public class InvalidFilenameException extends RuntimeException {
     private final FilenameErrorType type;

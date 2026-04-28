@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.utils.stringutils
+package com.craftstudio.launcher.utils.stringutils
 
 enum class ShiftDirection {
     LEFT, RIGHT

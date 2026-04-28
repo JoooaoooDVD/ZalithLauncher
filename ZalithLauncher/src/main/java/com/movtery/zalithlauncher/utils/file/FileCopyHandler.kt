@@ -1,9 +1,9 @@
-package com.movtery.zalithlauncher.utils.file
+package com.craftstudio.launcher.utils.file
 
 import android.content.Context
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.utils.file.FileTools.Companion.getFileNameWithoutExtension
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.utils.file.FileTools.Companion.getFileNameWithoutExtension
 import org.apache.commons.io.FileUtils
 import java.io.File
 import java.util.concurrent.atomic.AtomicLong

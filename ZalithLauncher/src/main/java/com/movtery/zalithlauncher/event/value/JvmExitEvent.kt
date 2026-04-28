@@ -1,3 +1,3 @@
-package com.movtery.zalithlauncher.event.value
+package com.craftstudio.launcher.event.value
 
 class JvmExitEvent(val exitCode: Int)

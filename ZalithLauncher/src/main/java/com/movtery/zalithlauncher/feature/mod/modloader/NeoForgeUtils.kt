@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.mod.modloader
+package com.craftstudio.launcher.feature.mod.modloader
 
 import net.kdt.pojavlaunch.modloaders.ForgeVersionListHandler
 import net.kdt.pojavlaunch.utils.DownloadUtils

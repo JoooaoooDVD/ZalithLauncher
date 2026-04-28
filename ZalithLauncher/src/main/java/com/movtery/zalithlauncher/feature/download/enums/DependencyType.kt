@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.download.enums
+package com.craftstudio.launcher.feature.download.enums
 
 /**
  * Mod的依赖类型，并且为每一个类型单独指定一个代表色，便于区分

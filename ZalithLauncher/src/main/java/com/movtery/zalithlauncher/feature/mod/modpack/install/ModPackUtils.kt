@@ -1,12 +1,12 @@
-package com.movtery.zalithlauncher.feature.mod.modpack.install
+package com.craftstudio.launcher.feature.mod.modpack.install
 
 import android.app.Activity
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.utils.LauncherProfiles
-import com.movtery.zalithlauncher.feature.download.item.ModLoaderWrapper
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.feature.mod.models.MCBBSPackMeta
-import com.movtery.zalithlauncher.utils.runtime.SelectRuntimeUtils
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.utils.LauncherProfiles
+import com.craftstudio.launcher.feature.download.item.ModLoaderWrapper
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.feature.mod.models.MCBBSPackMeta
+import com.craftstudio.launcher.utils.runtime.SelectRuntimeUtils
 import net.kdt.pojavlaunch.JavaGUILauncherActivity
 import net.kdt.pojavlaunch.Tools
 import net.kdt.pojavlaunch.modloaders.modpacks.models.CurseManifest

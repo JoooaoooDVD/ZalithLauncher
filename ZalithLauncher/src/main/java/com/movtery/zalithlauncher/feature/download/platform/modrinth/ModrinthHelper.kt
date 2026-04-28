@@ -1,15 +1,15 @@
-package com.movtery.zalithlauncher.feature.download.platform.modrinth
+package com.craftstudio.launcher.feature.download.platform.modrinth
 
-import com.movtery.zalithlauncher.feature.download.Filters
-import com.movtery.zalithlauncher.feature.download.enums.Classify
-import com.movtery.zalithlauncher.feature.download.install.InstallHelper
-import com.movtery.zalithlauncher.feature.download.item.InfoItem
-import com.movtery.zalithlauncher.feature.download.item.ModLoaderWrapper
-import com.movtery.zalithlauncher.feature.download.item.ScreenshotItem
-import com.movtery.zalithlauncher.feature.download.item.SearchResult
-import com.movtery.zalithlauncher.feature.download.item.VersionItem
-import com.movtery.zalithlauncher.feature.download.platform.AbstractPlatformHelper
-import com.movtery.zalithlauncher.feature.download.platform.PlatformNotSupportedException
+import com.craftstudio.launcher.feature.download.Filters
+import com.craftstudio.launcher.feature.download.enums.Classify
+import com.craftstudio.launcher.feature.download.install.InstallHelper
+import com.craftstudio.launcher.feature.download.item.InfoItem
+import com.craftstudio.launcher.feature.download.item.ModLoaderWrapper
+import com.craftstudio.launcher.feature.download.item.ScreenshotItem
+import com.craftstudio.launcher.feature.download.item.SearchResult
+import com.craftstudio.launcher.feature.download.item.VersionItem
+import com.craftstudio.launcher.feature.download.platform.AbstractPlatformHelper
+import com.craftstudio.launcher.feature.download.platform.PlatformNotSupportedException
 import net.kdt.pojavlaunch.modloaders.modpacks.api.ApiHandler
 import java.io.File
 

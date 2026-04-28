@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.feature.download
+package com.craftstudio.launcher.feature.download
 
-import com.movtery.zalithlauncher.feature.log.Logging.i
+import com.craftstudio.launcher.feature.log.Logging.i
 import okhttp3.internal.notify
 import okhttp3.internal.wait
 import java.util.concurrent.ExecutorService

@@ -1,18 +1,18 @@
-package com.movtery.zalithlauncher.ui.fragment.download.addon
+package com.craftstudio.launcher.ui.fragment.download.addon
 
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.event.sticky.SelectInstallTaskEvent
-import com.movtery.zalithlauncher.feature.log.Logging.e
-import com.movtery.zalithlauncher.feature.mod.modloader.ModVersionListAdapter
-import com.movtery.zalithlauncher.task.TaskExecutors
-import com.movtery.zalithlauncher.ui.subassembly.modlist.ModListFragment
-import com.movtery.zalithlauncher.utils.ZHTools
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.event.sticky.SelectInstallTaskEvent
+import com.craftstudio.launcher.feature.log.Logging.e
+import com.craftstudio.launcher.feature.mod.modloader.ModVersionListAdapter
+import com.craftstudio.launcher.task.TaskExecutors
+import com.craftstudio.launcher.ui.subassembly.modlist.ModListFragment
+import com.craftstudio.launcher.utils.ZHTools
 import net.kdt.pojavlaunch.Tools
 import net.kdt.pojavlaunch.modloaders.FabricVersion
-import com.movtery.zalithlauncher.feature.mod.modloader.FabricLikeUtils
-import com.movtery.zalithlauncher.ui.fragment.InstallGameFragment.Companion.BUNDLE_MC_VERSION
+import com.craftstudio.launcher.feature.mod.modloader.FabricLikeUtils
+import com.craftstudio.launcher.ui.fragment.InstallGameFragment.Companion.BUNDLE_MC_VERSION
 import org.greenrobot.eventbus.EventBus
 import java.util.concurrent.Future
 

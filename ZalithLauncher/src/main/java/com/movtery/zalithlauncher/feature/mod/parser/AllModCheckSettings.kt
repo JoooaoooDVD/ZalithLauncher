@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.feature.mod.parser
+package com.craftstudio.launcher.feature.mod.parser
 
-import com.movtery.zalithlauncher.setting.unit.StringSettingUnit
+import com.craftstudio.launcher.setting.unit.StringSettingUnit
 
 enum class AllModCheckSettings(val unit: StringSettingUnit) {
     TOUCH_CONTROLLER(StringSettingUnit("modCheckTouchController", "0")),

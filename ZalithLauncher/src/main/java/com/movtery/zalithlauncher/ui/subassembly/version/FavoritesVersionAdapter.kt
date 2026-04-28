@@ -1,11 +1,11 @@
-package com.movtery.zalithlauncher.ui.subassembly.version
+package com.craftstudio.launcher.ui.subassembly.version
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.movtery.zalithlauncher.databinding.ItemFileListViewBinding
-import com.movtery.zalithlauncher.feature.version.favorites.FavoritesVersionUtils
+import com.craftstudio.launcher.databinding.ItemFileListViewBinding
+import com.craftstudio.launcher.feature.version.favorites.FavoritesVersionUtils
 
 class FavoritesVersionAdapter(private val versionName: String) : RecyclerView.Adapter<FavoritesVersionAdapter.ViewHolder>() {
     private val allCategories = FavoritesVersionUtils.getFavoritesStructure().keys.toList()

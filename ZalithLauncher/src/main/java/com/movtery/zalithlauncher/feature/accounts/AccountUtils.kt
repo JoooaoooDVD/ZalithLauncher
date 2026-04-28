@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.feature.accounts
+package com.craftstudio.launcher.feature.accounts
 
 import android.content.Context
 import com.kdt.mcgui.ProgressLayout
@@ -7,8 +7,8 @@ import com.kdt.mcgui.ProgressLayout
 // (Maine yahan example ke liye com.craftstudio.launcher.R likha hai, ise apne package se match kar lena)
 import com.craftstudio.launcher.R 
 
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.task.Task
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.task.Task
 import net.kdt.pojavlaunch.Tools
 import net.kdt.pojavlaunch.authenticator.listener.DoneListener
 import net.kdt.pojavlaunch.authenticator.listener.ErrorListener

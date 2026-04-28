@@ -1,6 +1,6 @@
-package com.movtery.zalithlauncher.feature.download.enums
+package com.craftstudio.launcher.feature.download.enums
 
-import com.movtery.zalithlauncher.R
+import com.craftstudio.launcher.R
 
 enum class Sort(val resNameID: Int, val curseforge: Int, val modrinth: String) {
     RELEVANT(R.string.download_ui_sort_by_relevant, 1, "relevance"),

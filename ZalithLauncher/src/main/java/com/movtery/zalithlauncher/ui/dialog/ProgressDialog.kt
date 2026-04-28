@@ -1,13 +1,13 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.content.Context
 import android.os.Bundle
 import android.view.View
 import android.view.Window
-import com.movtery.zalithlauncher.databinding.DialogProgressBinding
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.ui.dialog.DraggableDialog.DialogInitializationListener
-import com.movtery.zalithlauncher.utils.file.FileTools.Companion.formatFileSize
+import com.craftstudio.launcher.databinding.DialogProgressBinding
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.ui.dialog.DraggableDialog.DialogInitializationListener
+import com.craftstudio.launcher.utils.file.FileTools.Companion.formatFileSize
 
 class ProgressDialog(
     context: Context,

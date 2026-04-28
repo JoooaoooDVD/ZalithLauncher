@@ -9,14 +9,14 @@ import android.content.Intent;
 import androidx.annotation.NonNull;
 
 import com.kdt.mcgui.ProgressLayout;
-import com.movtery.zalithlauncher.R;
-import com.movtery.zalithlauncher.context.ContextExecutor;
-import com.movtery.zalithlauncher.feature.mod.parser.ModChecker;
-import com.movtery.zalithlauncher.feature.mod.parser.ModInfo;
-import com.movtery.zalithlauncher.feature.mod.parser.ModParser;
-import com.movtery.zalithlauncher.feature.mod.parser.ModParserListener;
-import com.movtery.zalithlauncher.feature.version.Version;
-import com.movtery.zalithlauncher.setting.AllSettings;
+import com.craftstudio.launcher.R;
+import com.craftstudio.launcher.context.ContextExecutor;
+import com.craftstudio.launcher.feature.mod.parser.ModChecker;
+import com.craftstudio.launcher.feature.mod.parser.ModInfo;
+import com.craftstudio.launcher.feature.mod.parser.ModParser;
+import com.craftstudio.launcher.feature.mod.parser.ModParserListener;
+import com.craftstudio.launcher.feature.version.Version;
+import com.craftstudio.launcher.setting.AllSettings;
 
 import net.kdt.pojavlaunch.MainActivity;
 import net.kdt.pojavlaunch.Tools;

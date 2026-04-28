@@ -1,12 +1,12 @@
-package com.movtery.zalithlauncher.feature.accounts
+package com.craftstudio.launcher.feature.accounts
 
 import android.annotation.SuppressLint
 import android.app.Activity
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.ui.dialog.TipDialog
-import com.movtery.zalithlauncher.utils.ZHTools
-import com.movtery.zalithlauncher.utils.path.UrlManager
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.ui.dialog.TipDialog
+import com.craftstudio.launcher.utils.ZHTools
+import com.craftstudio.launcher.utils.path.UrlManager
 
 class LocalAccountUtils {
     companion object {

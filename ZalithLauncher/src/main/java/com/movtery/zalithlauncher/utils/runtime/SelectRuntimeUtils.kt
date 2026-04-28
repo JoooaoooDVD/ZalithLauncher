@@ -1,9 +1,9 @@
-package com.movtery.zalithlauncher.utils.runtime
+package com.craftstudio.launcher.utils.runtime
 
 import android.content.Context
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.task.TaskExecutors
-import com.movtery.zalithlauncher.ui.dialog.SelectRuntimeDialog
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.task.TaskExecutors
+import com.craftstudio.launcher.ui.dialog.SelectRuntimeDialog
 
 class SelectRuntimeUtils {
     companion object {

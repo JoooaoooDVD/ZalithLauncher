@@ -23,7 +23,7 @@
             android:layout_gravity="center_vertical"
             android:src="@drawable/ic_add" />
 
-        <com.movtery.zalithlauncher.ui.view.AnimTextView
+        <com.craftstudio.launcher.ui.view.AnimTextView
             android:id="@+id/add_other_server"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
             android:layout_gravity="center_vertical"
             android:src="@drawable/ic_add" />
 
-        <com.movtery.zalithlauncher.ui.view.AnimTextView
+        <com.craftstudio.launcher.ui.view.AnimTextView
             android:id="@+id/add_uniform_pass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

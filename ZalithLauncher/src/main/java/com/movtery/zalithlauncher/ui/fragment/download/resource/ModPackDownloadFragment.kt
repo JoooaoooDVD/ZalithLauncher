@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.fragment.download.resource
+package com.craftstudio.launcher.ui.fragment.download.resource
 
 import android.net.Uri
 import android.os.Bundle
@@ -7,17 +7,17 @@ import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.fragment.app.Fragment
 import com.movtery.anim.animations.Animations
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.event.value.InstallLocalModpackEvent
-import com.movtery.zalithlauncher.feature.download.enums.Classify
-import com.movtery.zalithlauncher.feature.download.utils.CategoryUtils
-import com.movtery.zalithlauncher.feature.mod.modpack.install.InstallExtra
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.task.TaskExecutors
-import com.movtery.zalithlauncher.utils.path.PathManager
-import com.movtery.zalithlauncher.utils.ZHTools
-import com.movtery.zalithlauncher.utils.anim.ViewAnimUtils.Companion.setViewAnim
-import com.movtery.zalithlauncher.utils.file.FileTools
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.event.value.InstallLocalModpackEvent
+import com.craftstudio.launcher.feature.download.enums.Classify
+import com.craftstudio.launcher.feature.download.utils.CategoryUtils
+import com.craftstudio.launcher.feature.mod.modpack.install.InstallExtra
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.task.TaskExecutors
+import com.craftstudio.launcher.utils.path.PathManager
+import com.craftstudio.launcher.utils.ZHTools
+import com.craftstudio.launcher.utils.anim.ViewAnimUtils.Companion.setViewAnim
+import com.craftstudio.launcher.utils.file.FileTools
 import net.kdt.pojavlaunch.Tools
 import net.kdt.pojavlaunch.contracts.OpenDocumentWithExtension
 import org.greenrobot.eventbus.EventBus

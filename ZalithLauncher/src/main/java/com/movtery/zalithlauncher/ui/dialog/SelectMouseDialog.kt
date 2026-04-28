@@ -1,16 +1,16 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.annotation.SuppressLint
 import android.content.Context
 import androidx.recyclerview.widget.RecyclerView
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.ui.subassembly.filelist.FileIcon
-import com.movtery.zalithlauncher.ui.subassembly.filelist.FileItemBean
-import com.movtery.zalithlauncher.ui.subassembly.filelist.FileRecyclerViewCreator
-import com.movtery.zalithlauncher.utils.path.PathManager
-import com.movtery.zalithlauncher.utils.file.FileTools.Companion.mkdirs
-import com.movtery.zalithlauncher.utils.image.ImageUtils.Companion.isImage
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.ui.subassembly.filelist.FileIcon
+import com.craftstudio.launcher.ui.subassembly.filelist.FileItemBean
+import com.craftstudio.launcher.ui.subassembly.filelist.FileRecyclerViewCreator
+import com.craftstudio.launcher.utils.path.PathManager
+import com.craftstudio.launcher.utils.file.FileTools.Companion.mkdirs
+import com.craftstudio.launcher.utils.image.ImageUtils.Companion.isImage
 import java.io.File
 
 class SelectMouseDialog(

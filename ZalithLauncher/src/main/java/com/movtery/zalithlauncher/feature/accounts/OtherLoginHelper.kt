@@ -1,13 +1,13 @@
-package com.movtery.zalithlauncher.feature.accounts
+package com.craftstudio.launcher.feature.accounts
 
 import android.content.Context
-import com.movtery.zalithlauncher.R
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.feature.login.AuthResult
-import com.movtery.zalithlauncher.feature.login.OtherLoginApi
-import com.movtery.zalithlauncher.task.Task
-import com.movtery.zalithlauncher.task.TaskExecutors
-import com.movtery.zalithlauncher.ui.dialog.SelectRoleDialog
+import com.craftstudio.launcher.R
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.feature.login.AuthResult
+import com.craftstudio.launcher.feature.login.OtherLoginApi
+import com.craftstudio.launcher.task.Task
+import com.craftstudio.launcher.task.TaskExecutors
+import com.craftstudio.launcher.ui.dialog.SelectRoleDialog
 import net.kdt.pojavlaunch.value.MinecraftAccount
 import java.util.Objects
 

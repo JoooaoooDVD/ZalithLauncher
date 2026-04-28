@@ -69,7 +69,7 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <com.movtery.zalithlauncher.ui.view.AnimButton
+    <com.craftstudio.launcher.ui.view.AnimButton
         android:id="@+id/cancel_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

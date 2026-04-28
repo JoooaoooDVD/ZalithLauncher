@@ -10,7 +10,7 @@ import android.widget.ProgressBar;
 import androidx.annotation.StringRes;
 import androidx.core.content.res.ResourcesCompat;
 
-import com.movtery.zalithlauncher.R;
+import com.craftstudio.launcher.R;
 
 public class TextProgressBar extends ProgressBar {
 

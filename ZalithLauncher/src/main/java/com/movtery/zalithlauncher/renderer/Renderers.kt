@@ -1,12 +1,12 @@
-package com.movtery.zalithlauncher.renderer
+package com.craftstudio.launcher.renderer
 
 import android.content.Context
-import com.movtery.zalithlauncher.feature.log.Logging
-import com.movtery.zalithlauncher.renderer.renderers.FreedrenoRenderer
-import com.movtery.zalithlauncher.renderer.renderers.GL4ESRenderer
-import com.movtery.zalithlauncher.renderer.renderers.PanfrostRenderer
-import com.movtery.zalithlauncher.renderer.renderers.VirGLRenderer
-import com.movtery.zalithlauncher.renderer.renderers.VulkanZinkRenderer
+import com.craftstudio.launcher.feature.log.Logging
+import com.craftstudio.launcher.renderer.renderers.FreedrenoRenderer
+import com.craftstudio.launcher.renderer.renderers.GL4ESRenderer
+import com.craftstudio.launcher.renderer.renderers.PanfrostRenderer
+import com.craftstudio.launcher.renderer.renderers.VirGLRenderer
+import com.craftstudio.launcher.renderer.renderers.VulkanZinkRenderer
 import net.kdt.pojavlaunch.Architecture
 import net.kdt.pojavlaunch.Tools
 

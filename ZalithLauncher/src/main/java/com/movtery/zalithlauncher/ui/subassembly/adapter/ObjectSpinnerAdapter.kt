@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.subassembly.adapter
+package com.craftstudio.launcher.ui.subassembly.adapter
 
 import android.annotation.SuppressLint
 import android.util.TypedValue

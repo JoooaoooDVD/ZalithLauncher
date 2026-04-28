@@ -1,8 +1,8 @@
-package com.movtery.zalithlauncher.feature.download.enums
+package com.craftstudio.launcher.feature.download.enums
 
-import com.movtery.zalithlauncher.feature.download.platform.AbstractPlatformHelper
-import com.movtery.zalithlauncher.feature.download.platform.curseforge.CurseForgeHelper
-import com.movtery.zalithlauncher.feature.download.platform.modrinth.ModrinthHelper
+import com.craftstudio.launcher.feature.download.platform.AbstractPlatformHelper
+import com.craftstudio.launcher.feature.download.platform.curseforge.CurseForgeHelper
+import com.craftstudio.launcher.feature.download.platform.modrinth.ModrinthHelper
 
 enum class Platform(val pName: String, val helper: AbstractPlatformHelper) {
     MODRINTH("Modrinth", ModrinthHelper()),

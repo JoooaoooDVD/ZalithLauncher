@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.ui.dialog
+package com.craftstudio.launcher.ui.dialog
 
 import android.app.Dialog
 import android.content.Context
@@ -7,7 +7,7 @@ import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
-import com.movtery.zalithlauncher.R
+import com.craftstudio.launcher.R
 
 abstract class FullScreenDialog(context: Context) : Dialog(context, R.style.CustomDialogStyle) {
     override fun onCreate(savedInstanceState: Bundle?) {

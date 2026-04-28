@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.listener;
+package com.craftstudio.launcher.listener;
 
 import android.text.TextWatcher;
 

@@ -1,4 +1,4 @@
-package com.movtery.zalithlauncher.event.value
+package com.craftstudio.launcher.event.value
 
 import android.net.Uri
 

@@ -1,12 +1,12 @@
-package com.movtery.zalithlauncher.feature.version
+package com.craftstudio.launcher.feature.version
 
 import android.os.Parcel
 import android.os.Parcelable
-import com.movtery.zalithlauncher.feature.customprofilepath.ProfilePathHome
-import com.movtery.zalithlauncher.feature.mod.parser.ModChecker
-import com.movtery.zalithlauncher.setting.AllSettings
-import com.movtery.zalithlauncher.utils.ZHTools
-import com.movtery.zalithlauncher.utils.path.PathManager
+import com.craftstudio.launcher.feature.customprofilepath.ProfilePathHome
+import com.craftstudio.launcher.feature.mod.parser.ModChecker
+import com.craftstudio.launcher.setting.AllSettings
+import com.craftstudio.launcher.utils.ZHTools
+import com.craftstudio.launcher.utils.path.PathManager
 import net.kdt.pojavlaunch.Tools
 import java.io.File
 
