@@ -186,6 +186,7 @@ android {
         prefab = true
         buildConfig = true
         viewBinding = true
+        dataBinding = true // ✅ FIX: DataBinding enable kar diya! Iske bina saare UI adapters crash honge
     }
 
     buildToolsVersion = "34.0.0"
